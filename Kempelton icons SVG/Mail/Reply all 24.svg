@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="24"
+   height="24"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.47 r22583"
+   version="1.0"
+   sodipodi:docname="Reply all 24.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="F:\Development\Kempelton\Mail\Reply all 24.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3175">
+      <stop
+         id="stop3181"
+         offset="0"
+         style="stop-color:#c4f2f5;stop-opacity:1;" />
+      <stop
+         style="stop-color:#478cbd;stop-opacity:1;"
+         offset="1"
+         id="stop3179" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3191">
+      <stop
+         id="stop3193"
+         offset="0"
+         style="stop-color:#87d2e1;stop-opacity:1" />
+      <stop
+         id="stop3195"
+         offset="1"
+         style="stop-color:#1365a1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3191"
+       id="linearGradient3189"
+       x1="43.5"
+       y1="28.5"
+       x2="41.5"
+       y2="33.5"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-30,-15.5)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3175"
+       id="linearGradient2403"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-25,-24.5)"
+       x1="43.5"
+       y1="28.5"
+       x2="41.5"
+       y2="33.5" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="9.2630879"
+     inkscape:cx="11.946989"
+     inkscape:cy="0.60872066"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     width="24px"
+     height="24px"
+     showgrid="false"
+     inkscape:object-points="false"
+     inkscape:grid-points="true"
+     inkscape:window-width="889"
+     inkscape:window-height="799"
+     inkscape:window-x="889"
+     inkscape:window-y="625"
+     inkscape:window-maximized="0">
+    <inkscape:grid
+       id="GridFromPre046Settings"
+       type="xygrid"
+       originx="0px"
+       originy="0px"
+       spacingx="0.5px"
+       spacingy="0.5px"
+       color="#0000ff"
+       empcolor="#0000ff"
+       opacity="0.2"
+       empopacity="0.4"
+       empspacing="4"
+       visible="true"
+       enabled="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Arvid Axelsson</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="opacity:1;display:inline">
+    <path
+       id="path2399"
+       d="M 14,0 L 5.5,6.5 L 14,13 L 14,9 C 18.37161,9 22.132762,11.553335 23.90625,15.25 C 23.957241,14.841063 24,14.422678 24,14 C 24,8.48 19.519999,4.000001 14,4 L 14,0 z"
+       style="opacity:1;fill:#3f82b1;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.50000000000000000;stroke-linecap:square;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       id="path2401"
+       d="M 13.25,1.03125 L 6.75,6 L 13.25,10.96875 L 13.25,8.5 L 13.25,7.75 L 14,7.75 C 17.602883,7.75 20.785062,9.407858 22.9375,11.96875 C 22.181765,7.618174 18.569001,4.250001 14,4.25 L 13.25,4.25 L 13.25,3.5 L 13.25,1.03125 z"
+       style="opacity:1;fill:url(#linearGradient2403);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       style="opacity:0.5;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;marker:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="M 10,6.96875 L 8.40625,8.21875 L 7.4375,8.96875 L 10,10.9375 L 10,9 L 10,6.96875 z M 12.28125,12.6875 L 14,14 L 14,13.375 C 13.448284,13.096594 12.88106,12.873644 12.28125,12.6875 z"
+       id="path2405" />
+    <path
+       style="opacity:1;fill:#005da0;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="M 9,9 L 0.5,15.5 L 9,22 L 9,18 C 13.37161,18 17.132762,20.553335 18.90625,24.25 C 18.957241,23.841063 19,23.422678 19,23 C 19,17.48 14.519999,13.000001 9,13 L 9,9 z"
+       id="path3227" />
+    <path
+       style="opacity:1;fill:url(#linearGradient3189);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="M 8.25,10.03125 L 1.75,15 L 8.25,19.96875 L 8.25,17.5 L 8.25,16.75 L 9,16.75 C 12.602883,16.75 15.785062,18.407858 17.9375,20.96875 C 17.181765,16.618174 13.569001,13.250001 9,13.25 L 8.25,13.25 L 8.25,12.5 L 8.25,10.03125 z"
+       id="path3179" />
+  </g>
+</svg>

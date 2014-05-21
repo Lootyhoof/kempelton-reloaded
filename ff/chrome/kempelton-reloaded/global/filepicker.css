@@ -1,0 +1,45 @@
+/* ===== filepicker.css =================================================
+  == Styles used by the File Picker dialog.
+  ======================================================================= */
+
+@import url("chrome://global/skin/");
+
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+/* ::::: column widths ::::: */
+
+#FilenameColumn,
+#ContentLengthColumn,
+#LastModifiedDateColumn {
+  width: 100px;
+}
+
+/* ::::: file/directory items ::::: */
+
+treechildren::-moz-tree-image(FilenameColumn, directory) {
+  list-style-image: url("chrome://global/skin/icons/folder.png");
+}
+
+treechildren::-moz-tree-image(FilenameColumn, file) {
+  list-style-image: url("chrome://global/skin/icons/item.png");
+}
+
+/* ::::: button items ::::: */
+
+.up-button {
+  list-style-image: url("chrome://global/skin/Filepicker.png");
+  -moz-image-region: rect(0 24px 24px 0);
+  max-width: 36px;
+}
+
+.home-button {
+  list-style-image: url("chrome://global/skin/Filepicker.png");
+  -moz-image-region: rect(0 48px 24px 24px);
+  max-width: 36px;
+}
+
+.new-dir-button {
+  list-style-image: url("chrome://global/skin/Filepicker.png");
+  -moz-image-region: rect(0 72px 24px 48px);
+  max-width: 36px;
+}

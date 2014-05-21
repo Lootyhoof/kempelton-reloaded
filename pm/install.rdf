@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">  
+  <em:id>{03c2ba51-52c3-4cb1-9309-229eb4bc8948}</em:id>
+    <em:version>4.3.1pm</em:version>
+  
+<!-- Target Application this extension can install into, 
+         with minimum and maximum supported versions. --> 
+
+<em:targetApplication>
+    <Description>
+      <!-- Firefox's UUID // DO NOT CHANGE-->
+      <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+       <!-- End Firefox's UUID // -->
+      <em:minVersion>24.0</em:minVersion>
+      <em:maxVersion>24.*</em:maxVersion>
+    </Description>
+  </em:targetApplication>
+  
+  <!-- Front End MetaData -->
+  <!-- My_Theme -->
+  <em:name>Kempelton Reloaded</em:name>
+  <em:type>4</em:type>
+  <em:description>Remake of the beautiful Kempelton theme by Arvid Axelsson for Firefox 4 and above.</em:description>
+  <em:creator>Lootyhoof</em:creator>
+ 
+  <!-- Allow lightweight themes to apply to this theme -->
+    <em:skinnable>true</em:skinnable>
+  
+  <!-- Front End Integration Hooks (used by Theme Manager)-->
+    <em:internalName>kempelton-reloaded</em:internalName>
+  </Description>      
+
+</RDF>
