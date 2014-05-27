@@ -487,56 +487,28 @@ radio[selected]::before {
   -moz-image-region: rect(0, 24px, 24px, 0);
 }
 
-#category-general[selected] > .category-icon {
-  -moz-image-region: rect(24px, 24px, 48px, 0);
-}
-
 #category-content > .category-icon {
   -moz-image-region: rect(0, 48px, 24px, 24px);
-}
-
-#category-content[selected] > .category-icon {
-  -moz-image-region: rect(24px, 48px, 48px, 24px);
 }
 
 #category-application > .category-icon {
   -moz-image-region: rect(0, 72px, 24px, 48px);
 }
 
-#category-application[selected] > .category-icon {
-  -moz-image-region: rect(24px, 72px, 48px, 48px);
-}
-
 #category-privacy > .category-icon {
   -moz-image-region: rect(0, 96px, 24px, 72px);
-}
-
-#category-privacy[selected] > .category-icon {
-  -moz-image-region: rect(24px, 96px, 48px, 72px);
 }
 
 #category-security > .category-icon {
   -moz-image-region: rect(0, 120px, 24px, 96px);
 }
 
-#category-security[selected] > .category-icon {
-  -moz-image-region: rect(24px, 120px, 48px, 96px);
-}
-
 #category-sync > .category-icon {
   -moz-image-region: rect(0, 144px, 24px, 120px);
 }
 
-#category-sync[selected] > .category-icon {
-  -moz-image-region: rect(24px, 144px, 48px, 120px);
-}
-
 #category-advanced > .category-icon {
   -moz-image-region: rect(0, 168px, 24px, 144px);
-}
-
-#category-advanced[selected] > .category-icon {
-  -moz-image-region: rect(24px, 168px, 48px, 144px);
 }
 
 @media (min-resolution: 2dppx) {
@@ -548,56 +520,28 @@ radio[selected]::before {
     -moz-image-region: rect(0, 48px, 48px, 0);
   }
 
-  #category-general[selected] > .category-icon {
-    -moz-image-region: rect(48px, 48px, 96px, 0);
-  }
-
   #category-content > .category-icon {
     -moz-image-region: rect(0, 96px, 48px, 48px);
-  }
-
-  #category-content[selected] > .category-icon {
-    -moz-image-region: rect(48px, 96px, 96px, 48px);
   }
 
   #category-application > .category-icon {
     -moz-image-region: rect(0, 144px, 48px, 96px);
   }
 
-  #category-application[selected] > .category-icon {
-    -moz-image-region: rect(48px, 144px, 96px, 96px);
-  }
-
   #category-privacy > .category-icon {
     -moz-image-region: rect(0, 192px, 48px, 144px);
-  }
-
-  #category-privacy[selected] > .category-icon {
-    -moz-image-region: rect(48px, 192px, 96px, 144px);
   }
 
   #category-security > .category-icon {
     -moz-image-region: rect(0, 240px, 48px, 192px);
   }
 
-  #category-security[selected] > .category-icon {
-    -moz-image-region: rect(48px, 240px, 96px, 192px);
-  }
-
   #category-sync > .category-icon {
     -moz-image-region: rect(0, 288px, 48px, 240px);
   }
 
-  #category-sync[selected] > .category-icon {
-    -moz-image-region: rect(48px, 288px, 96px, 240px);
-  }
-
   #category-advanced > .category-icon {
     -moz-image-region: rect(0, 336px, 48px, 288px);
-  }
-
-  #category-advanced[selected] > .category-icon {
-    -moz-image-region: rect(48px, 336px, 96px, 288px);
   }
 }
 
