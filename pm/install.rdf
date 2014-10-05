@@ -12,9 +12,9 @@
 
 <em:targetApplication>
     <Description>
-      <!-- Firefox's UUID // DO NOT CHANGE-->
-      <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
-       <!-- End Firefox's UUID // -->
+      <!-- Pale Moon's UUID // DO NOT CHANGE-->
+      <em:id>{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}</em:id>
+       <!-- End Pale Moon's UUID // -->
       <em:minVersion>24.0</em:minVersion>
       <em:maxVersion>24.*</em:maxVersion>
     </Description>
