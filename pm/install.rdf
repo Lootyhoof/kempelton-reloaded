@@ -16,7 +16,7 @@
       <em:id>{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}</em:id>
        <!-- End Pale Moon's UUID // -->
       <em:minVersion>24.0</em:minVersion>
-      <em:maxVersion>24.*</em:maxVersion>
+      <em:maxVersion>25.*</em:maxVersion>
     </Description>
   </em:targetApplication>
   
