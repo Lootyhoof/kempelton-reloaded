@@ -5,7 +5,7 @@
 
   <Description about="urn:mozilla:install-manifest">  
   <em:id>{03c2ba51-52c3-4cb1-9309-229eb4bc8948}</em:id>
-    <em:version>4.3.1pm</em:version>
+    <em:version>4.4.0</em:version>
   
 <!-- Target Application this extension can install into, 
          with minimum and maximum supported versions. --> 
@@ -24,7 +24,7 @@
   <!-- My_Theme -->
   <em:name>Kempelton Reloaded</em:name>
   <em:type>4</em:type>
-  <em:description>Remake of the beautiful Kempelton theme by Arvid Axelsson for Firefox 4 and above.</em:description>
+  <em:description>Remake of the beautiful Kempelton theme by Arvid Axelsson for Pale Moon.</em:description>
   <em:creator>Lootyhoof</em:creator>
  
   <!-- Allow lightweight themes to apply to this theme -->
