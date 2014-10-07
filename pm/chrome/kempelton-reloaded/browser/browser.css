@@ -820,7 +820,7 @@ window:not([chromehidden~=toolbar]) #navigator-toolbox[iconsize=large][mode=icon
 }
 
 /* Tabstrip and addon toolbars */
-.tabbrowser-tabs {
+#TabsToolbar {
   background: -moz-dialog url("chrome://browser/skin/tabbrowser/tabbrowser-tabs-bkgnd.png") repeat-x;
 }
 
@@ -875,7 +875,7 @@ window:not([chromehidden~=toolbar]) #navigator-toolbox[iconsize=large][mode=icon
 .tabbrowser-arrowscrollbox > .scrollbutton-up,
 .tabbrowser-arrowscrollbox > .scrollbutton-down,
 .tabs-newtab-button,
-.tabs-alltabs-button {
+#alltabs-button {
   -moz-appearance: none;
   background: url("chrome://browser/skin/tabbrowser/tab-bkgnd.png") repeat-x;
   -moz-border-top-colors: ThreeDShadow rgba(255,255,255,.3);
@@ -887,7 +887,7 @@ window:not([chromehidden~=toolbar]) #navigator-toolbox[iconsize=large][mode=icon
 .tabbrowser-arrowscrollbox > .scrollbutton-up:-moz-lwtheme-brighttext,
 .tabbrowser-arrowscrollbox > .scrollbutton-down:-moz-lwtheme-brighttext,
 .tabs-newtab-button:-moz-lwtheme-brighttext,
-.tabs-alltabs-button:-moz-lwtheme-brighttext {
+#alltabs-button:-moz-lwtheme-brighttext {
   background-color: rgba(0,0,0,.5);
 }
 
@@ -895,7 +895,7 @@ window:not([chromehidden~=toolbar]) #navigator-toolbox[iconsize=large][mode=icon
 .tabbrowser-arrowscrollbox > .scrollbutton-up:-moz-lwtheme-darktext,
 .tabbrowser-arrowscrollbox > .scrollbutton-down:-moz-lwtheme-darktext,
 .tabs-newtab-button:-moz-lwtheme-darktext,
-.tabs-alltabs-button:-moz-lwtheme-darktext {
+#alltabs-button:-moz-lwtheme-darktext {
   background-color: rgba(255,255,255,.5);
 }
 
@@ -1027,7 +1027,7 @@ tabpanels {
 .tabbrowser-arrowscrollbox > .scrollbutton-up,
 .tabbrowser-arrowscrollbox > .scrollbutton-down,
 .tabs-newtab-button,
-.tabs-alltabs-button {
+#alltabs-button {
   width: 18px;
   padding: 0;
   -moz-border-right-colors: ThreeDShadow;
@@ -1036,7 +1036,7 @@ tabpanels {
 
 .tabbrowser-arrowscrollbox > .scrollbutton-up:-moz-system-metric(touch-enabled),
 .tabbrowser-arrowscrollbox > .scrollbutton-down:-moz-system-metric(touch-enabled),
-.tabs-alltabs-button:-moz-system-metric(touch-enabled) {
+#alltabs-button:-moz-system-metric(touch-enabled) {
   min-width: .81cm;
 }
 
@@ -1047,7 +1047,7 @@ tabpanels {
 .tabbrowser-arrowscrollbox > .scrollbutton-up:not([disabled="true"]):hover,
 .tabbrowser-arrowscrollbox > .scrollbutton-down:not([disabled="true"]):hover,
 .tabs-newtab-button:hover,
-.tabs-alltabs-button:hover {
+#alltabs-button:hover  {
   border-top-width: 1px;
   padding-top: 1px;
   -moz-border-top-colors: ThreeDShadow;
@@ -1089,8 +1089,7 @@ tabpanels {
 }
 
 .tabbrowser-arrowscrollbox > .scrollbutton-down:-moz-locale-dir(ltr),
-.tabs-container > .tabs-newtab-button:-moz-locale-dir(ltr),
-.tabs-alltabs-button:-moz-locale-dir(ltr) {
+.tabs-container > .tabs-newtab-button:-moz-locale-dir(ltr) {
   border-right-style: none;
   -moz-border-radius-topleft: 2px;
 }
@@ -1100,8 +1099,7 @@ tabpanels {
 }
 
 .tabbrowser-arrowscrollbox > .scrollbutton-down:-moz-locale-dir(rtl),
-.tabs-container > .tabs-newtab-button:-moz-locale-dir(rtl),
-.tabs-alltabs-button:-moz-locale-dir(rtl) {
+.tabs-container > .tabs-newtab-button:-moz-locale-dir(rtl) {
   border-left-style: none;
   -moz-border-radius-topright: 2px;
 }
@@ -1125,76 +1123,35 @@ tabpanels {
   -moz-border-radius-topleft: 2px;
 }
 
-.tabs-alltabs-button > .toolbarbutton-text {
+#alltabs-button > .toolbarbutton-text {
   display: none;
 }
 
-.tabs-alltabs-button > .toolbarbutton-icon {
+#alltabs-button {
+  background: none;
   list-style-image: url("chrome://browser/skin/tabbrowser/alltabs.png");
   -moz-image-region: rect(0, 14px, 20px, 0);
 }
 
-.tabs-alltabs-button:hover:active > .toolbarbutton-icon {
+#alltabs-button:hover:active {
   -moz-image-region: rect(0, 28px, 20px, 14px);
 }
 
-.tabs-alltabs-button[type="menu"] > .toolbarbutton-icon {
+#alltabs-button[type="menu"] {
   list-style-image: url("chrome://browser/skin/mainwindow-dropdown-arrow.png");
   -moz-image-region: rect(0, 13px, 11px, 0);
 }
 
-.tabs-alltabs-button[type="menu"] > .toolbarbutton-menu-dropmarker {
+#alltabs-button[type="menu"]:hover:active > .toolbarbutton-icon,
+#alltabs-button[type="menu"][open="true"] > .toolbarbutton-icon {
+-moz-image-region: rect(0, 26px, 11px, 13px);
+}
+
+#alltabs-button[type="menu"] > .toolbarbutton-menu-dropmarker {
   display: none;
 }
 
-.tabs-alltabs-button[type="menu"]:hover:active > .toolbarbutton-icon,
-.tabs-alltabs-button[type="menu"][open="true"] > .toolbarbutton-icon {
-  -moz-image-region: rect(0, 26px, 11px, 13px);
-}
 
-/* List style image and region for large alltabs icon */
-#alltabs-button {
-  list-style-image: url("chrome://browser/skin/Toolbar.png");
-  -moz-image-region: rect(72px, 120px, 96px, 96px);
-}
-/* Large alltabs icon, hover+active */
-#alltabs-button:hover,
-#alltabs-button:hover:active,
-#alltabs-button[open="true"] {
-  -moz-image-region: rect(96px, 120px, 120px, 96px);
-}
-
-/* Small alltabs icon */
-toolbar[iconsize="small"] #alltabs-button {
-  list-style-image: url("chrome://browser/skin/Toolbar-small.png");
-  -moz-image-region: rect(48px, 80px, 64px, 64px);
-}
-/* Small alltabs icon, hover+active */
-toolbar[iconsize="small"] #alltabs-button:hover,
-toolbar[iconsize="small"] #alltabs-button:hover:active,
-toolbar[iconsize="small"] #alltabs-button[open="true"] {
-  -moz-image-region: rect(64px, 80px, 80px, 64px);
-}
-
-/* No drop marker for alltabs icon */
-#alltabs-button > .toolbarbutton-menu-dropmarker {
-  display: none;
-}
-
-/* Special case alltabs dropdown-arrow display in tabs toolbar */
-#TabsToolbar #alltabs-button {
-  list-style-image: url("chrome://browser/skin/mainwindow-dropdown-arrow.png");
-  -moz-image-region: rect(0, 13px, 11px, 0);
-}
-/* Special case alltabs dropdown-arrow display in tabs toolbar, hover (same as non-hover) */
-#TabsToolbar #alltabs-button:hover {
-  -moz-image-region: rect(0, 13px, 11px, 0);
-}
-/* Special case alltabs dropdown-arrow display in tabs toolbar, active (glowing) */
-#TabsToolbar #alltabs-button:hover:active,
-#TabsToolbar #alltabs-button[open="true"] {
-  -moz-image-region: rect(0, 26px, 11px, 13px);
-}
 
 /* JEZ: I don't know where/whether you'd use alltabs without type="menu" being set (aside from the Customize Toolbar dialog), but as we replace the very */
 /* generic 'down arrow' symbol with one more clearly showing a tab with an arrow for toolbars outside the tab bar, we'll not distinguish based on 'type'. */
