@@ -120,10 +120,6 @@ statusbarpanel {
   padding: 0 1px;
 }
 
-window:not([active="true"]) menubar > menu {
-  color: ThreeDShadow;
-}
-
 sidebarheader {
   height: 25px;
   background-color: -moz-Dialog;
