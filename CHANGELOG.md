@@ -1,5 +1,10 @@
 # Changelog
 
+### 4.4.1
+- provide Pale Moon 24 version
+- fix menu bar colours
+- improve persona compatibility
+
 ### 4.4.0
 - Pale Moon v25-only; DO NOT USE ON PALE MOON 24, it won't work!
 - added Pale Moon's GUID, removed Firefox's
