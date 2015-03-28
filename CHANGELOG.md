@@ -1,5 +1,9 @@
 # Changelog
 
+### 4.4.2
+- add mixed padlock state
+- improve persona compatibility
+
 ### 4.4.1
 - provide Pale Moon 24 version
 - fix menu bar colours
