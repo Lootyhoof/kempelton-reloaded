@@ -1,21 +1,10 @@
 # Changelog
 
-### 4.4.1
-- provide Pale Moon 24 version
-- fix menu bar colours
-- improve persona compatibility
-
-### 4.4.0
-- Pale Moon v25-only; DO NOT USE ON PALE MOON 24, it won't work!
-- added Pale Moon's GUID, removed Firefox's
-- fix alltabs button's clicked behaviour
-- add background to all of tabs toolbar
-
-### 4.3.1pm
+### 4.3.1
 - temporary(?) findbar "not found" fix
 - add "visited" icon for live bookmarks
 
-### 4.3.0pm
+### 4.3.0
 - new appmenu button
 - new zoom icons
 - urlbar feed icon
