@@ -13,6 +13,15 @@
   -moz-box-flex: 1; /* make menu items expand to fill toolbar height */
 }
 
+/* Make titlebar text light/dark depending on persona */
+#main-window:-moz-lwtheme-brighttext:after{
+    color: white !important;
+	text-shadow: none !important;
+}
+#main-window:-moz-lwtheme-darktext:after{
+     color: black !important;
+}
+
 /* JEZ: Need to override our tabbar top padding when the tabs should appear right at the top of the screen - zero padding. */
 #main-window[inFullscreen] #TabsToolbar,
 #main-window[tabsintitlebar]:not([inFullscreen]) #toolbar-menubar[inactive] ~ #TabsToolbar {
@@ -829,6 +838,16 @@ window:not([chromehidden~=toolbar]) #navigator-toolbox[iconsize=large][mode=icon
   -moz-appearance: none;
   background: none;
   border-style: none;
+}
+
+.tabbrowser-tab:-moz-lwtheme-brighttext[selected="true"] {
+  background-color: rgba(0,0,0,.3);
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.tabbrowser-tab:-moz-lwtheme-darktext[selected="true"] {
+  background-color: rgba(255,255,255,.7);
 }
 
 .tabbrowser-tabs:-moz-system-metric(touch-enabled) {
