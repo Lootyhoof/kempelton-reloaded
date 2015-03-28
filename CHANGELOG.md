@@ -1,5 +1,8 @@
 # Changelog
 
+### 4.4.3
+- fix notification box padding
+
 ### 4.4.2
 - add mixed padlock state
 - improve persona compatibility
