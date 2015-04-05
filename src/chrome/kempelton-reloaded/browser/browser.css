@@ -1021,6 +1021,10 @@ tabpanels {
   list-style-image: url("chrome://global/skin/icons/close.png");
 }
 
+.tab-close-button:-moz-lwtheme-brighttext {
+  list-style-image: url("chrome://global/skin/icons/close-bright.png");
+}
+
 .tab-close-button:-moz-system-metric(touch-enabled) {
   -moz-transform: scale(1.2);
 }
