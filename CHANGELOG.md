@@ -1,5 +1,9 @@
 # Changelog
 
+### 4.4.4
+- implement doorhanger notifications
+- add bright close button for dark personas
+
 ### 4.4.3
 - fix notification box padding
 
