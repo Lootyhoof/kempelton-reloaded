@@ -22,6 +22,17 @@
      color: black !important;
 }
 
+/* Theme titlebar when maximized */
+#main-window[sizemode="maximized"] #titlebar:-moz-lwtheme {
+ -moz-appearance: none;   
+ background: transparent;
+ padding-top: 3px;
+}
+
+.tabbrowser-tabs:-moz-lwtheme {
+  text-shadow: none;
+}
+
 /* JEZ: Need to override our tabbar top padding when the tabs should appear right at the top of the screen - zero padding. */
 #main-window[inFullscreen] #TabsToolbar,
 #main-window[tabsintitlebar]:not([inFullscreen]) #toolbar-menubar[inactive] ~ #TabsToolbar {
