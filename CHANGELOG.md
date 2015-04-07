@@ -1,5 +1,8 @@
 # Changelog
 
+### 4.4.5
+- theme titlebar when maximized using a persona
+
 ### 4.4.4
 - implement doorhanger notifications
 - add bright close button for dark personas
