@@ -2,7 +2,6 @@
 
 ### 4.4.6
 - disable persona-based text colouring on WinXP
-- prevent appmenu background repeating
 
 ### 4.4.5
 - theme titlebar when maximized using a persona

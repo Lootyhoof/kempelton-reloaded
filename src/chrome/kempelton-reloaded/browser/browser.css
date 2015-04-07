@@ -112,10 +112,6 @@
   }
 }
 
-#appmenu-button {
-  background-image: no-repeat !important;
-}
-
 #appmenu-button:hover:active,
 #appmenu-button[open] {
   border-radius: 0;
