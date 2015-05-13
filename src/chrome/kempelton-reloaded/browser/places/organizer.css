@@ -214,7 +214,7 @@
 }
 
 #placesMenu > menu {
-  color: -moz-win-mediatext;
+  color: white;
 }
 
 #placesMenu > menu > .menubar-text:-moz-system-metric(windows-default-theme) {
