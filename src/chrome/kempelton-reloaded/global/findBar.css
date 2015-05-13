@@ -8,6 +8,10 @@
   -moz-image-region: rect(0, 64px, 16px, 48px);
 }
 
+.findbar-closebutton:-moz-lwtheme-brighttext {
+  list-style-image: url("chrome://global/skin/icons/close-bright.png");
+}
+
 .findbar-closebutton > .toolbarbutton-icon {
   -moz-margin-end: 0px !important;
   -moz-padding-end: 2px !important;
@@ -85,12 +89,12 @@ findbar {
 }
 
 .findbar-textbox[status="notfound"] {
-  -moz-box-shadow: 0 0 0 1em #f66 inset;
-  color: black;
+  box-shadow: 0 0 0 1em #f66 inset;
+  color: white;
 }
 
 .findbar-textbox[flash="true"] {
-  -moz-box-shadow: 0 0 0 1em yellow inset;
+  box-shadow: 0 0 0 1em yellow inset;
   color: black;
 }
 

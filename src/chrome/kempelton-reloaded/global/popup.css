@@ -15,8 +15,7 @@ panel {
 
 panel {
   -moz-appearance: none !important;
-  margin-left: -20px !important;
-  }
+}
 
 menupopup {
   -moz-appearance: menupopup;

@@ -496,7 +496,7 @@ toolbar[iconsize="small"] #tabview-button > image {
 #status4evar-download-button #status4evar-download-icon,
 #status4evar-download-button:-moz-lwtheme-brighttext #status4evar-download-icon {
   background: -moz-image-rect(url("chrome://browser/skin/Toolbar.png"),
-                              0, 144, 24, 120) !important;
+                              0, 144, 24, 120) center no-repeat !important;
   width:24px;
   height:22px;
 }
@@ -745,9 +745,14 @@ toolbar[iconsize="small"] #zoom-in-button[disabled="true"] {
 toolbar[iconsize="small"] #status4evar-download-button #status4evar-download-icon,
 toolbar[iconsize="small"] #status4evar-download-button:-moz-lwtheme-brighttext #status4evar-download-icon {
   background: -moz-image-rect(url("chrome://browser/skin/Toolbar-small.png"),
-                              0, 96, 15, 80) !important;
+                              0, 96, 15, 80) center no-repeat !important;
   width:16px;
   height:15px;
+}
+
+toolbar[mode="icons"] #status4evar-download-button[forcelabel="true"], 
+toolbar[mode="text"] #status4evar-download-button {
+  padding: 0 3px !important;
 }
 
 /* ::::: tabstrip and addon toolbars ::::: */
