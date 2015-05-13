@@ -1,5 +1,15 @@
 # Changelog
 
+### 4.5.0
+- replace deprecated attributes (-moz-border-radius, etc) with current standards
+- fix tabs
+- curve identity box
+- fix notification icon alignment
+- fix Status4Evar download status icon padding
+- redesigned addon manager
+- use larger appmenu-button backgrounds
+- replace media toolbar stylings to enable cross-platform compatibility
+
 ### 4.4.6
 - disable persona-based text colouring on WinXP
 
