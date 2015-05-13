@@ -14,9 +14,9 @@
    height="32"
    id="svg2"
    sodipodi:version="0.32"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r13725"
    version="1.0"
-   sodipodi:docname="Question.svg"
+   sodipodi:docname="Service.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    inkscape:export-filename="F:\Development\Kempelton\Alerts\Question.png"
    inkscape:export-xdpi="90"
@@ -98,7 +98,7 @@
        xlink:href="#linearGradient3150"
        id="linearGradient3769"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-2.7309567,-6.4999998)"
+       gradientTransform="translate(-5.1449767,-5.6099785)"
        x1="15.666992"
        y1="20.74707"
        x2="15.666992"
@@ -114,8 +114,8 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="18.498958"
-     inkscape:cx="10.158175"
+     inkscape:zoom="1.1561849"
+     inkscape:cx="17.755733"
      inkscape:cy="21.272183"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -123,9 +123,9 @@
      height="32px"
      showgrid="true"
      inkscape:window-width="1366"
-     inkscape:window-height="716"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-height="715"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
      inkscape:grid-points="true"
      showguides="false"
      inkscape:window-maximized="1">
@@ -186,15 +186,15 @@
        id="path2184" />
     <text
        xml:space="preserve"
-       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;fill:url(#linearGradient3769);fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-       x="8"
-       y="14"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:125%;font-family:'Bitstream Vera Sans';fill:url(#linearGradient3769);fill-opacity:1;stroke:none"
+       x="5.5859799"
+       y="14.890021"
        id="text3186"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3188"
-         x="8"
-         y="14"
-         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:url(#linearGradient3769);fill-opacity:1;font-family:Segoe Semibold;-inkscape-font-specification:Segoe Semibold Bold">...</tspan></text>
+         x="5.5859799"
+         y="14.890021"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:125%;font-family:'Segoe Semibold';-inkscape-font-specification:'Segoe Semibold Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:url(#linearGradient3769);fill-opacity:1">...</tspan></text>
   </g>
 </svg>
