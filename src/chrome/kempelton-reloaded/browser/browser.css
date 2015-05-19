@@ -1817,14 +1817,13 @@ window:not([chromehidden~=toolbar]) #navigator-toolbox[iconsize=large][mode=icon
   position: relative;
   background-color: #fff;
   background-clip: padding-box;
-  padding-left: 3px;
-  border-radius: 2.5px 0 0 2.5px;
+  border-radius: 6px 0 2px 6px / 15px 0 2px 15px;
   border-width: 0 8px 0 0;
   border-style: solid;
   border-image: url("chrome://browser/skin/urlbar-arrow.png") 0 8 0 0 fill;
   -moz-margin-end: -8px;
-  padding: 1px 0 1px 3px;
-  margin-left: 3px;
+  padding: 2px 0 3px 0px;
+  margin-left: 4px;
 }
 
 window:not([chromehidden~=toolbar]) #navigator-toolbox[iconsize=large][mode=icons] > :-moz-any(#nav-bar[currentset*="unified-back-forward-button"],#nav-bar:not([currentset])) > #unified-back-forward-button[forwarddisabled] + #urlbar-container > #urlbar > #notification-popup-box {
@@ -1894,19 +1893,21 @@ window:not([chromehidden~=toolbar]) #navigator-toolbox[iconsize=large][mode=icon
 #plugins-notification-icon,
 #alert-plugins-notification-icon,
 #blocked-plugins-notification-icon {
-  -moz-image-region: rect(0, 17px, 16px, 0);
+  -moz-image-region: rect(0, 15px, 16px, 2px);
+  height: 16px !important;
+  width: 14px !important;
 }
 
 #plugins-notification-icon:hover,
 #alert-plugins-notification-icon:hover,
 #blocked-plugins-notification-icon:hover {
-  -moz-image-region: rect(0, 32px, 16px, 16px);
+  -moz-image-region: rect(0, 30px, 16px, 17px);
 }
 
 #plugins-notification-icon:active,
 #alert-plugins-notification-icon:active,
 #blocked-plugins-notification-icon:active {
-  -moz-image-region: rect(0, 48px, 16px, 31px);
+  -moz-image-region: rect(0, 45px, 16px, 32px);
 }
 
 #plugin-install-notification-icon {
