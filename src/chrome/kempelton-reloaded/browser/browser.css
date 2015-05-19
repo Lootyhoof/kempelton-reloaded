@@ -80,7 +80,8 @@
 
 /* ::::: app menu button ::::: */
 
-#appmenu-button {
+#appmenu-button,
+#appmenu-toolbar-button {
   -moz-appearance: none;
   background-clip: padding-box;
   border-radius: 0 0 4px 4px;
@@ -111,11 +112,14 @@
 }
 
 #appmenu-button:hover:active,
-#appmenu-button[open] {
+#appmenu-button[open],
+#appmenu-toolbar-button:hover:active,
+#appmenu-toolbar-button[open] {
   border-radius: 0;
 }
 
-#appmenu-button:hover:not(:active):not([open]) {
+#appmenu-button:hover:not(:active):not([open]),
+#appmenu-toolbar-button:hover:not(:active):not([open]) {
   background-image: url(appmenu-bg-hover.png);
   border-color: rgba(45,89,155,.9);
   box-shadow: 0 1px 0 rgba(255,255,255,.1) inset,
@@ -123,18 +127,22 @@
               0 -1px 0 rgba(169,234,250,.5) inset;
 }
 #appmenu-button:hover:active,
-#appmenu-button[open] {
+#appmenu-button[open],
+#appmenu-toolbar-button:hover:active,
+#appmenu-toolbar-button[open] {
   background-image: url(appmenu-bg-press.png);
   box-shadow: 0 2px 3px rgba(0,0,0,.4) inset,
               0 1px 1px rgba(0,0,0,.2) inset;
 }
 
-#main-window[privatebrowsingmode=temporary] #appmenu-button {
+#main-window[privatebrowsingmode=temporary] #appmenu-button,
+#main-window[privatebrowsingmode=temporary] #appmenu-toolbar-button {
   background-image: url(appmenu-bg-pb.png);
   border-color: rgba(43,8,65,.9);
 }
 
-#main-window[privatebrowsingmode=temporary] #appmenu-button:hover:not(:active):not([open]) {
+#main-window[privatebrowsingmode=temporary] #appmenu-button:hover:not(:active):not([open]),
+#main-window[privatebrowsingmode=temporary] #appmenu-toolbar-button:hover:not(:active):not([open]) {
   background-image: url(appmenu-bg-pbhover.png);
   border-color: rgba(43,8,65,.9);
   box-shadow: 0 1px 0 rgba(255,255,255,.1) inset,
@@ -143,7 +151,9 @@
 }
 
 #main-window[privatebrowsingmode=temporary] #appmenu-button:hover:active,
-#main-window[privatebrowsingmode=temporary] #appmenu-button[open] {
+#main-window[privatebrowsingmode=temporary] #appmenu-button[open],
+#main-window[privatebrowsingmode=temporary] #appmenu-toolbar-button:hover:active,
+#main-window[privatebrowsingmode=temporary] #appmenu-toolbar-button[open] {
   background-image: url(appmenu-bg-pbpress.png);;
 }
 
@@ -152,7 +162,8 @@
   padding: 0;
 }
 
-#appmenu-button > .button-box > .button-menu-dropmarker {
+#appmenu-button > .button-box > .button-menu-dropmarker,
+#appmenu-toolbar-button > .toolbarbutton-menu-dropmarker {
   list-style-image: url(appmenu-dropmarker.png);
   width: auto;
   height: auto;
