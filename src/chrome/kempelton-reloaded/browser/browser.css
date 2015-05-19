@@ -70,8 +70,10 @@
   border-top: none;
 }
 
-#navigator-toolbox[tabsontop=false] {
-  border-bottom: none;
+@media (-moz-windows-default-theme) {
+  #navigator-toolbox[tabsontop=false] {
+    border-bottom: none;
+  }
 }
 
 #print-preview-toolbar:not(:-moz-lwtheme) {
