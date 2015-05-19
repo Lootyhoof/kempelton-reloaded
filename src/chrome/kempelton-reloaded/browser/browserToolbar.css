@@ -2,7 +2,7 @@
 
 /* ::::: primary toolbar buttons ::::: */
 
-.toolbarbutton-1:not([type="menu-button"]) {
+toolbar[mode="full"] .toolbarbutton-1:not([type=menu-button]) {
   -moz-box-orient: vertical;
 }
 
@@ -46,7 +46,6 @@ toolbar[mode="full"] .toolbarbutton-1 > .toolbarbutton-menubutton-button {
 /* ::::: 24px primary toolbar buttons ::::: */
 
 .toolbarbutton-1 {
-  -moz-box-orient: vertical;
   min-width: 0;
   list-style-image: url("chrome://browser/skin/Toolbar.png");
 }
