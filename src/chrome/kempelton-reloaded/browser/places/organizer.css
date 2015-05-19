@@ -195,7 +195,7 @@
   border-color: ThreeDDarkShadow !important;
 }
 
-#placesView:-moz-system-metric(windows-default-theme) {
+#placesView {
   border-top: none;
 }
 
@@ -205,7 +205,7 @@
   color: white;
 }
 
-#placesToolbar:-moz-system-metric(windows-default-theme) {
+#placesToolbar {
   min-height: 36px;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -217,12 +217,12 @@
   color: white;
 }
 
-#placesMenu > menu > .menubar-text:-moz-system-metric(windows-default-theme) {
+#placesMenu > menu > .menubar-text {
   -moz-padding-end: 15px;
   background-image: url(chrome://browser/skin/places/dropDown.png);
 }
 
-#placesView > splitter:-moz-system-metric(windows-default-theme) {
+#placesView > splitter {
   border: 0;
   -moz-border-end: 1px solid;
   -moz-border-right-colors: #A9B7C9;
@@ -235,31 +235,38 @@
   z-index: 10;
 }
 
-#searchModifiers:-moz-system-metric(windows-default-theme) {
+#searchModifiers {
   border-bottom: 1px solid #A9B7C9;
 }
 
-#organizerScopeBar:-moz-system-metric(windows-default-theme) {
+#organizerScopeBar {
   -moz-appearance: none;
   border: none;
 }
 
-#infoPaneBox:-moz-system-metric(windows-default-theme) {
+#infoPaneBox {
   border-top-color: #A9B7C9;
 }
 
-#placesView:-moz-system-metric(windows-default-theme),
-#searchModifiers:-moz-system-metric(windows-default-theme),
-#infoPane:-moz-system-metric(windows-default-theme),
-#placesList:-moz-system-metric(windows-default-theme),
-#placeContent:-moz-system-metric(windows-default-theme) {
+#placesView,
+#searchModifiers,
+#infoPane,
+#placesList,
+#placeContent {
   background-color: #EEF3FA;
 }
 
 /**** Vista default theme: Library's search box needs to be vertically centered ****/
-#searchFilter:-moz-system-metric(windows-default-theme) {
+#searchFilter {
   padding-top: 3px;
   padding-bottom: 2px;
+  min-height: 22px;
+  -moz-appearance: none;
+  border-width: 1px;
+  -moz-border-top-colors: ThreeDShadow;
+  -moz-border-bottom-colors: ThreeDShadow;
+  -moz-border-right-colors: ThreeDShadow;
+  -moz-border-left-colors: ThreeDShadow;
 }
 
 /* Info box */

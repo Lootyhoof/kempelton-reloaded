@@ -2,9 +2,6 @@
   min-height: 22px;
   width: 6em;
   min-width: 6em;
-}
-
-.searchbar-textbox:-moz-system-metric(windows-default-theme) {
   -moz-appearance: none;
   border-width: 1px;
   -moz-border-top-colors: ThreeDShadow;
@@ -40,12 +37,9 @@
   -moz-border-end-width: 1px;
   -moz-border-right-colors: ThreeDShadow;
   -moz-border-left-colors: ThreeDShadow;
+  -moz-border-right-colors: rgba(0,0,0,.05);
   box-shadow: 1px 1px 0 rgba(255,255,255,.4) inset,
                    0 -1px 0 rgba(255,255,255,.4) inset;
-}
-
-.searchbar-engine-button:-moz-system-metric(windows-default-theme):-moz-locale-dir(ltr) {
-  -moz-border-right-colors: rgba(0,0,0,.05);
 }
 
 .searchbar-engine-button:hover {

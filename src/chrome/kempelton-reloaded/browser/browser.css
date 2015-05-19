@@ -185,53 +185,51 @@
   -moz-border-end: 1px solid ThreeDShadow;
 }
 
-@media all and (-moz-windows-default-theme) {
-  #appmenu-popup {
-    -moz-appearance: none;
-    background: white;
-    border: 1px solid ThreeDShadow;
-  }
-  #appmenuPrimaryPane {
-    background-color: rgba(255,255,255,0.5);
-    padding: 2px;
-    -moz-border-end: none;
-  }
-  #appmenuSecondaryPane {
-    background-color: #f1f5fb;
-    box-shadow: 1px 0 2px rgb(204,214,234) inset;
-    -moz-padding-start: 3px;
-    -moz-padding-end: 2px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    font-family: "Segoe UI Semibold", "Segoe UI", sans-serif;
-  }
-  #appmenuSecondaryPane:-moz-locale-dir(rtl) {
-    box-shadow: -1px 0 2px rgb(204,214,234) inset;
-  }
+#appmenu-popup {
+  -moz-appearance: none;
+  background: white;
+  border: 1px solid ThreeDShadow;
+}
+#appmenuPrimaryPane {
+  background-color: rgba(255,255,255,0.5);
+  padding: 2px;
+  -moz-border-end: none;
+}
+#appmenuSecondaryPane {
+  background-color: #f1f5fb;
+  box-shadow: 1px 0 2px rgb(204,214,234) inset;
+  -moz-padding-start: 3px;
+  -moz-padding-end: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-family: "Segoe UI Semibold", "Segoe UI", sans-serif;
+}
+#appmenuSecondaryPane:-moz-locale-dir(rtl) {
+  box-shadow: -1px 0 2px rgb(204,214,234) inset;
+}
 
-  #appmenuSecondaryPane menupopup {
-    -moz-appearance: none;
-    background-color: #f1f5fb;
-    border: 1px solid ThreeDShadow;
-    padding: 2px;
-  }
+#appmenuSecondaryPane menupopup {
+  -moz-appearance: none;
+  background-color: #f1f5fb;
+  border: 1px solid ThreeDShadow;
+  padding: 2px;
+}
 
-  .appmenu-menuseparator {
-    -moz-appearance: none;
-    margin-top: 3px;
-    margin-bottom: 3px;
-    -moz-margin-start: -moz-calc(1.45em + 4px);
-    padding: 0;
-    border-top: 1px solid #d6e5f5;
-    border-bottom: none;
-  }
+.appmenu-menuseparator {
+  -moz-appearance: none;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  -moz-margin-start: -moz-calc(1.45em + 4px);
+  padding: 0;
+  border-top: 1px solid #d6e5f5;
+  border-bottom: none;
+}
 
-  .appmenu-edit-button:not([disabled]):hover {
-    border: 1px solid #b8d6fb;
-    box-shadow: inset 0 0 1px white;
-    background: -moz-linear-gradient(#fafbfd, #ebf3fd);
-    -moz-transition: .2s ease-in;
-  }
+.appmenu-edit-button:not([disabled]):hover {
+  border: 1px solid #b8d6fb;
+  box-shadow: inset 0 0 1px white;
+  background: -moz-linear-gradient(#fafbfd, #ebf3fd);
+  -moz-transition: .2s ease-in;
 }
 
 #appmenuSecondaryPane-spacer {
@@ -859,8 +857,14 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
 #TabsToolbar[tabsontop=true]:not(:-moz-lwtheme) {
   border-bottom: 1px solid ThreeDShadow;
 }
+
 #main-window[tabsontop=true]:not([tabsintitlebar]) #TabsToolbar:not(:-moz-lwtheme) {
   border-top: 1px solid ThreeDShadow;
+}
+
+#main-window[tabsontop=true]:not([maximized=true]) #toolbar-menubar[autohide=true] ~ #TabsToolbar {
+  border-top: none;
+  margin-top: -2px;
 }
 
 .tabbrowser-tabs {
@@ -902,6 +906,7 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
 .tabbrowser-arrowscrollbox > .scrollbutton-down {
   -moz-appearance: none;
   border-style: none;
+  padding: 0 3px;
 }
 
 #TabsToolbar .toolbarbutton-1:not([disabled]):hover,
@@ -915,6 +920,11 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
   background-position: 1px -1px, 0 -1px, 100% -1px;
   background-size: -moz-calc(100% - 2px) 100%, 1px 100%, 1px 100%;
   background-repeat: no-repeat;
+}
+
+#TabsToolbar .toolbarbutton-1:not(#alltabs-button):hover,
+#TabsToolbar .toolbarbutton-1:not(#alltabs-button):hover:active {
+  padding: 0 3px;
 }
 
 #addon-bar .toolbarbutton-1:not([disabled]):hover,
@@ -1949,7 +1959,7 @@ window:not([chromehidden~=toolbar]) #navigator-toolbox[iconsize=large][mode=icon
 }
 
 /* Bug 413060, comment 14: Match #identity-box's -moz-margin-start, less 1px */
-#identity-popup:-moz-locale-dir(ltr):-moz-system-metric(windows-default-theme) {
+#identity-popup:-moz-locale-dir(ltr) {
   -moz-margin-start: 3px;
 }
 
@@ -2134,52 +2144,44 @@ toolbarbutton.bookmark-item[dragover="true"][open="true"] {
 }
 
 /* ::::: Main Window Styling ::::: */
-#navigator-toolbox:-moz-system-metric(windows-default-theme) > toolbar {
+#navigator-toolbox > toolbar {
   -moz-appearance: none;
   border-style: none;
 }
 
 /* ::::: Location Bar AutoComplete Styling ::::: */
 
-.ac-url-text:-moz-system-metric(windows-default-theme) {
+.ac-url-text {
   color: -moz-nativehyperlinktext;
 }
 
 /* ::::: Identity Indicator Styling ::::: */
 
-#urlbar:-moz-locale-dir(ltr):-moz-system-metric(windows-default-theme) {
+#urlbar:-moz-locale-dir(ltr) {
   -moz-margin-start: 9px;
 }
 
-#identity-box:-moz-locale-dir(ltr):-moz-system-metric(windows-default-theme) {
+#identity-box:-moz-locale-dir(ltr) {
   -moz-margin-start: -7px;
 }
 
-#identity-box:-moz-locale-dir(ltr):-moz-system-metric(windows-default-theme) {
+#identity-box:-moz-locale-dir(ltr) {
   border-radius: 11px 0 2px 11px / 15px 0 2px 15px;
 }
 
 /* Match #identity-box:-moz-locale-dir(ltr)'s -moz-margin-start */
-#identity-popup:-moz-locale-dir(ltr):-moz-system-metric(windows-default-theme) {
+#identity-popup:-moz-locale-dir(ltr) {
   -moz-margin-start: 7px;
-}
-
-/* Bug 413060, comment 16: Vista Aero is a special case where we use a
-   tooltip appearance for the address bar popup panels */
-#identity-popup:-moz-system-metric(windows-default-theme),
-#editBookmarkPanel:-moz-system-metric(windows-default-theme) {
-  -moz-appearance: tooltip;
-  color: InfoText;
 }
 
 /* Make the left and right paddings smaller, to compensate for the horizontal
    space added by the tooltip appearance, see bug 432529. */
-#identity-popup-container:-moz-system-metric(windows-default-theme) {
+#identity-popup-container {
   -moz-padding-start: 6px;
   -moz-padding-end: 6px;
 }
 
-#sidebar-splitter:-moz-system-metric(windows-default-theme) {
+#sidebar-splitter {
   border: 0;
   -moz-border-end: 1px solid;
   -moz-border-right-colors: #A9B7C9;

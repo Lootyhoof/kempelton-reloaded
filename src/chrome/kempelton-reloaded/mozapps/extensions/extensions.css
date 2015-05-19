@@ -292,6 +292,7 @@
 
 #header {
   background: url("chrome://global/skin/icons/mediabar.png") repeat-x;
+  background-size: 0.13%;
   color: white;
   padding: 7px 0 7px 0;
 }
