@@ -935,8 +935,8 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
   background-repeat: no-repeat;
 }
 
-#TabsToolbar .toolbarbutton-1:not(#alltabs-button):hover,
-#TabsToolbar .toolbarbutton-1:not(#alltabs-button):hover:active {
+:-moz-any(#TabsToolbar, #addon-bar) .toolbarbutton-1:not(#alltabs-button):hover,
+:-moz-any(#TabsToolbar, #addon-bar) .toolbarbutton-1:not(#alltabs-button):hover:active {
   padding: 0 3px;
 }
 
@@ -1822,7 +1822,7 @@ window:not([chromehidden~=toolbar]) #navigator-toolbox[iconsize=large][mode=icon
   border-style: solid;
   border-image: url("chrome://browser/skin/urlbar-arrow.png") 0 8 0 0 fill;
   -moz-margin-end: -8px;
-  padding: 2px 0 3px 0px;
+  padding: 1px 0 1px 0px;
   margin-left: 4px;
 }
 
@@ -1896,6 +1896,8 @@ window:not([chromehidden~=toolbar]) #navigator-toolbox[iconsize=large][mode=icon
   -moz-image-region: rect(0, 15px, 16px, 2px);
   height: 16px !important;
   width: 14px !important;
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
 
 #plugins-notification-icon:hover,
@@ -1963,18 +1965,6 @@ window:not([chromehidden~=toolbar]) #navigator-toolbox[iconsize=large][mode=icon
 
 #identity-popup-container {
   min-width: 280px;
-}
-
-/* Popup Bounding Box */
-#identity-popup {
-  -moz-appearance: menupopup;
-  color: MenuText;
-  margin-left: -20px !important;
-}
-
-/* Bug 413060, comment 14: Match #identity-box's -moz-margin-start, less 1px */
-#identity-popup:-moz-locale-dir(ltr) {
-  -moz-margin-start: 3px;
 }
 
 /* Bookmarks toolbar */
@@ -2183,17 +2173,6 @@ toolbarbutton.bookmark-item[dragover="true"][open="true"] {
   border-radius: 11px 0 2px 11px / 15px 0 2px 15px;
 }
 
-/* Match #identity-box:-moz-locale-dir(ltr)'s -moz-margin-start */
-#identity-popup:-moz-locale-dir(ltr) {
-  -moz-margin-start: 7px;
-}
-
-/* Make the left and right paddings smaller, to compensate for the horizontal
-   space added by the tooltip appearance, see bug 432529. */
-#identity-popup-container {
-  -moz-padding-start: 6px;
-  -moz-padding-end: 6px;
-}
 
 #sidebar-splitter {
   border: 0;
@@ -3082,22 +3061,6 @@ chatbox {
   /* Set the appmenu in, and give it a beveled look */
   #main-window[sizemode="normal"] > #titlebar > #titlebar-content > #appmenu-button-container {
     margin-top: 1px;
-  }
-
-  #appmenu-button {
-    border-width: 2px;
-    -moz-border-left-colors: rgba(255,255,255,.5) rgba(83,42,6,.9);
-    -moz-border-bottom-colors: rgba(255,255,255,.5) rgba(83,42,6,.9);
-    -moz-border-right-colors: rgba(255,255,255,.5) rgba(83,42,6,.9);
-    margin-bottom: 1px; /* compensate white outer border */
-    box-shadow: 0 1px 0 rgba(255,255,255,.25) inset,
-                0 0 2px 1px rgba(255,255,255,.25) inset;
-  }
-
-  #main-window[privatebrowsingmode=temporary] #appmenu-button {
-    -moz-border-left-colors: rgba(255,255,255,.5) rgba(43,8,65,.9);
-    -moz-border-bottom-colors: rgba(255,255,255,.5) rgba(43,8,65,.9);
-    -moz-border-right-colors: rgba(255,255,255,.5) rgba(43,8,65,.9);
   }
 
   #appmenu-popup {
