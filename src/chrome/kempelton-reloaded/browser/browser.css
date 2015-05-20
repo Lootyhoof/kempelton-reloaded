@@ -742,7 +742,6 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
 
 /* bookmarking panel */
 #editBookmarkPanel {
-  -moz-appearance: menupopup;
   color: MenuText;
   padding: 4px;
 }
