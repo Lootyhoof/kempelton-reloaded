@@ -25,15 +25,15 @@ notification[type="critical"] {
 
 /* Default icons for notifications */
 
-notification[type="info"] .messageImage {
+.messageImage[type="info"] {
   list-style-image: url("chrome://global/skin/icons/information-16.png");
 }
 
-notification[type="warning"] .messageImage {
+.messageImage[type="warning"] {
   list-style-image: url("chrome://global/skin/icons/warning-16.png");
 }
 
-notification[type="critical"] .messageImage {
+.messageImage[type="critical"] {
   list-style-image: url("chrome://global/skin/icons/error-16.png");
 }
 
@@ -71,31 +71,36 @@ notification[type="critical"] .messageImage {
 XXX: apply styles to all themes until bug 509642 is fixed
 @media all and (-moz-windows-default-theme) {
 */
-  .popup-notification-menubutton[type="menu-button"] {
+  .popup-notification-menubutton {
     -moz-appearance: none;
-    border-radius: 3px;
     padding: 0;
+    background-color: rgba(250,250,250,.3);
   }
 
-  .popup-notification-menubutton[type="menu-button"]:hover:active {
+  .popup-notification-menubutton:hover:active {
     border-color: rgba(0,0,0,.5);
   }
 
+  .popup-notification-menubutton:not([type="menu-button"]),
   .popup-notification-menubutton > .button-menubutton-button,
   .popup-notification-menubutton > .button-menubutton-dropmarker {
     -moz-appearance: none;
     margin: 0;
-    border: 1px solid rgba(0,0,0,.35);
-    background-image: -moz-linear-gradient(top, rgba(250,250,250,.6), rgba(175,175,175,.25) 49%, rgba(0,0,0,.12) 51%, rgba(0,0,0,.09) 60%, rgba(0,0,0,.05));
-    box-shadow: 0 0 1px 1px rgba(255,255,255,.75) inset;
+    border: 1px solid rgba(0,0,0,.35) !important;
+    box-shadow: 0 1px 0 rgba(255,255,255,.5) inset,
+                0 2px 2px rgba(255,255,255,.35) inset,
+                0 -1px 2px rgba(0,0,0,.1) inset,
+                0 1px 0 rgba(255,255,255,.35) !important;
   }
 
   .popup-notification-menubutton > .button-menubutton-button {
     background-color: transparent;
     padding: 1px;
     -moz-border-end: none;
+	border-radius: 3px 0 0 3px;
   }
 
+  .popup-notification-menubutton:not([type="menu-button"]),
   .popup-notification-menubutton > .button-menubutton-button > .button-box {
     -moz-padding-start: 8px;
     -moz-padding-end: 5px;
@@ -105,36 +110,30 @@ XXX: apply styles to all themes until bug 509642 is fixed
     padding: 10px 5px 9px;
     width: auto;
     height: auto;
+	border-left: none !important;
+	border-radius: 0 3px 3px 0;
     list-style-image: url("chrome://global/skin/arrow/arrow-dn-sharp.gif");
   }
 
-  .popup-notification-menubutton > .button-menubutton-dropmarker {
-    outline: 1px solid ThreeDDarkShadow;
+  .popup-notification-menubutton:-moz-focusring > .button-menubutton-dropmarker {
+    outline: 1px dotted ThreeDDarkShadow;
+    outline-offset: -3px;
   }
 
-  .popup-notification-menubutton > .button-menubutton-button:-moz-locale-dir(ltr),
-  .popup-notification-menubutton > .button-menubutton-dropmarker:-moz-locale-dir(rtl) {
-    border-radius: 2px 0 0 2px;
-  }
-
-  .popup-notification-menubutton > .button-menubutton-button:-moz-locale-dir(rtl),
-  .popup-notification-menubutton > .button-menubutton-dropmarker:-moz-locale-dir(ltr) {
-    border-radius: 0 2px 2px 0;
-  }
-
+  .popup-notification-menubutton:not([type="menu-button"]):hover,
   .popup-notification-menubutton > .button-menubutton-button:hover,
   .popup-notification-menubutton > .button-menubutton-dropmarker:hover {
-    background-image: -moz-linear-gradient(top, rgba(250,250,250,.9), rgba(200,200,200,.6) 49%, rgba(0,0,0,.23) 51%, rgba(0,0,0,.17) 60%, rgba(0,0,0,.05));
-    box-shadow: 0 0 0 1px white inset,
-                0 0 2px 1px rgba(255,255,255,.75) inset;
+    background-color: rgba(250,250,250,.6) !important;
   }
 
+  .popup-notification-menubutton:not([type="menu-button"]):hover:active,
   .popup-notification-menubutton > .button-menubutton-button:hover:active,
   .popup-notification-menubutton > .button-menubutton-dropmarker:hover:active,
   .popup-notification-menubutton[open="true"] > .button-menubutton-dropmarker {
-    background-image: -moz-linear-gradient(top, rgba(250,250,250,.9), rgba(200,200,200,.6) 49%, rgba(0,0,0,.23) 51%, rgba(0,0,0,.17) 60%, rgba(0,0,0,.05));
-    box-shadow: 0 0 2px rgba(0,0,0,.65) inset;
+    background-color: rgba(0,0,0,.05) !important;
+    box-shadow: 0 0 2px rgba(0,0,0,.65) inset !important;
   }
+  
 /*}*/
 
 .popup-notification-closebutton {
