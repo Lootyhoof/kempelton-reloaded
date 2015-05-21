@@ -1,5 +1,13 @@
 # Changelog
 
+### 4.5.1
+- fix menu button orientation
+- Linux rough visual parity with Windows version
+- Linux: style appmenu
+- navigator-toolbox border fix
+- several notification style fixes
+- about:addons: make header be consistent with toolbar in places
+
 ### 4.5.0
 - replace deprecated attributes (-moz-border-radius, etc) with current standards
 - fix tabs
