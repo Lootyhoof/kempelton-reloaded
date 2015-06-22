@@ -70,12 +70,6 @@
   border-top: none;
 }
 
-@media (-moz-windows-default-theme) {
-  #navigator-toolbox[tabsontop=false] {
-    border-bottom: none;
-  }
-}
-
 #print-preview-toolbar:not(:-moz-lwtheme) {
   -moz-appearance: toolbox;
 }
@@ -743,7 +737,6 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
 /* bookmarking panel */
 #editBookmarkPanel {
   color: MenuText;
-  padding: 4px;
 }
 
 #editBookmarkPanelStarIcon {
@@ -859,9 +852,9 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
 }
 
 #TabsToolbar[tabsontop=false]:not(:-moz-lwtheme) {
-  border-bottom: 4px solid;
+  border-bottom: 3px solid;
   border-top: 1px solid ThreeDShadow;
-  -moz-border-bottom-colors:  ThreeDShadow -moz-Dialog -moz-Dialog ThreeDShadow;
+  -moz-border-bottom-colors: -moz-Dialog -moz-Dialog ThreeDShadow;
   padding-bottom: 0px;
   margin-bottom: -1px;
 }
@@ -3037,24 +3030,6 @@ chatbox {
   border-top-right-radius: 2.5px;
 }
 
-/* Other-than-Aero specific */
-@media not all and (-moz-windows-theme: aero) {
-  /* TODO: This doesn't work right now.  See bug #647556:
-  https://bugzilla.mozilla.org/show_bug.cgi?id=647556
-  One day we either need Firefox to support nested media queries, or extra parens so we can say:
-  @media (not all and (-moz-windows-theme: aero)) and (-moz-windows-default-theme) { ... }
-  ... or ...
-  @media all and (not -moz-windows-theme: aero) and (-moz-windows-default-theme) { ... }
-  ... so, the nested query below won't work currently.  Comment it out for now.
-  
-  @media all and (-moz-windows-default-theme) {
-    #main-window[sizemode="normal"] #appmenu-button {
-      margin-bottom: 5px;
-    }
-  }
-  */
-}
-
 /* Aero specific */
 @media all and (-moz-windows-theme: aero) {
   /* Set the appmenu in, and give it a beveled look */
@@ -3138,6 +3113,7 @@ chatbox {
   #main-window[sizemode=normal] #navigator-toolbox:not(:-moz-lwtheme) {
     border-left: 1px solid rgba(10%,10%,10%,.4);
     border-right: 1px solid rgba(10%,10%,10%,.4);
+	border-bottom: 1px solid ThreeDShadow;
     background-clip: padding-box;
   }
   #main-window[sizemode=normal] #browser-border-start,
