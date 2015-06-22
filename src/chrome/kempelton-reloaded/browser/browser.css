@@ -859,6 +859,13 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
   margin-bottom: -1px;
 }
 
+@media not all and (-moz-windows-default-theme) {
+  #TabsToolbar[tabsontop=false]:not(:-moz-lwtheme) {
+    border-bottom: 4px solid;
+	-moz-border-bottom-colors: ThreeDShadow -moz-Dialog -moz-Dialog ThreeDShadow;
+  }
+}
+
 #TabsToolbar[tabsontop=true]:not(:-moz-lwtheme) {
   border-bottom: 1px solid ThreeDShadow;
 }
