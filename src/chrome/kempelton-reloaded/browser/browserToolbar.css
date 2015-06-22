@@ -32,6 +32,14 @@ toolbar[mode="full"] .toolbarbutton-1:not([type=menu-button]) {
   margin: 0px;
 }
 
+#tab-view-deck #unified-back-forward-button {
+  -moz-binding: url(chrome://global/skin/globalBindings.xml#restore-back-forward-dropmarker);
+}
+
+#tab-view-deck #unified-back-forward-button dropmarker {
+  display: none !important;
+}
+
 toolbar[mode="full"] .toolbarbutton-1,
 toolbar[mode="full"] .toolbarbutton-1 > .toolbarbutton-menubutton-button {
   min-width: 57px;
@@ -86,14 +94,16 @@ toolbar[mode="full"] .toolbarbutton-menubutton-button {
 }
 
 #back-button:-moz-locale-dir(rtl) > .toolbarbutton-icon,
-#forward-button:-moz-locale-dir(rtl) > .toolbarbutton-icon {
+#forward-button:-moz-locale-dir(rtl) > .toolbarbutton-icon,
+#back-forward-dropmarker:-moz-locale-dir(rtl) > .toolbarbutton-icon {
   -moz-transform: scaleX(-1);
 }
 
 /* Unified large back/forward buttons, 'keyhole' style, for icons mode... */
 
 toolbar[iconsize="large"][mode="icons"] #back-button,
-toolbar[iconsize="large"][mode="icons"] #forward-button {
+toolbar[iconsize="large"][mode="icons"] #forward-button,
+toolbar[iconsize="large"][mode="icons"] #back-forward-dropmarker {
   list-style-image: url("chrome://browser/skin/back-forward.png");
 }
 
@@ -136,43 +146,83 @@ toolbar[iconsize="large"][mode="icons"] #forward-button:not([disabled="true"]):h
   -moz-image-region: rect(98px 57px 126px 31px);
 }
 
+/* dropmarker for unified back and forward buttons with keyhole icons */
+ 
+toolbar[mode="icons"] #back-forward-dropmarker {
+  -moz-appearance: none;
+  padding: 0;
+  -moz-padding-end: 2px;
+  border: none;
+}
+ 
+toolbar[mode="icons"] #back-forward-dropmarker > image {
+  display: -moz-box;
+  margin: 0;
+}
+ 
+toolbar[mode="icons"] #back-forward-dropmarker > dropmarker {
+  display: none;
+}
+ 
+toolbar[iconsize="large"][mode="icons"] #back-forward-dropmarker {
+  -moz-image-region: rect(2px 72px 30px 57px);
+}
+toolbar[iconsize="large"][mode="icons"] #back-forward-dropmarker:hover {
+  -moz-image-region: rect(34px 72px 62px 57px);
+}
+toolbar[iconsize="large"][mode="icons"] #back-forward-dropmarker[disabled="true"] {
+  -moz-image-region: rect(66px 72px 94px 57px);
+}
+toolbar[iconsize="large"][mode="icons"] #back-forward-dropmarker:not([disabled="true"]):hover:active {
+  -moz-image-region: rect(98px 72px 126px 57px);
+}
+
 /* Unified small back/forward buttons, for icons mode... */
 
 toolbar[iconsize="small"][mode="icons"] #back-button,
-toolbar[iconsize="small"][mode="icons"] #forward-button {
-  list-style-image: url("chrome://browser/skin/Toolbar-small.png");
+toolbar[iconsize="small"][mode="icons"] #forward-button,
+toolbar[iconsize="small"][mode="icons"] #back-forward-dropmarker {
+  list-style-image: url("chrome://browser/skin/back-forward-small.png");
 }
 toolbar[iconsize="small"][mode="icons"] #back-button {
-  -moz-image-region: rect(0px 264px 24px 240px);
+  -moz-image-region: rect(0px 24px 24px 0px);
 }
 toolbar[iconsize="small"][mode="icons"] #back-button:hover {
-  -moz-image-region: rect(24px 264px 48px 240px);
+  -moz-image-region: rect(24px 24px 48px 0px);
 }
 toolbar[iconsize="small"][mode="icons"] #back-button[disabled="true"] {
-  -moz-image-region: rect(48px 264px 72px 240px);
+  -moz-image-region: rect(48px 24px 72px 0px);
 }
 toolbar[iconsize="small"][mode="icons"] #back-button:not([disabled="true"]):hover:active {
-  -moz-image-region: rect(72px 264px 96px 240px);
+  -moz-image-region: rect(72px 24px 96px 0px);
 }
 
 toolbar[iconsize="small"][mode="icons"] #forward-button {
-  -moz-appearance: none;
-  padding: 0;
-  border: none;
-  -moz-padding-end: 4px;
-}
-
-toolbar[iconsize="small"][mode="icons"] #forward-button {
-  -moz-image-region: rect(0px 288px 24px 264px);
+  -moz-image-region: rect(0 48px 24px 24px);
 }
 toolbar[iconsize="small"][mode="icons"] #forward-button:hover {
-  -moz-image-region: rect(24px 288px 48px 264px);
+  -moz-image-region: rect(24px 48px 48px 24px);
 }
 toolbar[iconsize="small"][mode="icons"] #forward-button[disabled="true"] {
-  -moz-image-region: rect(48px 288px 72px 264px);
+  -moz-image-region: rect(48px 48px 72px 24px);
 }
 toolbar[iconsize="small"][mode="icons"] #forward-button:not([disabled="true"]):hover:active {
-  -moz-image-region: rect(72px 288px 96px 264px);
+  -moz-image-region: rect(72px 48px 96px 24px);
+}
+
+/* dropmarker for unified back and forward buttons with keyhole icons, small icons mode */
+ 
+toolbar[iconsize="small"][mode="icons"] #back-forward-dropmarker {
+  -moz-image-region: rect(0 61px 24px 48px);
+}
+toolbar[iconsize="small"][mode="icons"] #back-forward-dropmarker:hover {
+  -moz-image-region: rect(24px 61px 48px 48px);
+}
+toolbar[iconsize="small"][mode="icons"] #back-forward-dropmarker[disabled="true"] {
+  -moz-image-region: rect(48px 61px 72px 48px);
+}
+toolbar[iconsize="small"][mode="icons"] #back-forward-dropmarker:not([disabled="true"]):hover:active {
+  -moz-image-region: rect(72px 61px 96px 48px);
 }
 
 /* Regular buttons... */
