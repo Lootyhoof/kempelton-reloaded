@@ -1,5 +1,9 @@
 # Changelog
 
+### 4.5.2
+- add back/forward dropmarker
+- ensure bottom border is present if tab bar disabled
+
 ### 4.5.1
 - fix menu button orientation
 - Linux rough visual parity with Windows version
