@@ -1,5 +1,10 @@
 # Changelog
 
+### 4.6.0
+- Pale Moon v26 compatibility
+- fix window borders on Windows 10
+- don't animate popups on non-Windows
+
 ### 4.5.2
 - add back/forward dropmarker
 - ensure bottom border is present if tab bar disabled
