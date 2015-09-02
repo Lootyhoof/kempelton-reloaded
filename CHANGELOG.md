@@ -1,5 +1,8 @@
 # Changelog
 
+### 4.6.1
+- fix vertical toolbar borders
+
 ### 4.6.0
 - Pale Moon v26 compatibility
 - fix window borders on Windows 10
