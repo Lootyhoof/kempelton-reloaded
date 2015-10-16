@@ -2,3 +2,5 @@ skin	browser		kempelton-reloaded	chrome/kempelton-reloaded/browser/
 skin	communicator	kempelton-reloaded	chrome/kempelton-reloaded/communicator/
 skin	global		kempelton-reloaded	chrome/kempelton-reloaded/global/
 skin	mozapps		kempelton-reloaded	chrome/kempelton-reloaded/mozapps/
+skin	appver		kempelton-reloaded	chrome/kempelton-reloaded/appver/25/ appversion<=26.0.0b2
+skin	appver		kempelton-reloaded	chrome/kempelton-reloaded/appver/26/ appversion>26.0.0b2
