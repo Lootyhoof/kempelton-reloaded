@@ -1,5 +1,8 @@
 # Changelog
 
+### 4.6.2
+- (Win10) shade window background on Pale Moon 26 builds later than b2
+
 ### 4.6.1
 - fix vertical toolbar borders
 
