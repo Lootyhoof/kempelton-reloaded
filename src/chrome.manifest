@@ -4,3 +4,5 @@ skin	global		kempelton-reloaded	chrome/global/
 skin	mozapps		kempelton-reloaded	chrome/mozapps/
 skin	appver		kempelton-reloaded	chrome/appver/25/ appversion<=26.0.0b2
 skin	appver		kempelton-reloaded	chrome/appver/26/ appversion>26.0.0b2
+skin	os			kempelton-reloaded	chrome/os/winnt/	os=WINNT	
+skin	os			kempelton-reloaded	chrome/os/linux/	os=Linux
