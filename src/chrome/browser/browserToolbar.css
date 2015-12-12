@@ -635,7 +635,7 @@ toolbar[iconsize="small"] #downloads-button {
   -moz-image-region: rect(0px 96px 15px 80px);
 }
 toolbar[iconsize="small"] #downloads-button:hover {
-  -moz-image-region: rect(15px 96px 30px 80px);
+  -moz-image-region: rect(16px 96px 31px 80px);
 }
 
 /* History (and history menu) button */
