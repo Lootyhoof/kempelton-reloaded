@@ -1,3 +1,7 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
 /* ===== global.css =====================================================
   == Styles that apply everywhere.
   ======================================================================= */
@@ -20,10 +24,6 @@ menulist > menupopup,
 
 .menulist-compact {
   -moz-binding: url("chrome://global/skin/globalBindings.xml#menulist-compact");
-}
-
-progressmeter[mode="undetermined"] {
-  -moz-binding: url("chrome://global/content/bindings/progressmeter.xml#progressmeter-undetermined");
 }
 
 /* ::::: root elements ::::: */
@@ -106,6 +106,13 @@ statusbarpanel {
   padding: 0 4px;
 }
 
+statusbarpanel:not(.statusbar-resizerpanel):-moz-lwtheme {
+  -moz-appearance: none;
+  border-top-style: none;
+  border-bottom-style: none;
+  -moz-border-start-style: none;
+}
+
 .statusbar-resizerpanel {
   -moz-box-align: end;
   -moz-box-pack: end;
@@ -120,10 +127,18 @@ statusbarpanel {
   padding: 0 1px;
 }
 
+/* XXXBlake yeah, shoot me -- these don't belong here.  I'll move them later. */
+
 sidebarheader {
   height: 25px;
   background-color: -moz-Dialog;
+  -moz-appearance: toolbox;
+  border-bottom: 1px solid ThreeDShadow;
   border-top: 1px solid ThreeDHighlight;
+}
+
+sidebarheader > label {
+  -moz-padding-start: 4px;
 }
 
 .toolbar-focustarget {
@@ -143,11 +158,11 @@ toolbar[mode="text"] .toolbarbutton-text {
 }
 
 :root:-moz-lwtheme-darktext {
-  text-shadow: 1px 1px 2px white;
+  text-shadow: 0 -0.5px 1.5px white;
 }
 
 :root:-moz-lwtheme-brighttext {
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 1px 1px 1.5px black;
 }
 
 statusbar:-moz-lwtheme,
@@ -263,12 +278,15 @@ label[disabled="true"]:-moz-system-metric(windows-classic) {
 
 .text-link {
   color: -moz-nativehyperlinktext;
-  text-decoration: underline;
   border: 1px solid transparent;
   cursor: pointer;
 }
 
-.text-link:focus {
+.text-link:hover {
+  text-decoration: underline;
+}
+
+.text-link:-moz-focusring {
   border: 1px dotted -moz-DialogText;
 }
 

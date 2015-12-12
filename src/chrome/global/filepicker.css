@@ -1,3 +1,7 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
 /* ===== filepicker.css =================================================
   == Styles used by the File Picker dialog.
   ======================================================================= */
@@ -26,20 +30,44 @@ treechildren::-moz-tree-image(FilenameColumn, file) {
 
 /* ::::: button items ::::: */
 
+/* up-button */
+
 .up-button {
   list-style-image: url("chrome://global/skin/Filepicker.png");
-  -moz-image-region: rect(0 24px 24px 0);
+  -moz-image-region: rect(0px 24px 24px 0px);
   max-width: 36px;
 }
+
+.up-button:hover {
+  list-style-image: url("chrome://global/skin/Filepicker.png");
+  -moz-image-region: rect(24px 24px 48px 0px);
+  max-width: 36px;
+}
+
+/* home-button */
 
 .home-button {
   list-style-image: url("chrome://global/skin/Filepicker.png");
-  -moz-image-region: rect(0 48px 24px 24px);
+  -moz-image-region: rect(0px 48px 24px 24px);
   max-width: 36px;
 }
 
+.home-button:hover {
+  list-style-image: url("chrome://global/skin/Filepicker.png");
+  -moz-image-region: rect(24px 48px 48px 24px);
+  max-width: 36px;
+}
+
+/* new-dir-button */
+
 .new-dir-button {
   list-style-image: url("chrome://global/skin/Filepicker.png");
-  -moz-image-region: rect(0 72px 24px 48px);
+  -moz-image-region: rect(0px 72px 24px 48px);
+  max-width: 36px;
+}
+
+.new-dir-button:hover {
+  list-style-image: url("chrome://global/skin/Filepicker.png");
+  -moz-image-region: rect(24px 72px 48px 48px);
   max-width: 36px;
 }

@@ -1,3 +1,7 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
 /* ===== textbox.css ==================================================
   == Styles used by the XUL textbox element.
   ======================================================================= */
@@ -22,11 +26,7 @@ textbox {
   color: -moz-FieldText;
 }
 
-textbox[isempty="true"] {
-  color: GrayText;
-}
-
-html|*.textbox-input,
+html|*.textbox-input, 
 html|*.textbox-textarea {
   margin: 0px !important;
   border: none !important;
@@ -73,7 +73,7 @@ textbox.plain {
 }
 
 .textbox-search-icon:-moz-locale-dir(rtl) {
-  -moz-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
 .textbox-search-icon[searchbutton]:not([disabled]) {
@@ -105,7 +105,3 @@ toolbarpaletteitem > toolbaritem > textbox > .textbox-input-box > html|*.textbox
   visibility: hidden;
 }
 
-
-textbox[isempty="true"]:-moz-system-metric(windows-default-theme) {
-  font-style: italic;
-}

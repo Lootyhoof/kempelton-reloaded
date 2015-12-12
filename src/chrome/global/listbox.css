@@ -1,3 +1,7 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
 /* ===== listbox.css =======================================================
   == Styles used by XUL listbox-related elements.
   ======================================================================= */
@@ -49,7 +53,7 @@ listbox:focus > listitem[selected="true"] {
 
 /* ::::: listheader ::::: */
 
-listheader {
+listheader { 
   -moz-appearance: treeheadercell;
   -moz-box-align: center;
   border: 2px solid;
@@ -136,17 +140,4 @@ listheader[sortable="true"]:hover:active {
   min-width: 13px;
   min-height: 13px;
   background: -moz-Field no-repeat 50% 50%;
-}
-
-.listcell-check[checked="true"] {
-  background-image: url("chrome://global/skin/checkbox/cbox-check.gif");
-}
-
-.listcell-check[disabled="true"] {
-  border-color: GrayText;
-  background-image: url("chrome://global/skin/checkbox/cbox-dis.gif");
-}
-
-.listcell-check[disabled="true"][checked="true"] {
-  background-image: url("chrome://global/skin/checkbox/cbox-check-dis.gif");
 }

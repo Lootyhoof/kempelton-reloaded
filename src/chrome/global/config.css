@@ -1,11 +1,18 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
 @import url("chrome://global/skin/");
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
-#warningScreen {
+
+#warningScreen
+{
   background-color: -moz-Dialog;
 }
 
-#warningBox {
+#warningBox
+{
   background-color: -moz-Field;
   color: -moz-FieldText;
   border: 1px solid ThreeDShadow;
@@ -16,48 +23,57 @@
   margin-right: 1em;
 }
 
-#warningInnerBox {
+#warningInnerBox
+{
  max-width: 50em;
 }
 
-#warningTitle {
+#warningTitle
+{
   margin: 0 0 .6em 0;
   font-size: 160%;
   border-bottom: 1px solid ThreeDLightShadow
 }
 
-#warningText {
+#warningText
+{
   font-size: 110%;
   margin-left: 0;
 }
 
-#warningButton {
+#warningButton
+{
   margin-top: 0.6em;
 }
 
-#showWarningNextTime {
+#showWarningNextTime
+{
   margin-top: 0.6em;
 }
 
-#exclam {
+#exclam
+{
   list-style-image: url("chrome://global/skin/icons/warning-large.png");
   -moz-margin-end: 3em;
 }
 
-
-#configTreeBody::-moz-tree-cell-text(user) {
+#configTreeBody::-moz-tree-cell-text(user)
+{
   font-weight: bold;
 }
 
-#configTreeBody::-moz-tree-cell-text(locked) {
+#configTreeBody::-moz-tree-cell-text(locked)
+{
   font-style: italic;
 }
 
-#configTree {
+#configTree 
+{  
   margin-top: 5px;
   margin-bottom: 5px;
 }
 
-#filterRow {
+#filterRow
+{
   margin-top: 5px;
 }

@@ -2,12 +2,11 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
+/*
+ * The default namespace for this file is XUL. Be sure to prefix rules that
+ * are applicable to both XUL and HTML with '*|'.
+ */
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+@namespace html url("http://www.w3.org/1999/xhtml");
 
-.contentPane {
-  margin: 9px 8px 5px 8px;
-}
-
-.actionButtons {
-  margin: 0px 3px 6px 3px !important;
-}
+/* Don't need this and causes more problems, so let's just blank it out. */

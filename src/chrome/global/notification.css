@@ -1,3 +1,7 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
 notification {
@@ -12,7 +16,7 @@ notification[type="info"] {
 }
 
 notification[type="critical"] {
-  background-color: red;
+  background-image: linear-gradient(rgb(212,0,0), rgb(152,0,0));
   color: white;
 }
 
@@ -40,17 +44,17 @@ notification[type="critical"] {
 .messageCloseButton {
   list-style-image: url("chrome://global/skin/icons/close.png");
   -moz-appearance: none;
-  -moz-image-region: rect(0, 64px, 16px, 48px);
+  -moz-image-region: rect(0, 62px, 14px, 48px);
   padding: 4px 2px;
   border: none !important;
 }
 
 .messageCloseButton:hover {
-  -moz-image-region: rect(0, 32px, 16px, 16px);
+  -moz-image-region: rect(0, 30px, 14px, 16px);
 }
 
 .messageCloseButton:hover:active {
-  -moz-image-region: rect(0, 48px, 16px, 32px);
+  -moz-image-region: rect(0, 46px, 14px, 32px);
 }
 
 .messageCloseButton > .toolbarbutton-icon {
@@ -60,7 +64,7 @@ notification[type="critical"] {
 /* Popup notification */
 
 .popup-notification-description {
-  max-width: 248px;
+  max-width: 24em;
 }
 
 .popup-notification-button-container {
@@ -73,6 +77,7 @@ XXX: apply styles to all themes until bug 509642 is fixed
 */
   .popup-notification-menubutton {
     -moz-appearance: none;
+    border-radius: 3px;
     padding: 0;
     background-color: rgba(250,250,250,.3);
   }
@@ -86,18 +91,17 @@ XXX: apply styles to all themes until bug 509642 is fixed
   .popup-notification-menubutton > .button-menubutton-dropmarker {
     -moz-appearance: none;
     margin: 0;
-    border: 1px solid rgba(0,0,0,.35) !important;
+    border: 1px solid rgba(0,0,0,.35);
     box-shadow: 0 1px 0 rgba(255,255,255,.5) inset,
                 0 2px 2px rgba(255,255,255,.35) inset,
                 0 -1px 2px rgba(0,0,0,.1) inset,
-                0 1px 0 rgba(255,255,255,.35) !important;
+                0 1px 0 rgba(255,255,255,.35);
   }
 
   .popup-notification-menubutton > .button-menubutton-button {
     background-color: transparent;
     padding: 1px;
     -moz-border-end: none;
-	border-radius: 3px 0 0 3px;
   }
 
   .popup-notification-menubutton:not([type="menu-button"]),
@@ -107,11 +111,9 @@ XXX: apply styles to all themes until bug 509642 is fixed
   }
 
   .popup-notification-menubutton > .button-menubutton-dropmarker {
-    padding: 10px 5px 9px;
+    padding: 9px 5px 8px;
     width: auto;
     height: auto;
-	border-left: none !important;
-	border-radius: 0 3px 3px 0;
     list-style-image: url("chrome://global/skin/arrow/arrow-dn-sharp.gif");
   }
 
@@ -120,25 +122,25 @@ XXX: apply styles to all themes until bug 509642 is fixed
     outline-offset: -3px;
   }
 
+
   .popup-notification-menubutton:not([type="menu-button"]):hover,
   .popup-notification-menubutton > .button-menubutton-button:hover,
   .popup-notification-menubutton > .button-menubutton-dropmarker:hover {
-    background-color: rgba(250,250,250,.6) !important;
+    background-color: rgba(250,250,250,.6);
   }
 
   .popup-notification-menubutton:not([type="menu-button"]):hover:active,
   .popup-notification-menubutton > .button-menubutton-button:hover:active,
   .popup-notification-menubutton > .button-menubutton-dropmarker:hover:active,
   .popup-notification-menubutton[open="true"] > .button-menubutton-dropmarker {
-    background-color: rgba(0,0,0,.05) !important;
-    box-shadow: 0 0 2px rgba(0,0,0,.65) inset !important;
+    background-color: rgba(0,0,0,.05);
+    box-shadow: 0 0 2px rgba(0,0,0,.65) inset;
   }
-  
 /*}*/
 
 .popup-notification-closebutton {
-  -moz-margin-end: 0px;
-  margin-top: 0px;
+  -moz-margin-end: -14px;
+  margin-top: -10px;
 }
 
 .popup-notification-closeitem {

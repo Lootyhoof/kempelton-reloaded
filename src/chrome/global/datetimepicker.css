@@ -1,7 +1,11 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
 /* ===== datetimepicker.css =============================================
   == Styles used by the XUL datepicker and timepicker elements.
   ======================================================================= */
-
+  
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 @namespace html url("http://www.w3.org/1999/xhtml");
 
@@ -34,7 +38,7 @@ datepicker, timepicker {
 }
 
 html|*.datetimepicker-input {
-  text-align: right;
+  text-align: end;
 }
 
 .datetimepicker-separator {
@@ -56,7 +60,7 @@ timepicker[disabled="true"] {
   cursor: default;
   background-color: -moz-Dialog;
   color: GrayText;
-}
+} 
 
 .datepicker-mainbox {
   margin: 2px 4px;

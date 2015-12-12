@@ -1,3 +1,7 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
 /* ===== button.css =====================================================
   == Styles used by the XUL button element.
   ======================================================================= */
@@ -42,7 +46,7 @@ button:focus {
   -moz-border-left-colors: ThreeDDarkShadow ThreeDHighlight transparent;
 }
 
-button:focus > .button-box {
+button:-moz-focusring > .button-box {
   border: 1px dotted ThreeDDarkShadow;
 }
 
@@ -100,8 +104,6 @@ button[disabled="true"] > .button-box {
 /* ::::: menu/menu-button buttons ::::: */
 
 button[type="menu-button"] {
-  -moz-box-align: center;
-  -moz-box-pack: center;
   margin: 0;
   border: none;
 }
@@ -110,8 +112,8 @@ button[type="menu-button"] {
 .button-menubutton-dropmarker {
   -moz-appearance: none !important;
   margin: 1px;
-  background-color: transparent !important;
-  border: none !important;
+  background-color: transparent;
+  border: none;
   width: 11px;
   height: 11px;
 }

@@ -1,3 +1,7 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
 /* ===== checkbox.css ===================================================
   == Styles used by the XUL checkbox element.
   ======================================================================= */
@@ -32,7 +36,7 @@ checkbox {
 
 /* ..... focused state ..... */
 
-checkbox:focus > .checkbox-label-box {
+checkbox:-moz-focusring > .checkbox-label-box {
   border: 1px dotted ThreeDDarkShadow;
 }
 
@@ -65,7 +69,7 @@ checkbox[disabled="true"]:-moz-system-metric(windows-classic) {
   min-height: 13px;
   background: -moz-Field no-repeat 50% 50%;
 }
-
+  
 checkbox:hover:active > .checkbox-check {
   background-color: -moz-Dialog;
 }
