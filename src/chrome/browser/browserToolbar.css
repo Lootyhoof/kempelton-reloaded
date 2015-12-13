@@ -820,7 +820,7 @@ toolbar[mode="text"] #status4evar-download-button {
 .tabbrowser-arrowscrollbox > .scrollbutton-up,
 .tabbrowser-arrowscrollbox > .scrollbutton-down,
 .tabs-newtab-button,
-.tabs-alltabs-button {
+#TabsToolbar .tabs-alltabs-button {
   -moz-appearance: none;
   margin: 3px 0px 4px;
   border: 2px solid;
