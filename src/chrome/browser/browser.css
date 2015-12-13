@@ -2113,6 +2113,16 @@ toolbarbutton.bookmark-item[dragover="true"][open="true"] {
 #allTabs-tab-close-button {
   /*XXX without this, the closebutton can cause the panel to expand horizontally */
   margin-right: -16px;
+  list-style-image: url("chrome://global/skin/icons/close.png");
+  -moz-image-region: rect(0px, 14px, 14px, 0px);
+}
+
+#allTabs-tab-close-button:hover {
+  -moz-image-region: rect(0px, 32px, 16px, 16px);
+}
+
+#allTabs-tab-close-button:hover:active {
+  -moz-image-region: rect(0px, 48px, 16px, 32px);
 }
 
 #allTabs-tab-close-button > .toolbarbutton-icon {
