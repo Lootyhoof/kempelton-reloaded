@@ -1,5 +1,16 @@
 # Changelog
 
+### 4.7.0
+- (PM26) add history menu button
+- show more icons in history/bookmarks menus
+- stability improvements
+- correctly style alert box
+- fix media controls
+- improve alltabs button's appearance when not in the tab bar
+- add unified back/forward menu icons
+- improve presentation of alltabs' close buttons
+- make tab bar's alltabs button more FF3-like
+
 ### 4.6.2
 - (Win10) shade window background on Pale Moon 26 builds later than b2
 
