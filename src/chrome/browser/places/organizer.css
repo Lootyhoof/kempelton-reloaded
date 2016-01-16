@@ -1,8 +1,14 @@
 
 /* Toolbar */
 #placesToolbar {
-  padding: 3px;  /* b/f buttons have a 1px image padding */
-  -moz-padding-end: 4px;
+  -moz-appearance: none;	
+  min-height: 36px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  -moz-padding-start: 6px;
+  -moz-padding-end: 8px;
+  background: url("chrome://global/skin/icons/mediabar.png") repeat-x;
+  color: white;
 }
 
 #placesToolbox {
@@ -70,7 +76,7 @@
   padding-top: 2px;
   padding-bottom: 2px;
   -moz-appearance: toolbarbutton;
-  color: -moz-DialogText;
+  color: white;
   border: 1px solid transparent;
 }
 
@@ -158,7 +164,6 @@
   border: 0px;
 }
 
-
 #infoBoxExpanderLabel {
   -moz-padding-start: 2px;
 }
@@ -197,29 +202,6 @@
 
 #placesView {
   border-top: none;
-}
-
-#placesToolbar {
-  -moz-appearance: none;
-  background: url("chrome://global/skin/icons/mediabar.png") repeat-x;
-  color: white;
-}
-
-#placesToolbar {
-  min-height: 36px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  -moz-padding-start: 6px;
-  -moz-padding-end: 8px;
-}
-
-#placesMenu > menu {
-  color: white;
-}
-
-#placesMenu > menu > .menubar-text {
-  -moz-padding-end: 15px;
-  background-image: url(chrome://browser/skin/places/dropDown.png);
 }
 
 #placesView > splitter {
