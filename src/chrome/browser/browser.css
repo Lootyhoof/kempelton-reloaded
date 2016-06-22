@@ -27,6 +27,36 @@
   color: inherit;
 }
 
+#navigator-toolbox {
+  -moz-appearance: none;
+  border-top: none;
+}
+
+#navigator-toolbox > toolbar:not(:-moz-lwtheme) {
+  background-color: -moz-Dialog;
+}
+
+@media not all and (-moz-windows-compositor) {
+  #main-window[tabsintitlebar]:not([inFullscreen]) #toolbar-menubar[inactive] ~ #TabsToolbar:not(:-moz-lwtheme) {
+    background: -moz-linear-gradient(bottom, rgba(10%,10%,10%,.4) 1px, transparent 1px),
+                -moz-linear-gradient(rgba(50%,50%,50%,0), ActiveCaption 85%);
+    color: CaptionText;
+  }
+  #main-window[tabsintitlebar]:not([inFullscreen]) #toolbar-menubar[inactive] ~ #TabsToolbar:not(:-moz-lwtheme):-moz-window-inactive {
+    background: -moz-linear-gradient(bottom, rgba(10%,10%,10%,.4) 1px, transparent 1px),
+                -moz-linear-gradient(rgba(50%,50%,50%,0), InactiveCaption 85%);
+    color: InactiveCaptionText;
+  }
+  
+  #main-window[tabsintitlebar] #titlebar:-moz-lwtheme {
+    visibility: hidden;
+  }
+  #main-window[tabsintitlebar] #titlebar-content:-moz-lwtheme {
+    -moz-binding: url("chrome://global/content/bindings/general.xml#windowdragbox");
+    visibility: visible;
+  }
+}
+
 /* JEZ: Need to override our tabbar top padding when the tabs should appear right at the top of the screen - zero padding. */
 #main-window[inFullscreen] #TabsToolbar,
 #main-window[tabsintitlebar]:not([inFullscreen]) #toolbar-menubar[inactive] ~ #TabsToolbar {
@@ -60,10 +90,6 @@
 
 #personal-bookmarks {
   min-height: 24px;
-}
-
-#navigator-toolbox:-moz-system-metric(windows-default-theme):not(:-moz-lwtheme) {
-  padding-bottom: 1px; /* uxtheme border drawing fix/hack */
 }
 
 #navigator-toolbox[inFullscreen="true"],
@@ -894,6 +920,10 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
   margin-top: -2px;
 }
 
+#main-window[tabsintitlebar] #TabsToolbar:not(:-moz-lwtheme) {
+  background: transparent !important;
+}
+
 .tabbrowser-tabs {
   margin-bottom: -5px;
   padding-bottom: 4px;
@@ -903,6 +933,11 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
 
 .tabbrowser-tabs[tabsontop=true]:-moz-lwtheme {
   margin-bottom: -4px;
+}
+
+#main-window[tabsintitlebar] .tabbrowser-tab:not(:-moz-lwtheme),
+#main-window[tabsintitlebar] .tabs-newtab-button:not(:-moz-lwtheme) {
+  background-color: -moz-dialog;
 }
 
 .tabbrowser-tabs:-moz-lwtheme {
@@ -3338,6 +3373,34 @@ chatbox {
 
     #appmenu-button {
       margin-bottom: -1px; 
+    }
+  }
+    
+  @media (-moz-os-version: windows-vista),
+         (-moz-os-version: windows-win7) {
+    /* Make the menu toolbar and tabs toolbar transparent in Aero+glass IIF tabs are on top and menu toolbar is autohidden */
+    #main-window[sizemode="maximized"] #navigator-toolbox[tabsontop="true"],
+    #main-window[sizemode="maximized"] #navigator-toolbox[tabsontop="true"] > #toolbar-menubar[autohide="true"],
+    #main-window[sizemode="maximized"] #navigator-toolbox[tabsontop="true"] > #toolbar-menubar[autohide="true"] ~ #TabsToolbar {
+      background: transparent;
+      /* Give text an aura to make it more readable on glass */
+      text-shadow: 0 0 .5em white, 0 0 .5em white, 0 0 .5em white, 0 0 .5em white, 0 1px 0 rgba(255,255,255,.4);
+    }
+    #main-window[sizemode="maximized"] #navigator-toolbox[tabsontop="true"] > #toolbar-menubar[autohide="true"] #main-menubar:not(:-moz-lwtheme):not(:-moz-window-inactive) {
+      background-color: rgba(255,255,255,.5);
+      border-radius: 4px;
+    }
+  }
+  
+  @media (-moz-os-version: windows-win8),
+         (-moz-os-version: windows-win10) {
+    /* Make the menu toolbar and tabs toolbar transparent in Aero+glass IIF tabs are on top and menu toolbar is autohidden */
+    #main-window[sizemode="maximized"] #navigator-toolbox[tabsontop="true"],
+    #main-window[sizemode="maximized"] #navigator-toolbox[tabsontop="true"] > #toolbar-menubar[autohide="true"],
+    #main-window[sizemode="maximized"] #navigator-toolbox[tabsontop="true"] > #toolbar-menubar[autohide="true"] ~ #TabsToolbar {
+      background: transparent;
+      /* Use a light text color rather than fog on Win8/10 */
+      color: white;
     }
   }
     
