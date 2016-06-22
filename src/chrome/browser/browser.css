@@ -1375,7 +1375,7 @@ toolbar:not(#TabsToolbar) #alltabs-button:hover:active {
   border: none;
 }
 
-.tabs-closebutton:-moz-lwtheme-brighttext {
+toolbar[brighttext] .tabs-closebutton {
   list-style-image: url("chrome://global/skin/icons/close-bright.png");
 }
 
