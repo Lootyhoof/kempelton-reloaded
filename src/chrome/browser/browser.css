@@ -14,13 +14,6 @@
   -moz-box-flex: 1; /* make menu items expand to fill toolbar height */
 }
 
-/* Theme titlebar when maximized */
-#main-window[sizemode="maximized"] #titlebar:-moz-lwtheme {
- -moz-appearance: none;   
- background: transparent;
- padding-top: 3px;
-}
-
 .tabbrowser-tabs:-moz-lwtheme,
 .tabbrowser-tab:-moz-lwtheme {
   text-shadow: inherit;
