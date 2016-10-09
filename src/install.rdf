@@ -9,7 +9,7 @@
 
   <Description about="urn:mozilla:install-manifest">
     <em:id>{03c2ba51-52c3-4cb1-9309-229eb4bc8948}</em:id>
-    <em:version>4.8.0</em:version>
+    <em:version>4.9.0</em:version>
     <em:name>Kempelton Reloaded</em:name>
     <em:description>Remake of the beautiful Kempelton theme by Arvid Axelsson for Pale Moon.</em:description>
     <em:creator>Lootyhoof</em:creator>
@@ -17,6 +17,7 @@
     <em:contributor>Graciliano (Win10 caption buttons)</em:contributor>
     <em:type>4</em:type>
     <em:internalName>kempelton-reloaded</em:internalName>
+    <em:skinnable>true</em:skinnable>
 
     <em:targetApplication>
       <Description>
