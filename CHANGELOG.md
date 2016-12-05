@@ -1,5 +1,10 @@
 # Changelog
 
+### 4.10.0
+- support PM27's devtools
+- drop PM26 support
+- use correct margins for all downloads view
+
 ### 4.9.0
 - PM27: add statusbar styling
 - PM27: add styling for downloads panel components
