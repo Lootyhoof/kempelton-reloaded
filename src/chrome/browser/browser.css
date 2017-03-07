@@ -1107,10 +1107,6 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
   list-style-image: url("chrome://browser/skin/tabbrowser/loading.png");
 }
 
-tabpanels {
-  -moz-appearance: none;
-}
-
 #tabbrowser-tabs[positionpinnedtabs] > .tabbrowser-tab[pinned] {
   min-height: 16px; /* corresponds to the max. height of non-textual tab contents, i.e. the favicon */
 }
