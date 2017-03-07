@@ -1,5 +1,13 @@
 # Changelog
 
+### 4.10.1
+- sync devtools styling with default
+- allow extensions to style their own toolbarbutton-badge
+- remove redundant social API components
+- provide new icons for updater
+- sync updater styling with default
+- improve tabpanels appearance
+
 ### 4.10.0
 - support PM27's devtools
 - drop PM26 support
