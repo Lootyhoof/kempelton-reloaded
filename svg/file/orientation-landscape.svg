@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" version="1">
+  <defs>
+    <linearGradient id="c">
+      <stop offset="0" stop-color="#969696"/>
+      <stop offset="1" stop-color="#b4b4b4"/>
+    </linearGradient>
+    <linearGradient id="a">
+      <stop offset="0"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="b">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#cdcdcd"/>
+    </linearGradient>
+    <linearGradient xlink:href="#a" id="f" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 -1.75 1 0 -6 40.75)" x1="19.857" y1="12" x2="19.857" y2="16"/>
+    <linearGradient xlink:href="#b" id="e" gradientUnits="userSpaceOnUse" gradientTransform="rotate(-90 8.5 11.5)" x1="12" y1="14.5" x2="0" y2="19"/>
+    <linearGradient xlink:href="#c" id="d" gradientUnits="userSpaceOnUse" gradientTransform="rotate(-90 9.5 22.5)" x1="11" y1="14" x2="29" y2="14"/>
+  </defs>
+  <path d="M22.5 20.5v-17H5.75L1.5 7.75V20.5h21z" fill="none" stroke="url(#d)"/>
+  <path d="M22 20V4H6L2 8v12h20z" fill="url(#e)" fill-rule="evenodd"/>
+  <path d="M2 8l5.5 1.5L6 4 2 8z" opacity=".25" fill-rule="evenodd"/>
+  <path d="M2 8h4V4L2 8z" fill="#fff" fill-rule="evenodd"/>
+  <path d="M6 8h4V4H6v4z" opacity=".3" fill="url(#f)" fill-rule="evenodd"/>
+  <text style="line-height:125%;-inkscape-font-specification:Constantia Italic" x="8.011" y="17.847" font-size="16" font-style="italic" font-weight="400" font-family="Bitstream Vera Sans">
+    <tspan x="8.011" y="17.847" style="text-align:start;line-height:125%;-inkscape-font-specification:Constantia Italic" font-size="14" font-family="Constantia">A</tspan>
+  </text>
+</svg>

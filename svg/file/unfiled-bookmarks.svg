@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" version="1">
+  <defs>
+    <linearGradient id="d">
+      <stop offset="0" stop-color="#ffeb2b"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="c">
+      <stop offset="0" stop-color="#6e6e6e"/>
+      <stop offset="1" stop-color="#464646"/>
+    </linearGradient>
+    <linearGradient id="b">
+      <stop offset="0" stop-color="#676767"/>
+      <stop offset="1" stop-color="#dcdcdc"/>
+    </linearGradient>
+    <linearGradient id="a">
+      <stop offset="0" stop-color="#ebebeb"/>
+      <stop offset="1" stop-color="#3a3a3a"/>
+    </linearGradient>
+    <radialGradient xlink:href="#a" id="h" cx="8.909" cy="13.001" fx="8.909" fy="13.001" r="11" gradientTransform="matrix(1.08025 0 0 .37517 -4.624 7.622)" gradientUnits="userSpaceOnUse"/>
+    <linearGradient xlink:href="#b" id="e" x1="10" y1="13.5" x2="10" y2="19.5" gradientUnits="userSpaceOnUse" gradientTransform="translate(-.667) scale(.66667)"/>
+    <radialGradient xlink:href="#a" id="f" cx="10.855" cy="-.391" fx="10.855" fy="-.391" r="7" gradientTransform="matrix(1.06731 0 0 .55746 -4.586 4.718)" gradientUnits="userSpaceOnUse"/>
+    <linearGradient xlink:href="#c" id="g" x1="5.5" y1="14.25" x2="1" y2="14.25" gradientUnits="userSpaceOnUse" gradientTransform="translate(-.667) scale(.66667)"/>
+    <linearGradient xlink:href="#d" id="i" gradientUnits="userSpaceOnUse" x1="8.054" y1="12.972" x2="5.076" y2="5.825"/>
+  </defs>
+  <path transform="matrix(.8397 0 0 .83955 1.282 -.49)" d="M8 1.5l1.934 4.338 4.723.499-3.528 3.18.985 4.646L8 11.79l-4.114 2.373.985-4.646-3.528-3.18 4.723-.499L8 1.5z" style="marker:none" fill="none" stroke="#c89c00" stroke-width="1.787" stroke-linecap="square" stroke-linejoin="round" overflow="visible"/>
+  <path d="M0 15.5L3 9h10l3 6.5H0z" fill="url(#e)" fill-rule="evenodd"/>
+  <path d="M3 7v2h10V7h-2.5l-1 1h-3l-1-1H3z" fill="url(#f)" fill-rule="evenodd"/>
+  <path d="M13 7l3 5v4l-3-7V7z" fill="#787878" fill-rule="evenodd"/>
+  <path d="M3 7l-3 5v4l3-7V7z" fill="url(#g)" fill-rule="evenodd"/>
+  <path d="M0 12v4h16v-4h-4.5l-1 1h-5l-1-1H0z" fill-opacity=".588" fill-rule="evenodd"/>
+  <path d="M0 13v3h16v-3h-4.5l-1 1h-5l-1-1H0z" fill="url(#h)" fill-rule="evenodd"/>
+  <path style="marker:none" d="M8 1.5l1.934 4.338 4.723.499-3.528 3.18.985 4.646L8 11.79l-4.114 2.373.985-4.646-3.528-3.18 4.723-.499L8 1.5z" transform="matrix(.8397 0 0 .83955 1.282 -.49)" fill="url(#i)" fill-rule="evenodd" overflow="visible"/>
+</svg>

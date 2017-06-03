@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" version="1">
+  <defs>
+    <linearGradient id="c">
+      <stop offset="0" stop-color="#dac769"/>
+      <stop offset="1" stop-color="#f2edb2"/>
+    </linearGradient>
+    <linearGradient id="d">
+      <stop offset="0" stop-color="#b79f2f"/>
+      <stop offset="1" stop-color="#e0d988"/>
+    </linearGradient>
+    <linearGradient id="b">
+      <stop offset="0" stop-color="#fff" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#fff" stop-opacity=".4"/>
+    </linearGradient>
+    <linearGradient id="a">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".249" stop-color="#ffffb9"/>
+      <stop offset="1" stop-color="#d0bb48"/>
+    </linearGradient>
+    <linearGradient xlink:href="#a" id="g" x1="2" y1="4" x2="4.5" y2="15" gradientUnits="userSpaceOnUse" gradientTransform="translate(3 -1)"/>
+    <linearGradient xlink:href="#b" id="h" x1="8" y1="3.5" x2="8" y2="14.5" gradientUnits="userSpaceOnUse" gradientTransform="translate(2)"/>
+    <linearGradient xlink:href="#c" id="e" gradientUnits="userSpaceOnUse" gradientTransform="translate(3 -1)" x1="10" y1="13" x2="9" y2="5"/>
+    <linearGradient xlink:href="#d" id="f" gradientUnits="userSpaceOnUse" gradientTransform="translate(3 -1)" x1="6.5" y1="16" x2="6.5" y2="2"/>
+  </defs>
+  <path d="M4 14l4 1c.485.121 1-.5 1-1.094L4 14z" fill="none" stroke="#b79f2f" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M3.5 2.531V13.5l1 1h10c.5 0 1-.5 1-1v-3h-1v-8c0-.5-.5-1-1-1h-9c-.5 0-1 .531-1 1.031z" fill="url(#e)" fill-rule="evenodd" stroke="url(#f)" stroke-linejoin="round"/>
+  <path d="M4 2v12h6.5v-2.5l1-1V2.75L4 2z" opacity=".5" fill="#967400" fill-rule="evenodd"/>
+  <path d="M4 2v12l4 1c.485.121 1-.5 1-1.094V11.5l1-.969V4c0-.5-.514-.903-1-1L4 2z" fill="url(#g)" fill-rule="evenodd"/>
+  <path d="M8.5 14v-2.75l1-.969V4" fill="none" stroke="url(#h)" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M8 5H5v4H3V5H0l4-5 4 5z" fill-rule="evenodd"/>
+</svg>

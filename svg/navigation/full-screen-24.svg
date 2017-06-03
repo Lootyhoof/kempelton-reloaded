@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" version="1">
+  <defs>
+    <linearGradient id="e">
+      <stop offset="0"/>
+      <stop offset="1" stop-color="#cacaca"/>
+    </linearGradient>
+    <linearGradient id="d">
+      <stop offset="0" stop-color="#007800"/>
+      <stop offset="1" stop-color="#6be55b"/>
+    </linearGradient>
+    <linearGradient id="c">
+      <stop offset="0" stop-color="#00b400"/>
+      <stop offset="1" stop-color="#d6ff9a"/>
+    </linearGradient>
+    <linearGradient id="b">
+      <stop offset="0"/>
+      <stop offset="1" stop-color="#505050"/>
+    </linearGradient>
+    <linearGradient id="a">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".896" stop-color="#fff" stop-opacity=".471"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="f">
+      <stop offset="0" stop-color="#58a1d4"/>
+      <stop offset="1" stop-color="#25578f"/>
+    </linearGradient>
+    <linearGradient xlink:href="#a" id="i" x1="6.498" y1="8.793" x2="8.583" y2="18.05" gradientUnits="userSpaceOnUse" gradientTransform="matrix(.88473 .05525 -.11508 .70651 .763 -2.572)"/>
+    <linearGradient xlink:href="#b" id="g" x1="19.732" y1="12.103" x2="19.126" y2="7.047" gradientUnits="userSpaceOnUse" gradientTransform="matrix(.82563 -.10764 0 .90287 -.291 1.696)"/>
+    <linearGradient xlink:href="#e" id="j" x1="12" y1="19" x2="12" y2="22" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 -1)"/>
+    <linearGradient xlink:href="#f" id="h" x1="10" y1="3" x2="14" y2="17" gradientUnits="userSpaceOnUse"/>
+  </defs>
+  <g fill-rule="evenodd">
+    <path d="M0 2h24v16H0V2z" style="marker:none" fill="url(#g)" overflow="visible"/>
+    <path style="marker:none" d="M1 3h22v14H1V3z" fill="url(#h)" overflow="visible"/>
+    <path style="marker:none" d="M2 4h21v8.5H2V4z" opacity=".6" fill="url(#i)" overflow="visible"/>
+    <path style="marker:none" fill="#646464" overflow="visible" d="M6 21h12v2H6z"/>
+    <path style="marker:none" fill="url(#j)" overflow="visible" d="M10 18h4v3h-4z"/>
+  </g>
+</svg>

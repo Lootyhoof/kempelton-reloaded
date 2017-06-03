@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16">
+  <defs>
+    <linearGradient id="a">
+      <stop offset="0" stop-color="#e0a788"/>
+      <stop offset="1" stop-color="#c75633"/>
+    </linearGradient>
+    <linearGradient xlink:href="#a" id="b" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.07143 0 0 1.08333 -.571 -.083)" x1="7.075" y1="1.07" x2="7.555" y2="7"/>
+  </defs>
+  <rect style="marker:none" width="16" height="16" rx="2.5" ry="2.5" color="#000" fill="#a01e00" fill-rule="evenodd" overflow="visible"/>
+  <path d="M2.5 1h11c1.108 0 2 .892 2 2v1.5c0 1-9.5 3-15 3V3c0-1.108.892-2 2-2z" fill="url(#b)"/>
+  <path style="marker:none" d="M7 12a2.5 2.5 0 0 1-5 0 2.5 2.5 0 0 1 5 0z" opacity=".7" color="#000" fill="#fff" fill-rule="evenodd" overflow="visible"/>
+  <path d="M6.5 2.5c-1.748 0-3.35.622-4.625 1.625A8.026 8.026 0 0 1 5 3.5c4.416 0 8 3.584 8 8 0 1.104-.22 2.168-.625 3.125C13.378 13.349 14 11.748 14 10c0-4.14-3.36-7.5-7.5-7.5z" opacity=".7" fill="#fff"/>
+  <path d="M5.75 6c-1.383 0-2.6.618-3.469 1.563A5.2 5.2 0 0 1 4 7.25a5.252 5.252 0 0 1 5.25 5.25 5.2 5.2 0 0 1-.313 1.719c.945-.869 1.563-2.086 1.563-3.469A4.752 4.752 0 0 0 5.75 6z" opacity=".7" fill="#fff"/>
+</svg>

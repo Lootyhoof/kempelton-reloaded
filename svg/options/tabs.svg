@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" version="1">
+  <defs>
+    <linearGradient id="d">
+      <stop offset="0" stop-color="#e6f2fb"/>
+      <stop offset="1" stop-color="#a4c3d8"/>
+    </linearGradient>
+    <linearGradient id="c">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#e1e1e1"/>
+    </linearGradient>
+    <linearGradient id="a">
+      <stop offset="0" stop-color="#cbe2ed"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="b">
+      <stop offset="0" stop-color="#b1cce3"/>
+      <stop offset="1" stop-color="#cfe8f7"/>
+    </linearGradient>
+    <linearGradient xlink:href="#a" id="g" x1="13" y1="17" x2="13" y2="9" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 2)"/>
+    <linearGradient xlink:href="#b" id="h" x1="14.5" y1="11" x2="14.5" y2="6" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 2)"/>
+    <linearGradient xlink:href="#c" id="i" x1="10" y1="18" x2="10.5" y2="22" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 1)"/>
+    <linearGradient xlink:href="#d" id="e" x1="7" y1="5" x2="7" y2="10" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 1)"/>
+    <filter id="f" x="-.135" width="1.27" y="-.27" height="1.54">
+      <feGaussianBlur stdDeviation=".787"/>
+    </filter>
+  </defs>
+  <rect style="marker:none" width="15.5" height="6.5" x="3" y="5" rx="1" ry="1" fill="none" stroke="#8dafca" stroke-width="2" stroke-linecap="square" overflow="visible" enable-background="accumulate"/>
+  <path d="M17 4c-.554 0-1 .446-1 1v6H2v17h28V5c0-.554-.446-1-1-1H17z" fill="none" stroke="#9cb9cc" stroke-width="2"/>
+  <rect ry="1" rx="1" y="5" x="3" height="7" width="16" style="marker:none" fill="url(#e)" fill-rule="evenodd" overflow="visible" enable-background="accumulate"/>
+  <path style="marker:none" d="M4 11h12V6.5" opacity=".3" fill="none" stroke="#004678" stroke-width="2" stroke-linecap="square" overflow="visible" filter="url(#f)" enable-background="accumulate"/>
+  <path d="M17 4c-.554 0-1 .446-1 1v6H2v17h28V5c0-.554-.446-1-1-1H17z" fill="url(#g)" fill-rule="evenodd"/>
+  <path d="M17 8h12v19H3V12l14 .047V8z" fill="url(#h)"/>
+  <path fill="url(#i)" d="M4 13h24v13H4z"/>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" version="1">
+  <defs>
+    <linearGradient id="c">
+      <stop offset="0"/>
+      <stop offset="1" stop-color="#cacaca"/>
+    </linearGradient>
+    <linearGradient id="a">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".816" stop-color="#fff" stop-opacity=".502"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient xlink:href="#a" id="g" x1="6.13" y1="7.407" x2="7.041" y2="14.412" gradientUnits="userSpaceOnUse" gradientTransform="matrix(.53084 .05525 -.06905 .70651 1.258 -2.572)"/>
+    <linearGradient xlink:href="#b" id="e" x1="19.732" y1="12.103" x2="19.126" y2="7.047" gradientUnits="userSpaceOnUse" gradientTransform="matrix(.55042 -.074 0 .62072 -.194 1.791)"/>
+    <linearGradient xlink:href="#c" id="h" x1="12" y1="19" x2="12" y2="21" gradientUnits="userSpaceOnUse" gradientTransform="translate(-4 -6)"/>
+    <linearGradient id="d">
+      <stop offset="0" stop-color="#58a1d4"/>
+      <stop offset="1" stop-color="#25578f"/>
+    </linearGradient>
+    <linearGradient id="b">
+      <stop offset="0"/>
+      <stop offset="1" stop-color="#646464"/>
+    </linearGradient>
+    <linearGradient xlink:href="#d" id="f" x1="6" y1="3" x2="10" y2="12" gradientUnits="userSpaceOnUse"/>
+  </defs>
+  <g fill-rule="evenodd">
+    <path d="M0 2h16v11H0V2z" style="marker:none" fill="url(#e)" overflow="visible"/>
+    <path style="marker:none" d="M1 3h14v9H1V3z" fill="url(#f)" overflow="visible"/>
+    <path style="marker:none" d="M1 3h14v6H1V3z" opacity=".6" fill="url(#g)" overflow="visible"/>
+    <path style="marker:none" fill="#5a5a5a" overflow="visible" d="M3 15h10v1H3z"/>
+    <path style="marker:none" fill="url(#h)" overflow="visible" d="M6 13h4v2H6z"/>
+  </g>
+</svg>

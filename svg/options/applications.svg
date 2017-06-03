@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" version="1">
+  <defs>
+    <linearGradient id="c">
+      <stop offset="0" stop-color="#82acbe"/>
+      <stop offset="1" stop-color="#deedf5"/>
+    </linearGradient>
+    <linearGradient id="b">
+      <stop offset="0" stop-color="#aed0e5"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="a">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#dcdcdc"/>
+    </linearGradient>
+    <linearGradient xlink:href="#a" id="i" x1="13" y1="12" x2="13.5" y2="15" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 .99999 7 9)"/>
+    <linearGradient xlink:href="#b" id="h" x1="25" y1="21" x2="8" y2="15" gradientUnits="userSpaceOnUse" spreadMethod="reflect" gradientTransform="translate(7 8)"/>
+    <linearGradient xlink:href="#b" id="d" gradientUnits="userSpaceOnUse" spreadMethod="reflect" x1="25.5" y1="22.5" x2="8" y2="15" gradientTransform="translate(-2)"/>
+    <linearGradient xlink:href="#a" id="e" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 .99999 -2 1)" x1="12" y1="11" x2="12.5" y2="14"/>
+    <mask maskUnits="userSpaceOnUse" id="f">
+      <path style="marker:none" d="M3 2.5h20c.831 0 1.5.669 1.5 1.5v17.5h-23V4c0-.831.669-1.5 1.5-1.5z" fill="#fff" fill-rule="evenodd" stroke="#fff" overflow="visible" enable-background="accumulate"/>
+    </mask>
+    <filter id="g" x="-.087" width="1.175" y="-.107" height="1.213">
+      <feGaussianBlur stdDeviation=".8"/>
+    </filter>
+    <linearGradient xlink:href="#c" id="l" x1="16" y1="25" x2="14" y2="17" gradientUnits="userSpaceOnUse"/>
+  </defs>
+  <path d="M2 2.5h20c.831 0 1.5.669 1.5 1.5v17.5H.5V4c0-.831.669-1.5 1.5-1.5z" style="marker:none" fill="url(#d)" fill-rule="evenodd" stroke="#6488a0" overflow="visible" enable-background="accumulate"/>
+  <path opacity=".99" fill="url(#e)" stroke="#8fb0c5" d="M2.5 6.5h19v13h-19z"/>
+  <path d="M10 9.5h18c.831 0 1.5.669 1.5 1.5v17.5h-21V11c0-.831.669-1.5 1.5-1.5z" style="marker:none" mask="url(#f)" transform="translate(-1)" opacity=".25" fill-rule="evenodd" stroke="#000" overflow="visible" filter="url(#g)" enable-background="accumulate"/>
+  <path d="M18.5 3.5h3v1h-3v-1z" fill="none" stroke="#a7bdcb" stroke-linecap="square"/>
+  <path style="marker:none" d="M10 10.5h20c.831 0 1.5.669 1.5 1.5v17.5h-23V12c0-.831.669-1.5 1.5-1.5z" fill="url(#h)" fill-rule="evenodd" stroke="#6487a0" overflow="visible" enable-background="accumulate"/>
+  <path opacity=".99" fill="url(#i)" stroke="#8fb0c5" d="M10.5 14.5h19v13h-19z"/>
+  <path d="M26.5 11.5h3v1h-3v-1z" fill="none" stroke="#a7bdcb" stroke-linecap="square"/>
+  <path style="marker:none" d="M21.5 18.5h5" id="j" opacity=".226" fill="#174c89" fill-rule="evenodd" stroke="#000" stroke-linecap="square" stroke-linejoin="round" overflow="visible" enable-background="accumulate"/>
+  <use xlink:href="#j" id="k" transform="translate(0 2)" width="32" height="32"/>
+  <use xlink:href="#k" transform="translate(0 2)" width="32" height="32"/>
+  <path style="marker:none" fill="url(#l)" fill-rule="evenodd" overflow="visible" enable-background="accumulate" d="M13 17h6v8h-6z"/>
+</svg>

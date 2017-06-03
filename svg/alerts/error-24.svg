@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" version="1">
+  <defs>
+    <linearGradient id="e">
+      <stop offset="0" stop-color="#ffc3c3"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="c">
+      <stop offset="0" stop-color="#ca6262"/>
+      <stop offset="1" stop-color="#8c0000"/>
+    </linearGradient>
+    <linearGradient id="a">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".151" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="d">
+      <stop offset="0" stop-color="#ffb9b9"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="b">
+      <stop offset="0" stop-color="#ffe8e1"/>
+      <stop offset=".254" stop-color="#e35852"/>
+      <stop offset=".508" stop-color="#c80000"/>
+      <stop offset="1" stop-color="#780000" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient xlink:href="#a" id="h" cx="15.599" cy="21.068" fx="15.599" fy="21.068" r="15" gradientTransform="matrix(1.26734 0 0 .73333 -7.77 -3.467)" gradientUnits="userSpaceOnUse"/>
+    <linearGradient xlink:href="#b" id="g" x1="16" y1="29.538" x2="16" y2="17.231" gradientUnits="userSpaceOnUse"/>
+    <linearGradient xlink:href="#c" id="f" x1="16" x2="16" y2="16.012" gradientUnits="userSpaceOnUse"/>
+    <linearGradient xlink:href="#d" id="i" x1="12.5" y1="13.5" x2="12" y2="10" gradientUnits="userSpaceOnUse"/>
+    <linearGradient xlink:href="#e" id="j" gradientUnits="userSpaceOnUse" x1="12.5" y1="13" x2="12" y2="10.5"/>
+  </defs>
+  <path style="marker:none" d="M30.77 16a14.77 14.77 0 1 1-29.54 0 14.77 14.77 0 1 1 29.54 0z" transform="translate(-1 -1) scale(.8125)" fill="url(#f)" fill-rule="evenodd" overflow="visible"/>
+  <path transform="translate(-1 -1) scale(.8125)" d="M29.538 16a13.538 13.538 0 1 1-27.076 0 13.538 13.538 0 1 1 27.076 0z" style="marker:none" fill="url(#g)" fill-rule="evenodd" overflow="visible"/>
+  <path style="marker:none" d="M23 11.98c0 6.073-4.928-3.574-11-3.574S1 18.053 1 11.98s4.928-11 11-11 11 4.928 11 11z" fill="url(#h)" fill-rule="evenodd" overflow="visible"/>
+  <path d="M7.5 16.5l9-9m-9 0l9 9" fill="none" stroke="url(#i)" stroke-width="3"/>
+  <path d="M8.5 15.5l7-7m-7 0l7 7" fill="none" stroke="#000" stroke-width="5" stroke-linecap="square" opacity=".2"/>
+  <path d="M8.5 15.5l7-7m-7 0l7 7" fill="none" stroke="url(#j)" stroke-width="3" stroke-linecap="square"/>
+</svg>

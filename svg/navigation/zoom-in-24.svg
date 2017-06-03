@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" version="1">
+  <defs>
+    <linearGradient id="e">
+      <stop offset="0" stop-color="#e3e6e9"/>
+      <stop offset="1" stop-color="#84888d"/>
+    </linearGradient>
+    <linearGradient id="d">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="c">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="b">
+      <stop offset="0" stop-color="#141414"/>
+      <stop offset="1" stop-color="#b4b4b4"/>
+    </linearGradient>
+    <linearGradient id="a">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient xlink:href="#c" id="g" x1="8.244" y1="7.151" x2="13.019" y2="19.225" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.20635 0 0 1.20384 -2.557 -2.548)"/>
+    <linearGradient xlink:href="#d" id="h" gradientUnits="userSpaceOnUse" x1="13.702" y1="19.442" x2="12" y2="12.804"/>
+    <linearGradient xlink:href="#e" id="f" x1="11.73" y1="22.621" x2="10.833" y2="2" gradientUnits="userSpaceOnUse"/>
+  </defs>
+  <path style="marker:none" d="M23 12.5a10.5 10.5 0 1 1-21 0 10.5 10.5 0 1 1 21 0z" transform="matrix(1.09145 0 0 1.0892 -1.12 -1.115)" color="#000" fill="url(#f)" fill-rule="evenodd" overflow="visible"/>
+  <path style="marker:none" d="M22.4 9.855c1.466 5.456-4.905-.558-10.372.904-5.467 1.462-7.971 9.849-9.436 4.393-1.465-5.456 1.783-11.07 7.25-12.533C15.31 1.158 20.936 4.4 22.401 9.855z" color="#000" fill="url(#g)" fill-rule="evenodd" overflow="visible"/>
+  <path d="M5.758 12.621l13.509-.002" fill="none" stroke="#000" stroke-width="1.095"/>
+  <path transform="matrix(1.08571 0 0 1.08346 -.506 -.501)" d="M22 12a10 10 0 1 1-20 0 10 10 0 1 1 20 0z" style="marker:none" color="#000" fill="none" stroke="url(#h)" stroke-width="1.111" stroke-linecap="square" stroke-linejoin="round" overflow="visible"/>
+  <path d="M12.511 19.087V5.975" fill="none" stroke="#000" stroke-width="1.052"/>
+</svg>

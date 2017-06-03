@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" version="1">
+  <defs>
+    <linearGradient id="d">
+      <stop offset="0" stop-color="#58ae4c"/>
+      <stop offset="1" stop-color="#316f31"/>
+    </linearGradient>
+    <linearGradient id="b">
+      <stop offset="0" stop-color="#fffde1"/>
+      <stop offset=".5" stop-color="#a8d070"/>
+      <stop offset="1" stop-color="#3d8b3d"/>
+    </linearGradient>
+    <linearGradient id="c">
+      <stop offset="0" stop-color="#308430"/>
+      <stop offset="1" stop-color="#92cc74"/>
+    </linearGradient>
+    <linearGradient id="a">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".5" stop-color="#f3ffb9"/>
+      <stop offset="1" stop-color="#7dcc38"/>
+    </linearGradient>
+    <radialGradient xlink:href="#b" id="g" cx="6.598" cy=".505" fx="6.598" fy=".505" r="6.938" gradientTransform="matrix(1.9789 0 0 1.19552 -7.72 1.97)" gradientUnits="userSpaceOnUse" spreadMethod="pad"/>
+    <radialGradient xlink:href="#b" id="h" cx="10.9" cy="11.792" fx="10.9" fy="11.792" r="6.938" gradientTransform="matrix(2.3228 0 0 1.33668 -17.18 -3.943)" gradientUnits="userSpaceOnUse" spreadMethod="pad"/>
+    <linearGradient xlink:href="#d" id="e" x1="8" y1="2" x2="14" y2="10" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.09645 0 0 1.12225 -.145 -.231)"/>
+    <linearGradient xlink:href="#d" id="f" x1="10" y1="14" x2="16" y2="22" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.14888 0 0 1.12965 -3.35 -2.866)"/>
+  </defs>
+  <g fill-rule="evenodd">
+    <path d="M20.301 5.068c-3.777-3.866-9.809-3.98-13.737-.372L3.826 1.893 1.5 13.797l11.63-2.381-3.077-3.15a9.54 9.54 0 0 1 11.993-.768 10.151 10.151 0 0 0-1.745-2.43z" fill="url(#e)"/>
+    <path d="M2.8 18.911c3.957 3.892 10.278 4.007 14.394.375l2.869 2.82L22.5 10.126 10.314 12.52l3.224 3.17c-3.54 3.115-8.746 3.372-12.566.774.48.89 1.083 1.714 1.828 2.446z" fill="url(#f)"/>
+    <path d="M13.46 2.915c-2.199-.054-4.416.74-6.168 2.35l-.754.701-.754-.771-1.302-1.333-1.61 8.241 8.052-1.648-1.645-1.683-.822-.842.856-.772c2.467-2.258 5.692-3.022 8.772-2.56-1.425-.974-2.982-1.643-4.626-1.683z" fill="url(#g)"/>
+    <path d="M21.042 11.26l-8.4 1.658 1.723 1.695.861.847-.933.777c-2.588 2.276-5.96 3.047-9.191 2.577 3.49 2.302 8.096 2.2 11.309-.636l.826-.741.754.776 1.364 1.342 1.687-8.296z" fill="url(#h)"/>
+  </g>
+</svg>

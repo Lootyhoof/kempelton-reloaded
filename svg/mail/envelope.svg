@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" version="1">
+  <defs>
+    <linearGradient id="b">
+      <stop offset="0" stop-color="#959fab"/>
+      <stop offset="1" stop-color="#c2c8ce"/>
+    </linearGradient>
+    <linearGradient id="a">
+      <stop offset="0" stop-color="#b6c1c6"/>
+      <stop offset=".5" stop-color="#dce4e6"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient xlink:href="#a" id="c" x1="20" y1="16" x2="20" y2="6" gradientUnits="userSpaceOnUse"/>
+    <linearGradient xlink:href="#a" id="f" x1="11" y1="17" x2="11" y2="11.975" gradientUnits="userSpaceOnUse"/>
+    <linearGradient xlink:href="#a" id="h" gradientUnits="userSpaceOnUse" x1="13" y1="6" x2="13" y2="12" gradientTransform="matrix(1 0 0 -1 0 19)"/>
+    <linearGradient xlink:href="#b" id="d" x1="9.733" y1="17.037" x2="8.657" y2="2" gradientUnits="userSpaceOnUse"/>
+    <filter id="g" x="-.07" width="1.139" y="-.155" height="1.309">
+      <feGaussianBlur stdDeviation=".58"/>
+    </filter>
+    <filter id="e" x="-.07" width="1.139" y="-.155" height="1.309">
+      <feGaussianBlur stdDeviation=".58"/>
+    </filter>
+  </defs>
+  <path fill="url(#c)" stroke="url(#d)" d="M.5 2.5h22v14H.5z"/>
+  <path d="M1.5 16v-.5l10-8.5 10 8.5v.5l-10-4-10 4z" opacity=".25" fill="#002f64" fill-rule="evenodd" filter="url(#e)"/>
+  <path d="M1 16l10.5-8L22 16H1z" fill="url(#f)" fill-rule="evenodd"/>
+  <path d="M1.5 3v.5l10 8.5 10-8.5V3L12 7 1.5 3z" opacity=".6" fill="#002f64" fill-rule="evenodd" filter="url(#g)"/>
+  <path d="M1 3l10.5 8L22 3H1z" fill="url(#h)" fill-rule="evenodd"/>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" version="1">
+  <defs>
+    <linearGradient id="e">
+      <stop offset="0" stop-color="#103968"/>
+      <stop offset="1" stop-color="#3184bf"/>
+    </linearGradient>
+    <linearGradient id="d">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="c">
+      <stop offset="0" stop-color="#0066ae"/>
+      <stop offset="1" stop-color="#a7d6e9"/>
+    </linearGradient>
+    <linearGradient id="a">
+      <stop offset="0" stop-color="#4799d1"/>
+      <stop offset="1" stop-color="#cdf1ff"/>
+    </linearGradient>
+    <linearGradient id="b">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#98afd3"/>
+    </linearGradient>
+    <linearGradient xlink:href="#a" id="f" x1="11.645" y1="31" x2="7.29" y2="4.871" gradientUnits="userSpaceOnUse"/>
+    <linearGradient xlink:href="#b" id="h" x1="17.772" y1="13.046" x2="20.726" y2="28.997" gradientUnits="userSpaceOnUse"/>
+    <linearGradient xlink:href="#c" id="g" x1="22.774" y1="31.968" x2="11.161" y2="1" gradientUnits="userSpaceOnUse"/>
+    <linearGradient xlink:href="#d" id="j" x1="18" y1="18.5" x2="17.5" y2="13" gradientUnits="userSpaceOnUse"/>
+    <linearGradient xlink:href="#e" id="i" gradientUnits="userSpaceOnUse" x1="19.694" y1="23.5" x2="18.694" y2="14" gradientTransform="matrix(1.5 0 0 1.5 1.783 .176)"/>
+  </defs>
+  <path style="marker:none" d="M31.161 16A15.161 15.161 0 1 1 .84 16a15.161 15.161 0 1 1 30.322 0z" transform="matrix(1.55 0 0 1.55 -.8 -.8)" fill="url(#f)" fill-rule="evenodd" stroke="url(#g)" stroke-width=".645" overflow="visible"/>
+  <path style="marker:none" d="M31.754 16A15.754 15.754 0 1 1 .246 16a15.754 15.754 0 1 1 31.508 0z" transform="translate(3.687 3.687) scale(1.26953)" fill="url(#h)" fill-rule="evenodd" overflow="visible"/>
+  <text y="36.85" x="17.999" style="text-align:start;line-height:125%;-inkscape-font-specification:Georgia Bold" font-size="34" font-weight="700" fill="url(#i)" font-family="Georgia">
+    <tspan style="text-align:start;line-height:125%;-inkscape-font-specification:Georgia Bold" y="36.85" x="17.999">i</tspan>
+  </text>
+  <path d="M29 16a13 13 0 1 1-26 0 13 13 0 1 1 26 0z" transform="scale(1.5)" fill="none" stroke="url(#j)" stroke-width=".667" stroke-linecap="square"/>
+</svg>

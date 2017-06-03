@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" version="1">
+  <defs>
+    <linearGradient id="i">
+      <stop offset="0" stop-color="#bebebe"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="h">
+      <stop offset="0" stop-color="#a4a4a4"/>
+      <stop offset="1" stop-color="#ccc"/>
+    </linearGradient>
+    <linearGradient id="g">
+      <stop offset="0" stop-color="#727272"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="f">
+      <stop offset="0" stop-color="#d1d1d1"/>
+      <stop offset="1" stop-color="#acacac"/>
+    </linearGradient>
+    <linearGradient id="a">
+      <stop offset="0" stop-opacity=".6"/>
+      <stop offset="1" stop-opacity=".298"/>
+    </linearGradient>
+    <linearGradient id="d">
+      <stop offset="0" stop-color="#d2d2d2"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="c">
+      <stop offset="0" stop-color="#b4b4b4"/>
+      <stop offset="1" stop-color="#d2d2d2"/>
+    </linearGradient>
+    <linearGradient id="b">
+      <stop offset="0" stop-color="#7fbee9"/>
+      <stop offset="1" stop-color="#144364"/>
+    </linearGradient>
+    <linearGradient id="e">
+      <stop offset="0" stop-opacity=".6"/>
+      <stop offset="1" stop-opacity=".298"/>
+    </linearGradient>
+    <linearGradient xlink:href="#a" id="l" x1="6.5" y1="15.5" x2="9.5" y2="16" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 .88889 -1 1.778)"/>
+    <linearGradient xlink:href="#b" id="m" x1="6.667" y1="10" x2="6.667" y2="15" gradientUnits="userSpaceOnUse" gradientTransform="matrix(.5 0 0 .8 3 7)" spreadMethod="reflect"/>
+    <linearGradient xlink:href="#c" id="k" x1="2" y1="29" x2="2" y2="3" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.00034 0 0 .91672 -.14 1.332)"/>
+    <linearGradient xlink:href="#d" id="j" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.00034 0 0 .91672 -.14 1.332)" x1="14.96" y1="27.955" x2="12.836" y2="7.5" spreadMethod="reflect"/>
+    <linearGradient xlink:href="#e" id="n" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 .88889 6 1.778)" x1="6.5" y1="14" x2="9.5" y2="14.5"/>
+    <linearGradient xlink:href="#b" id="o" gradientUnits="userSpaceOnUse" gradientTransform="matrix(.5 0 0 .8 10 2)" spreadMethod="reflect" x1="6.667" y1="10" x2="6.667" y2="15"/>
+    <linearGradient xlink:href="#f" id="p" x1="28.379" y1="11.759" x2="28.379" y2="8.655" gradientUnits="userSpaceOnUse" gradientTransform="matrix(.80556 0 0 .80556 1.139 2.028)"/>
+    <linearGradient xlink:href="#g" id="q" x1="25.897" y1="6.793" x2="29" y2="16.103" gradientUnits="userSpaceOnUse" gradientTransform="matrix(.80556 0 0 .80556 1.139 2.028)"/>
+    <linearGradient xlink:href="#h" id="s" gradientUnits="userSpaceOnUse" gradientTransform="matrix(.80556 0 0 .80556 1.139 11.028)" x1="32.103" y1="7.414" x2="32.103" y2="16.103"/>
+    <linearGradient xlink:href="#i" id="r" gradientUnits="userSpaceOnUse" gradientTransform="matrix(.80556 0 0 .80556 1.139 11.028)" x1="26.517" y1="14.862" x2="25.897" y2="9.897"/>
+  </defs>
+  <path style="marker:none" fill="url(#j)" fill-rule="evenodd" stroke="url(#k)" overflow="visible" d="M1.5 4.5h29v23h-29z"/>
+  <path fill="url(#l)" d="M6 8h2v16H6z"/>
+  <rect rx="1" y="16" x="5" height="4" width="4" ry="1" opacity=".2"/>
+  <rect width="4" height="4" x="5" y="15" ry="1" rx="1" fill="url(#m)"/>
+  <path fill="url(#n)" d="M13 8h2v16h-2z"/>
+  <rect ry="1" width="4" height="4" x="12" y="11" rx="1" opacity=".2"/>
+  <rect ry="1" rx="1" y="10" x="12" height="4" width="4" fill="url(#o)"/>
+  <rect style="marker:none" width="6" height="6" x="20.5" y="8.5" rx="1" ry="1" fill="url(#p)" fill-rule="evenodd" stroke="url(#q)" stroke-linejoin="round" overflow="visible"/>
+  <rect y="17.5" x="20.5" height="6" width="6" style="marker:none" ry="1" rx="1" fill="url(#r)" fill-rule="evenodd" stroke="url(#s)" stroke-linejoin="round" overflow="visible"/>
+</svg>

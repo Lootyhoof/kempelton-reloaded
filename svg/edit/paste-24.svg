@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" version="1">
+  <defs>
+    <linearGradient id="e">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="c">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#c3c3c3"/>
+    </linearGradient>
+    <linearGradient id="b">
+      <stop offset="0" stop-color="#ffe5cd"/>
+      <stop offset=".803" stop-color="#bf8e6d"/>
+      <stop offset="1" stop-color="#945e4d" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="a">
+      <stop offset="0" stop-color="#834f45"/>
+      <stop offset="1" stop-color="#c98763"/>
+    </linearGradient>
+    <linearGradient id="d">
+      <stop offset="0" stop-color="#c8c8c8"/>
+      <stop offset="1" stop-color="#464646"/>
+    </linearGradient>
+    <linearGradient xlink:href="#a" id="f" x1="11.969" y1="24" x2="11.969" y2="4" gradientUnits="userSpaceOnUse" gradientTransform="matrix(.99654 0 0 1 .073 0)" spreadMethod="reflect"/>
+    <linearGradient xlink:href="#b" id="g" gradientUnits="userSpaceOnUse" x1="6.201" y1="4.105" x2="6.77" y2="16.263" gradientTransform="matrix(.87843 0 0 .90476 1.553 1.286)"/>
+    <linearGradient xlink:href="#c" id="h" x1="17" y1="13" x2="16.5" y2="18" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-.91667 0 0 .92857 29.167 .429)"/>
+    <linearGradient xlink:href="#d" id="i" x1="12" y1="4.75" x2="12" y2="6.25" gradientUnits="userSpaceOnUse" spreadMethod="reflect" gradientTransform="matrix(1 0 0 1.33333 0 -2.333)"/>
+    <linearGradient xlink:href="#e" id="j" x1="10.5" y1="4.5" x2="17" y2="4.5" gradientUnits="userSpaceOnUse"/>
+  </defs>
+  <g fill-rule="evenodd">
+    <path style="marker:none" d="M12 0a3.001 3.001 0 0 0 0 6 3.001 3.001 0 0 0 0-6zm0 1a1.5 1.5 0 1 1-.001 3.001A1.5 1.5 0 0 1 12 1z" fill="#5a5a5a" overflow="visible"/>
+    <rect style="marker:none" width="18" height="19" x="3" y="4" rx="2" ry="2" fill="url(#f)" overflow="visible"/>
+    <rect ry="1" rx="1" y="5" x="4" height="17" width="16" style="marker:none" fill="url(#g)" overflow="visible"/>
+    <path d="M20 7H8v11h12V7z" style="marker:none" opacity=".2" overflow="visible"/>
+    <path style="marker:none" d="M20 6H9v11h11V6z" fill="url(#h)" overflow="visible"/>
+    <path style="marker:none" fill-opacity=".255" overflow="visible" d="M7 5h10v3H7z"/>
+    <path style="marker:none" fill="url(#i)" overflow="visible" d="M7 3h10v4H7z"/>
+    <path style="marker:none" fill="url(#j)" overflow="visible" d="M8 4h8v1.5H8z"/>
+  </g>
+</svg>

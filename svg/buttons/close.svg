@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" version="1">
+  <defs>
+    <linearGradient id="c">
+      <stop offset="0" stop-color="#bd4747" stop-opacity="0"/>
+      <stop offset="1" stop-color="#bd4747"/>
+    </linearGradient>
+    <linearGradient id="b">
+      <stop offset="0" stop-color="#bd1f1f"/>
+      <stop offset="1" stop-color="#8c0000"/>
+    </linearGradient>
+    <linearGradient id="a">
+      <stop offset="0" stop-color="#eb9f95"/>
+      <stop offset="1" stop-color="#d14747"/>
+    </linearGradient>
+    <linearGradient xlink:href="#a" id="e" x1="7.067" y1="1" x2="7.067" y2="7" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.07143 0 0 1.08333 -.571 -.583)"/>
+    <linearGradient xlink:href="#b" id="d" x1="7" x2="7" y2="14" gradientUnits="userSpaceOnUse"/>
+    <linearGradient xlink:href="#c" id="f" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 .5 0 7)" x1="7" y1="7" x2="7" y2="14"/>
+  </defs>
+  <rect style="marker:none" width="14" height="14" rx="2.5" ry="2.5" fill="url(#d)" fill-rule="evenodd" overflow="visible"/>
+  <path d="M2.5.5h9c1.108 0 2 .892 2 2V4c0 1-7.5 3-13 3V2.5c0-1.108.892-2 2-2z" fill="url(#e)"/>
+  <rect ry="2.5" rx="2.5" y="7" height="7" width="14" style="marker:none" fill="url(#f)" fill-rule="evenodd" overflow="visible"/>
+  <path d="M9.5 4.5l-5 5m0-5l5 5" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="square"/>
+</svg>

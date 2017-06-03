@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" version="1">
+  <defs>
+    <linearGradient id="d">
+      <stop offset="0" stop-color="#fff" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#fff" stop-opacity=".4"/>
+    </linearGradient>
+    <linearGradient id="c">
+      <stop offset="0" stop-color="#b79f2f"/>
+      <stop offset="1" stop-color="#e0d988"/>
+    </linearGradient>
+    <linearGradient id="a">
+      <stop offset="0" stop-color="#d6be5c"/>
+      <stop offset="1" stop-color="#f3efaa"/>
+    </linearGradient>
+    <linearGradient id="b">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".25" stop-color="#ffffb9"/>
+      <stop offset="1" stop-color="#d0b848"/>
+    </linearGradient>
+    <linearGradient xlink:href="#a" id="e" x1="10.138" y1="12.344" x2="8.419" y2="6.291" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.5 0 0 1.5 1.75 -1.25)"/>
+    <linearGradient xlink:href="#b" id="g" x1="1.5" y1="3.167" x2="5.469" y2="14.859" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.5 0 0 1.5 1.75 -1.25)"/>
+    <linearGradient xlink:href="#c" id="f" x1="6.5" y1="15.5" x2="6.5" y2="2.167" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.5 0 0 1.5 1.75 -1.25)"/>
+    <linearGradient xlink:href="#d" id="h" x1="8.167" y1="3.833" x2="8.167" y2="14.5" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.5 0 0 1.5 .25 .25)"/>
+  </defs>
+  <path d="M3 21l6.5 2c.717.22 1.5-.75 1.5-1.64L3 21z" fill="none" stroke="#b79f2f" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M2.5 21.5h17V16l-1-1V2.5h-16v19z" fill="url(#e)" fill-rule="evenodd" stroke="url(#f)" stroke-linejoin="round"/>
+  <path d="M3 3v18h9.5v-1.5l1-1v-13c0-.75-.5-1.25-1.23-1.343L5 3H3z" opacity=".5" fill="#967400" fill-rule="evenodd"/>
+  <path d="M3 3v18l6.5 2c.717.22 1.5-.75 1.5-1.64V19l1-.953V6.25c0-.75-.776-1.331-1.5-1.5L3 3z" fill="url(#g)" fill-rule="evenodd"/>
+  <path d="M10.5 21.5v-2.75l1-1V6.25" fill="none" stroke="url(#h)" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

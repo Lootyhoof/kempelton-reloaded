@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" version="1">
+  <defs>
+    <linearGradient id="c">
+      <stop offset="0" stop-color="#e3e3e3"/>
+      <stop offset="1" stop-color="#989898"/>
+    </linearGradient>
+    <linearGradient id="b">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#d8d8d8"/>
+    </linearGradient>
+    <linearGradient id="a">
+      <stop offset="0" stop-color="#dec48b"/>
+      <stop offset=".37" stop-color="#c69a5c"/>
+      <stop offset=".58" stop-color="#a36b39"/>
+      <stop offset="1" stop-color="#84481c"/>
+    </linearGradient>
+    <linearGradient xlink:href="#a" id="d" gradientUnits="userSpaceOnUse" x1="9" y1="3.5" x2="15.5" y2="21" gradientTransform="translate(2 -3)"/>
+    <linearGradient xlink:href="#b" id="e" x1="15" y1="11" x2="16" y2="15.786" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 .93333 0 -1.733)"/>
+    <linearGradient xlink:href="#a" id="f" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-.57143 .3695 0 1 13 -6.587)" x1="9" y1="3.5" x2="15.5" y2="21"/>
+    <linearGradient xlink:href="#c" id="g" gradientUnits="userSpaceOnUse" gradientTransform="matrix(.69887 0 0 1 -3.395 3.598)" x1="11.5" y1="8.459" x2="22" y2="16.5"/>
+  </defs>
+  <path d="M9 0h12.5c.831 0 1.5.669 1.5 1.5v15c0 .831-.669 1.5-1.5 1.5H9V0z" style="marker:none" fill="#be9667" fill-rule="evenodd" overflow="visible"/>
+  <path style="marker:none" d="M9 0L.964 4.619C.43 4.926 0 5.842 0 6.673v16c0 .831.43 1.253.964.946L9 18V0z" fill="#a97343" fill-rule="evenodd" overflow="visible"/>
+  <path style="marker:none" d="M9 1h12.5c.831 0 1.5.669 1.5 1.5v14c0 .831-.669 1.5-1.5 1.5H9V1z" fill="url(#d)" fill-rule="evenodd" overflow="visible"/>
+  <path style="marker:none" fill="#ab5f5f" fill-rule="evenodd" overflow="visible" d="M22 3h2v4h-2z"/>
+  <path style="marker:none" fill="#3fa5b3" fill-rule="evenodd" overflow="visible" d="M22 8h2v4h-2z"/>
+  <path style="marker:none" fill="#59a138" fill-rule="evenodd" overflow="visible" d="M22 13h2v4h-2z"/>
+  <path style="marker:none" fill="#d27f7f" fill-rule="evenodd" overflow="visible" d="M23 3h1v3h-1z"/>
+  <path style="marker:none" fill="#7fc8d2" fill-rule="evenodd" overflow="visible" d="M23 8h1v3h-1z"/>
+  <path style="marker:none" fill="#94d078" fill-rule="evenodd" overflow="visible" d="M23 13h1v3h-1z"/>
+  <path style="marker:none" fill="url(#e)" fill-rule="evenodd" overflow="visible" d="M10 2h12v14H10z"/>
+  <path d="M9 1L1.857 5.619C1.382 5.926 1 6.842 1 7.673v15c0 .831.382 1.253.857.946L9 18V1z" style="marker:none" fill="url(#f)" fill-rule="evenodd" overflow="visible"/>
+  <path style="marker:none" d="M2 6.619L10 2v14l-8 5.119v-14.5z" opacity=".279" fill-rule="evenodd" overflow="visible"/>
+  <path transform="skewY(-33.418) scale(.83467 1)" style="marker:none" d="M4.792 9.258l7.189-.66v14l-7.189 1.16v-14.5z" fill="url(#g)" fill-rule="evenodd" overflow="visible"/>
+  <path d="M9 14.5h2" id="h" fill="none" fill-rule="evenodd" stroke="#8e8e8e"/>
+  <use xlink:href="#h" id="i" transform="translate(0 -2)" width="24" height="24"/>
+  <use xlink:href="#h" transform="translate(0 -4)" width="24" height="24"/>
+  <use xlink:href="#i" transform="translate(0 -4)" width="24" height="24"/>
+  <use xlink:href="#h" transform="translate(0 -8)" width="24" height="24"/>
+  <use xlink:href="#i" transform="translate(0 -8)" width="24" height="24"/>
+  <path d="M12 12.5h8" id="j" opacity=".2" fill="none" fill-rule="evenodd" stroke="#00638d"/>
+  <use xlink:href="#j" transform="translate(0 -3)" width="24" height="24"/>
+  <use xlink:href="#j" transform="translate(0 -6)" width="24" height="24"/>
+</svg>

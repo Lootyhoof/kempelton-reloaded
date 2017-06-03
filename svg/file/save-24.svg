@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" version="1">
+  <defs>
+    <linearGradient id="c">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".155" stop-color="#ebfaff"/>
+      <stop offset="1" stop-color="#7594b7"/>
+    </linearGradient>
+    <linearGradient id="b">
+      <stop offset="0" stop-color="#99bbd3"/>
+      <stop offset="1" stop-color="#2b5787"/>
+    </linearGradient>
+    <linearGradient id="a">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#d2d2d2"/>
+    </linearGradient>
+    <linearGradient xlink:href="#a" id="f" x1="10" y1="6.556" x2="11.5" y2="11" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1.125 0 -.375)"/>
+    <linearGradient xlink:href="#b" id="d" x1="10.5" y1="1" x2="22.5" y2="21" gradientUnits="userSpaceOnUse"/>
+    <linearGradient xlink:href="#c" id="e" x1="10" y1="16.5" x2="14" y2="21.5" gradientUnits="userSpaceOnUse" spreadMethod="reflect" gradientTransform="translate(1)"/>
+  </defs>
+  <path style="marker:none" d="M2 2h20v20H4.5L2 19.5V2z" fill="url(#d)" fill-rule="evenodd" overflow="visible"/>
+  <path d="M5 22v-5.5c0-.831.669-1.5 1.5-1.5h11c.831 0 1.5.669 1.5 1.5V22" style="marker:none" fill-rule="evenodd" overflow="visible" opacity=".15"/>
+  <path style="marker:none" d="M7 16c-.554 0-1 .446-1 1v5h2v-5h3v5h5v-5c0-.554-.446-1-1-1H7z" fill="url(#e)" fill-rule="evenodd" overflow="visible"/>
+  <path d="M3.5 20.5v-17H21" fill="none" stroke="#fff" opacity=".3"/>
+  <rect style="marker:none" width="14" height="9" x="5" y="3" rx="1" fill="url(#f)" fill-rule="evenodd" overflow="visible"/>
+  <path d="M7 7.5h10" id="g" opacity=".15" fill="none" fill-rule="evenodd" stroke="#000"/>
+  <path style="marker:none" d="M17.5 15c.831 0 1.5.669 1.5 1.5V22h1v-5.5c0-.831-.669-1.5-1.5-1.5h-1z" opacity=".15" fill="#fff" fill-rule="evenodd" overflow="visible"/>
+  <use xlink:href="#g" transform="translate(0 2)" width="24" height="24"/>
+  <use xlink:href="#g" transform="translate(0 -2)" width="24" height="24"/>
+</svg>

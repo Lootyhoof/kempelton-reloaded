@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" version="1">
+  <defs>
+    <linearGradient id="c">
+      <stop offset="0" stop-color="#a0a0a0"/>
+      <stop offset="1" stop-color="#bebebe"/>
+    </linearGradient>
+    <linearGradient id="a">
+      <stop offset="0"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="b">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#cdcdcd"/>
+    </linearGradient>
+    <linearGradient xlink:href="#a" id="f" gradientUnits="userSpaceOnUse" gradientTransform="matrix(2.1875 0 0 1 -18.938 -5)" x1="19.857" y1="12" x2="19.857" y2="16"/>
+    <linearGradient xlink:href="#b" id="e" gradientUnits="userSpaceOnUse" gradientTransform="translate(11 -3)" x1="7" y1="16.5" x2="9" y2="31"/>
+    <linearGradient xlink:href="#c" id="d" gradientUnits="userSpaceOnUse" gradientTransform="translate(-1 -13)" x1="29" y1="44" x2="29" y2="14"/>
+  </defs>
+  <path d="M4.5 30.5h23V6.75L22.25 1.5H4.5v29z" fill="none" stroke="url(#d)"/>
+  <path d="M5 30h22V7l-5-5H5v28z" fill="url(#e)" fill-rule="evenodd"/>
+  <path d="M22 2l-1.5 6.5L27 7l-5-5z" opacity=".25" fill-rule="evenodd"/>
+  <path d="M22 2v5h5l-5-5z" fill="#fff" fill-rule="evenodd"/>
+  <path d="M22 7v4h5V7h-5z" opacity=".3" fill="url(#f)" fill-rule="evenodd"/>
+</svg>

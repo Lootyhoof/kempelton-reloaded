@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" version="1">
+  <defs>
+    <linearGradient id="c">
+      <stop offset="0" stop-color="#a8a8a8"/>
+      <stop offset="1" stop-color="#5c5c5c"/>
+    </linearGradient>
+    <linearGradient id="b">
+      <stop offset="0" stop-color="#a0a0a0"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="a">
+      <stop offset="0" stop-color="#ebebeb"/>
+      <stop offset="1" stop-color="#3a3a3a"/>
+    </linearGradient>
+    <radialGradient xlink:href="#a" id="i" cx="8.287" cy="13.445" fx="8.287" fy="13.445" r="11" gradientTransform="matrix(1.62036 0 0 .56276 -6.936 11.434)" gradientUnits="userSpaceOnUse"/>
+    <linearGradient xlink:href="#b" id="f" x1="10" y1="16" x2="10" y2="20" gradientUnits="userSpaceOnUse" gradientTransform="translate(-1)"/>
+    <radialGradient xlink:href="#a" id="g" cx="11.167" cy="5.289" fx="11.167" fy="5.289" r="7" gradientTransform="matrix(1.60096 0 0 .8362 -6.879 8.077)" gradientUnits="userSpaceOnUse"/>
+    <linearGradient xlink:href="#c" id="h" x1="4" y1="17" x2="1" y2="17" gradientUnits="userSpaceOnUse" gradientTransform="translate(-1)"/>
+    <linearGradient xlink:href="#d" id="o" gradientUnits="userSpaceOnUse" x1="13" y1="7" x2="13" y2="13" gradientTransform="matrix(1 0 0 -1 2 17)"/>
+    <linearGradient id="d">
+      <stop offset="0" stop-color="#b6c1c6"/>
+      <stop offset=".5" stop-color="#dce4e6"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient gradientTransform="translate(2 -5)" xlink:href="#d" id="m" x1="11" y1="17" x2="11" y2="13" gradientUnits="userSpaceOnUse"/>
+    <linearGradient id="e">
+      <stop offset="0" stop-color="#959fab"/>
+      <stop offset="1" stop-color="#c2c8ce"/>
+    </linearGradient>
+    <linearGradient gradientTransform="translate(2 -2)" y2="2" x2="8.657" y1="14.005" x1="8.657" gradientUnits="userSpaceOnUse" id="k" xlink:href="#e"/>
+    <filter id="n" x="-.052" width="1.104" y="-.116" height="1.232">
+      <feGaussianBlur stdDeviation=".435"/>
+    </filter>
+    <filter id="l" x="-.052" width="1.104" y="-.116" height="1.232">
+      <feGaussianBlur stdDeviation=".435"/>
+    </filter>
+    <linearGradient xlink:href="#d" id="j" gradientUnits="userSpaceOnUse" gradientTransform="translate(2 -2)" x1="18" y1="13" x2="18" y2="4.984"/>
+  </defs>
+  <path d="M-1 24l4-10h18l3 10H-1z" fill="url(#f)" fill-rule="evenodd"/>
+  <path d="M3 13v3h18v-3h-5l-1 1H9l-1-1H3z" fill="url(#g)" fill-rule="evenodd"/>
+  <path d="M21 13l3 6v5l-3-8v-3z" fill="#8c8c8c" fill-rule="evenodd"/>
+  <path d="M3 13l-3 6v5l3-8v-3z" fill="url(#h)" fill-rule="evenodd"/>
+  <path d="M0 19v5h24v-5h-6.5l-2 2h-7l-2-2H0z" fill-opacity=".588" fill-rule="evenodd"/>
+  <path d="M0 20v4h24v-4h-6.5l-2 2h-7l-2-2H0z" fill="url(#i)" fill-rule="evenodd"/>
+  <path fill="url(#j)" stroke="url(#k)" d="M2.5.5h19v11h-19z"/>
+  <path d="M3.5 11v-.5L12 3l8.5 7.5v.5L13 8l-9.5 3z" opacity=".5" fill="#002f64" fill-rule="evenodd" filter="url(#l)"/>
+  <path d="M3 11l9-7 9 7H3z" fill="url(#m)" fill-rule="evenodd"/>
+  <path d="M3.5 1v.5L12 9l8.5-7.5V1L12 4 3.5 1z" opacity=".6" fill="#002f64" fill-rule="evenodd" filter="url(#n)"/>
+  <path d="M3 1l9 7 9-7H3z" fill="url(#o)" fill-rule="evenodd"/>
+</svg>

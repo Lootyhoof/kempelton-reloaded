@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" version="1">
+  <defs>
+    <linearGradient id="d">
+      <stop offset="0" stop-color="#e6f2fb"/>
+      <stop offset="1" stop-color="#a4c3d8"/>
+    </linearGradient>
+    <linearGradient id="c">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#e1e1e1"/>
+    </linearGradient>
+    <linearGradient id="a">
+      <stop offset="0" stop-color="#cbe2ed"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="b">
+      <stop offset="0" stop-color="#b1cce3"/>
+      <stop offset="1" stop-color="#cfe8f7"/>
+    </linearGradient>
+    <linearGradient xlink:href="#a" id="f" x1="13" y1="17" x2="13" y2="9" gradientUnits="userSpaceOnUse" gradientTransform="translate(-8 -1)"/>
+    <linearGradient xlink:href="#b" id="g" x1="14.5" y1="9" x2="14.5" y2="5" gradientUnits="userSpaceOnUse" gradientTransform="translate(-8 -1)"/>
+    <linearGradient xlink:href="#c" id="h" x1="14" y1="13" x2="14" y2="17" gradientUnits="userSpaceOnUse" gradientTransform="translate(-8 -2)"/>
+    <linearGradient xlink:href="#d" id="e" x1="7" y1="5" x2="7" y2="10" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.14286 0 0 1.25 -2.429 -3.25)"/>
+  </defs>
+  <rect style="marker:none" width="7" height="4" x="1" y="3" rx="1" ry="1" fill="none" stroke="#a5c1d7" stroke-width="2" stroke-linecap="square" overflow="visible"/>
+  <path d="M9 2c-.554 0-1 .446-1 1v3H1v8h14V3c0-.554-.446-1-1-1H9z" fill="none" stroke="#9cb9cc" stroke-width="2"/>
+  <rect ry="1" rx="1" y="3" x="1" height="5" width="8" style="marker:none" fill="url(#e)" fill-rule="evenodd" overflow="visible"/>
+  <path style="marker:none" d="M2 5.5h5.5V4" opacity=".3" fill="none" stroke="#004678" stroke-width="2" stroke-linecap="square" overflow="visible"/>
+  <path d="M9 2c-.554 0-1 .446-1 1v3H1v8h14V3c0-.554-.446-1-1-1H9z" fill="url(#f)" fill-rule="evenodd"/>
+  <path d="M9 4h5v10H2V7l7 .047V4z" fill="url(#g)"/>
+  <path fill="url(#h)" d="M3 8h10v6H3z"/>
+</svg>

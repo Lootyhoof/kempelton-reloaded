@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" version="1">
+  <defs>
+    <linearGradient id="c">
+      <stop offset="0" stop-color="#969696"/>
+      <stop offset="1" stop-color="#b4b4b4"/>
+    </linearGradient>
+    <linearGradient id="a">
+      <stop offset="0"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="b">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#cdcdcd"/>
+    </linearGradient>
+    <linearGradient xlink:href="#a" id="k" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.75 0 0 1 -7.75 3)" x1="20.714" y1="11" x2="20.714" y2="14"/>
+    <linearGradient xlink:href="#b" id="j" gradientUnits="userSpaceOnUse" gradientTransform="translate(13 5)" x1="9" y1="12" x2="11" y2="26"/>
+    <linearGradient xlink:href="#c" id="d" gradientUnits="userSpaceOnUse" gradientTransform="translate(1 -5)" x1="29" y1="31" x2="29" y2="14"/>
+  </defs>
+  <path id="e" d="M12.5 31.5h17V13.75L25.25 9.5H12.5v22z" fill="none" fill-rule="evenodd" stroke="url(#d)"/>
+  <use xlink:href="#e" transform="translate(-10 -9)" width="24" height="24"/>
+  <use xlink:href="#f" transform="translate(-10 -9)" width="24" height="24"/>
+  <use xlink:href="#g" transform="translate(-10.25 -9)" width="24" height="24"/>
+  <use xlink:href="#h" transform="translate(-10 -9)" width="24" height="24"/>
+  <path d="M11.5 22H19V8.5h-7.5V22z" opacity=".2" fill-rule="evenodd"/>
+  <use xlink:href="#i" transform="translate(-10 -9)" width="24" height="24"/>
+  <path d="M13 31h16V14l-4-4H13v21z" id="f" fill="url(#j)" fill-rule="evenodd"/>
+  <path id="g" d="M25 10l-1 5 5-1-4-4z" opacity=".25" fill-rule="evenodd"/>
+  <path d="M25 10v4h4l-4-4z" id="i" fill="#fff" fill-rule="evenodd"/>
+  <path d="M25 14v4h4v-4h-4z" id="h" opacity=".3" fill="url(#k)" fill-rule="evenodd"/>
+</svg>

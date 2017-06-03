@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" version="1">
+  <defs>
+    <linearGradient id="f">
+      <stop offset="0" stop-color="#c1aa89"/>
+      <stop offset="1" stop-color="#8c744f"/>
+    </linearGradient>
+    <linearGradient id="e">
+      <stop offset="0" stop-color="#846a44"/>
+      <stop offset="1" stop-color="#ded1b2"/>
+    </linearGradient>
+    <linearGradient id="d">
+      <stop offset="0" stop-color="#d2bc97"/>
+      <stop offset="1" stop-color="#543b24"/>
+    </linearGradient>
+    <linearGradient id="b">
+      <stop offset="0" stop-color="#eee4ca"/>
+      <stop offset=".5" stop-color="#c8b28c"/>
+      <stop offset="1" stop-color="#775e3d"/>
+    </linearGradient>
+    <linearGradient id="c">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".5" stop-color="#fdf3de"/>
+      <stop offset="1" stop-color="#d8c091"/>
+    </linearGradient>
+    <linearGradient id="a">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".15" stop-color="#faf4d2"/>
+      <stop offset="1" stop-color="#a78349"/>
+    </linearGradient>
+    <linearGradient xlink:href="#a" id="g" x1="9" y1="20.5" x2="10.25" y2="27" gradientUnits="userSpaceOnUse" gradientTransform="translate(.167 -1.5) scale(.66667)"/>
+    <linearGradient xlink:href="#b" id="i" x1="11.75" y1="11" x2="11.75" y2="16.25" gradientUnits="userSpaceOnUse" gradientTransform="translate(.167 -.833) scale(.66667)"/>
+    <linearGradient xlink:href="#c" id="j" x1="4" y1="17" x2="20" y2="17" gradientUnits="userSpaceOnUse" gradientTransform="translate(.167 -.833) scale(.66667)"/>
+    <linearGradient xlink:href="#d" id="l" x1="18.5" y1="11" x2="18.5" y2="16.25" gradientUnits="userSpaceOnUse" gradientTransform="translate(.167 -.833) scale(.66667)"/>
+    <linearGradient xlink:href="#e" id="k" x1="5" y1="16.25" x2="5" y2="11" gradientUnits="userSpaceOnUse" gradientTransform="translate(.167 -.833) scale(.66667)"/>
+    <linearGradient xlink:href="#f" id="h" x1="11.75" y1="19.25" x2="13.25" y2="26" gradientUnits="userSpaceOnUse" gradientTransform="translate(.167 -.833) scale(.66667)"/>
+  </defs>
+  <path d="M3.833 6.5H2.5L.5 10H2l1.833-3.5zM12 6.5h1.5l2 3.5H14l-2-3.5zM4 6.5h8-8z" fill="none" stroke="#bea983" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M14.5 15.5V10h-13v5.5h13z" fill="url(#g)" fill-rule="evenodd" stroke="url(#h)"/>
+  <path d="M4 10h8V6.5H4V10z" fill="url(#i)" fill-rule="evenodd"/>
+  <path d="M2 10v3h12v-3H2z" style="marker:none" opacity=".5" fill="#7f4d21" fill-rule="evenodd" overflow="visible"/>
+  <path style="marker:none" d="M2 10v2h12v-2H2z" fill="url(#j)" fill-rule="evenodd" overflow="visible"/>
+  <path d="M4 6.5L2 10h2V6.5z" fill="url(#k)" fill-rule="evenodd"/>
+  <path d="M12 6.5l2 3.5h-2V6.5z" fill="url(#l)" fill-rule="evenodd"/>
+  <path d="M4 6.5H2.5L.5 10H2l2-3.5zM12 6.5h1.5l2 3.5H14l-2-3.5z" fill="#fff" fill-rule="evenodd"/>
+  <path d="M7 0v3L4.5 1.5l-.5 1 4 5 4-5-.5-1L9 3V0H7z" opacity=".5" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M7 0v3L4.5 1.5l-.5 1 4 5 4-5-.5-1L9 3V0H7z" fill="#3f83b1" fill-rule="evenodd"/>
+</svg>

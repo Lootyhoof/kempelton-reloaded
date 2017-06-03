@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" version="1">
+  <defs>
+    <linearGradient xlink:href="#a" id="e" x1="224.286" y1="237.909" x2="224.286" y2="-113.624" gradientUnits="userSpaceOnUse"/>
+    <linearGradient xlink:href="#b" id="f" gradientUnits="userSpaceOnUse" x1="192.328" y1="94.1" x2="152.545" y2="-113.624"/>
+    <linearGradient id="c">
+      <stop offset="0" stop-color="#eacdc4"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="b">
+      <stop offset="0" stop-color="#bf4e4e" stop-opacity="0"/>
+      <stop offset=".2" stop-color="#c77165"/>
+      <stop offset="1" stop-color="#ecc4ae"/>
+    </linearGradient>
+    <linearGradient id="d">
+      <stop offset="0" stop-color="#e47e5e" stop-opacity="0"/>
+      <stop offset="1" stop-color="#ecd4cc" stop-opacity=".235"/>
+    </linearGradient>
+    <linearGradient id="a">
+      <stop offset="0" stop-color="#933535"/>
+      <stop offset=".65" stop-color="#a2423a"/>
+      <stop offset="1" stop-color="#e38c85"/>
+    </linearGradient>
+  </defs>
+  <path style="marker:none" d="M297.143 237.857l-145.588.052L48.57 135 48.52-10.588l102.91-102.983 145.588-.053L400-10.714l.052 145.588-102.91 102.983z" transform="matrix(.04552 0 0 .04552 -2.21 5.171)" fill="url(#e)" fill-rule="evenodd" overflow="visible"/>
+  <path transform="matrix(.03983 0 0 .03983 -.932 5.525)" d="M297.143 237.857l-145.588.052L48.57 135 48.52-10.588l102.91-102.983 145.588-.053L400-10.714l.052 145.588-102.91 102.983z" style="marker:none" fill="url(#f)" fill-rule="evenodd" overflow="visible"/>
+  <path d="M5.75 4.75l4.5 4.5m-4.5 0l4.5-4.5" opacity=".5" fill="none" stroke="#640000" stroke-width="2.5" stroke-linecap="square"/>
+  <path d="M5.75 5.75l4.5 4.5m-4.5 0l4.5-4.5" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="square"/>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" version="1">
+  <defs>
+    <linearGradient id="c">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".155" stop-color="#ebfaff"/>
+      <stop offset="1" stop-color="#7594b7"/>
+    </linearGradient>
+    <linearGradient id="b">
+      <stop offset="0" stop-color="#99bbd3"/>
+      <stop offset="1" stop-color="#2b5787"/>
+    </linearGradient>
+    <linearGradient id="a">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#d2d2d2"/>
+    </linearGradient>
+    <linearGradient xlink:href="#a" id="f" x1="10" y1="6.556" x2="11.5" y2="11" gradientUnits="userSpaceOnUse" gradientTransform="matrix(.83333 0 0 1.125 -1.167 -2.375)"/>
+    <linearGradient xlink:href="#b" id="d" x1="10.5" y1="1" x2="22.5" y2="21" gradientUnits="userSpaceOnUse" gradientTransform="translate(-2 -6)"/>
+    <linearGradient xlink:href="#c" id="e" x1="10" y1="16.5" x2="14" y2="21.5" gradientUnits="userSpaceOnUse" spreadMethod="reflect" gradientTransform="translate(-2 -6)"/>
+  </defs>
+  <path style="marker:none" d="M0 0h16v16H2l-2-2V0z" fill="url(#d)" fill-rule="evenodd" overflow="visible"/>
+  <path d="M3 16v-4.5c0-.831.669-1.5 1.5-1.5h7c.831 0 1.5.669 1.5 1.5V16" style="marker:none" opacity=".15" fill-rule="evenodd" overflow="visible"/>
+  <path style="marker:none" d="M4 11c-.554 0-1 .446-1 1v4h1v-4h2v4h4v-4c0-.554-.446-1-1-1H4z" fill="url(#e)" fill-rule="evenodd" overflow="visible"/>
+  <path d="M1.5 14.5v-13H15" opacity=".3" fill="none" stroke="#fff"/>
+  <path style="marker:none" fill="url(#f)" fill-rule="evenodd" overflow="visible" d="M3 1h10v7H3z"/>
+  <path d="M5 5.5h6" id="g" opacity=".15" fill="none" fill-rule="evenodd" stroke="#000"/>
+  <path style="marker:none" d="M11.5 10c.831 0 1.5.669 1.5 1.5V16h1v-4.5c0-.831-.669-1.5-1.5-1.5h-1z" opacity=".15" fill="#fff" fill-rule="evenodd" overflow="visible"/>
+  <use xlink:href="#g" transform="translate(0 -2)" width="24" height="24"/>
+</svg>

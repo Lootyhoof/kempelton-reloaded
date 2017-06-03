@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16">
+  <defs>
+    <linearGradient id="c">
+      <stop offset="0" stop-color="#23a212"/>
+      <stop offset="1" stop-color="#1b6612"/>
+    </linearGradient>
+    <linearGradient id="b">
+      <stop offset="0" stop-color="#4d9943" stop-opacity="0"/>
+      <stop offset="1" stop-color="#4d9943"/>
+    </linearGradient>
+    <linearGradient id="a">
+      <stop offset="0" stop-color="#a8e18a"/>
+      <stop offset="1" stop-color="#5fa749"/>
+    </linearGradient>
+    <linearGradient xlink:href="#a" id="f" x1="7.075" y1="1.07" x2="7.067" y2="7" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.07143 0 0 1.08333 -.571 -.583)"/>
+    <linearGradient xlink:href="#b" id="e" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 .5 0 8)" x1="8" y1="8" x2="8" y2="16"/>
+    <linearGradient xlink:href="#c" id="d" x1="8" x2="8" y2="12" gradientUnits="userSpaceOnUse"/>
+  </defs>
+  <rect style="marker:none" width="16" height="16" rx="2.5" ry="2.5" color="#000" fill="url(#d)" fill-rule="evenodd" overflow="visible"/>
+  <rect ry="2.5" rx="2.5" y="8" height="8" width="16" style="marker:none" color="#000" fill="url(#e)" fill-rule="evenodd" overflow="visible"/>
+  <path d="M2.5.5h11c1.108 0 2 .892 2 2V4c0 1-9.5 3-15 3V2.5c0-1.108.892-2 2-2z" fill="url(#f)"/>
+  <path d="M4 8h7M8.5 4.5L12 8l-3.5 3.5" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="square"/>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" version="1">
+  <defs>
+    <linearGradient id="c">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".391" stop-color="#fff"/>
+      <stop offset="1" stop-color="#bdc2d3"/>
+    </linearGradient>
+    <linearGradient id="b">
+      <stop offset="0" stop-color="#0066ae"/>
+      <stop offset="1" stop-color="#a7d6e9"/>
+    </linearGradient>
+    <linearGradient id="a">
+      <stop offset="0" stop-color="#001157"/>
+      <stop offset="1" stop-color="#559cec"/>
+    </linearGradient>
+    <linearGradient xlink:href="#a" id="f" gradientUnits="userSpaceOnUse" gradientTransform="translate(-5.813 -8.923)" x1="15.667" y1="20.747" x2="15.667" y2="4.838"/>
+    <linearGradient xlink:href="#b" id="e" gradientUnits="userSpaceOnUse" x1="16.018" y1="23.997" x2="9.39" y2="4.464" gradientTransform="matrix(.4526 0 0 .54754 .742 -.567)"/>
+    <radialGradient xlink:href="#c" id="d" gradientUnits="userSpaceOnUse" gradientTransform="matrix(.54217 0 0 .47112 -.444 .855)" spreadMethod="reflect" cx="12.371" cy="7.696" fx="12.371" fy="7.696" r="16.508"/>
+  </defs>
+  <path style="marker:none" d="M7.977.523C3.979.523.742 3.478.742 7.105c0 1.723.74 3.284 1.938 4.456L.742 15.46l5.781-1.928a7.92 7.92 0 0 0 1.454.137c3.997 0 7.25-2.937 7.25-6.564 0-3.627-3.253-6.582-7.25-6.582z" fill="url(#d)" fill-rule="evenodd" stroke="url(#e)" stroke-linejoin="round" overflow="visible"/>
+  <text style="line-height:125%" x="4.918" y="11.577" font-size="12" font-weight="400" fill="url(#f)" font-family="Bitstream Vera Sans">
+    <tspan x="4.918" y="11.577" style="text-align:start;line-height:125%;-inkscape-font-specification:Segoe Semibold Bold" font-size="13" font-weight="700" font-family="Segoe Semibold">?</tspan>
+  </text>
+</svg>
