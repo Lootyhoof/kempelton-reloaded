@@ -1,5 +1,12 @@
 # Changelog
 
+### 4.11.0
+- sync about:support styling with default
+- sync about:permissions styling with default
+- add image document favicon when viewing standalone images
+- fix "learn more" links in notification popups
+- add about:home styling for Home Styler
+
 ### 4.10.1
 - sync devtools styling with default
 - allow extensions to style their own toolbarbutton-badge
