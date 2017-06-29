@@ -108,8 +108,7 @@
   font-weight: bold;
   padding: 0 1.5em .05em;
   margin: 0 0 2px;
-  background-image: url(chrome://browser/skin/appmenu-icon.png), 
-                  -moz-linear-gradient(rgba(255,255,255,0.4) 30%,
+  background-image: -moz-linear-gradient(rgba(255,255,255,0.4) 30%,
                                        rgba(255,255,255,0.2) 40%,
                                          rgba(255,255,255,0.2) 50%,
                                          rgba(0,0,0,0.1) 51%,
@@ -136,7 +135,7 @@
 }
   
 #appmenu-button:not(:hover):-moz-window-inactive {
-  background-image: url(chrome://browser/skin/appmenu-icon.png);
+  background-image: none;
   background-color: transparent;
   box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.3) inset, 
               1px 1px 0 0px rgba(255, 255, 255, 0.3), 
@@ -162,8 +161,7 @@
 }
 
 #main-window[privatebrowsingmode=temporary] #appmenu-button {
-  background-image: url(chrome://browser/skin/pb-icon.png), 
-                    -moz-linear-gradient(rgba(255,255,255,0.4) 30%,
+  background-image: -moz-linear-gradient(rgba(255,255,255,0.4) 30%,
                                        rgba(255,255,255,0.2) 40%,
                                          rgba(255,255,255,0.2) 50%,
                                          rgba(0,0,0,0.1) 51%,
