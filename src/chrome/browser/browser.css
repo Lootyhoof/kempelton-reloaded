@@ -96,8 +96,7 @@
 
 /* ::::: app menu button ::::: */
 
-#appmenu-button,
-#appmenu-toolbar-button {
+#appmenu-button {
   -moz-appearance: none;
   background-clip: padding-box;
   border-radius: 0 0 4px 4px;
@@ -109,10 +108,19 @@
   font-weight: bold;
   padding: 0 1.5em .05em;
   margin: 0 0 2px;
-  background-image: url(appmenu-bg.png);
-  border-color: rgba(45,89,155,.9);
+  background-image: url(chrome://browser/skin/appmenu-icon.png), 
+                  -moz-linear-gradient(rgba(255,255,255,0.4) 30%,
+                                       rgba(255,255,255,0.2) 40%,
+                                         rgba(255,255,255,0.2) 50%,
+                                         rgba(0,0,0,0.1) 51%,
+                                         rgba(0,0,0,0.1) 75%,
+                                         rgba(255,255,255,0.1) 100%);
+  background-color: rgb(0,109,204);
   box-shadow: 0 1px 0 rgba(255,255,255,.25) inset,
               0 0 0 1px rgba(255,255,255,.25) inset;
+  -moz-border-left-colors: rgba(0,0,0,.6);
+  -moz-border-bottom-colors: rgba(0,0,0,.6);
+  -moz-border-right-colors: rgba(0,0,0,.6);
 }
 
 @media (-moz-windows-classic) {
@@ -126,51 +134,51 @@
     margin-bottom: 5px;
   }
 }
-
-#appmenu-button:hover:active,
-#appmenu-button[open],
-#appmenu-toolbar-button:hover:active,
-#appmenu-toolbar-button[open] {
-  border-radius: 0;
+  
+#appmenu-button:not(:hover):-moz-window-inactive {
+  background-image: url(chrome://browser/skin/appmenu-icon.png);
+  background-color: transparent;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.3) inset, 
+              1px 1px 0 0px rgba(255, 255, 255, 0.3), 
+              -1px 1px 0 0px rgba(255, 255, 255, 0.3);
+  -moz-border-left-colors: rgba(0,0,0,.3);
+  -moz-border-bottom-colors: rgba(0,0,0,.3);
+  -moz-border-right-colors: rgba(0,0,0,.3);
 }
 
-#appmenu-button:hover:not(:active):not([open]),
-#appmenu-toolbar-button:hover:not(:active):not([open]) {
-  background-image: url(appmenu-bg-hover.png);
-  border-color: rgba(45,89,155,.9);
+#appmenu-button:hover:not(:active):not([open]) {
+  background-color: rgba(0,97,255,0.75);
   box-shadow: 0 1px 0 rgba(255,255,255,.1) inset,
               0 0 2px 1px rgba(169,234,250,.7) inset,
               0 -1px 0 rgba(169,234,250,.5) inset;
 }
+
 #appmenu-button:hover:active,
-#appmenu-button[open],
-#appmenu-toolbar-button:hover:active,
-#appmenu-toolbar-button[open] {
-  background-image: url(appmenu-bg-press.png);
+#appmenu-button[open] {
+  background-color: rgba(0,60,158,0.75);
+  border-radius: 0;
   box-shadow: 0 2px 3px rgba(0,0,0,.4) inset,
               0 1px 1px rgba(0,0,0,.2) inset;
 }
 
-#main-window[privatebrowsingmode=temporary] #appmenu-button,
-#main-window[privatebrowsingmode=temporary] #appmenu-toolbar-button {
-  background-image: url(appmenu-bg-pb.png);
-  border-color: rgba(43,8,65,.9);
+#main-window[privatebrowsingmode=temporary] #appmenu-button {
+  background-image: url(chrome://browser/skin/pb-icon.png), 
+                    -moz-linear-gradient(rgba(255,255,255,0.4) 30%,
+                                       rgba(255,255,255,0.2) 40%,
+                                         rgba(255,255,255,0.2) 50%,
+                                         rgba(0,0,0,0.1) 51%,
+                                         rgba(0,0,0,0.1) 75%,
+                                         rgba(255,255,255,0.1) 100%);
+  background-color: rgb(178,0,255);
 }
-
-#main-window[privatebrowsingmode=temporary] #appmenu-button:hover:not(:active):not([open]),
-#main-window[privatebrowsingmode=temporary] #appmenu-toolbar-button:hover:not(:active):not([open]) {
-  background-image: url(appmenu-bg-pbhover.png);
-  border-color: rgba(43,8,65,.9);
-  box-shadow: 0 1px 0 rgba(255,255,255,.1) inset,
-              0 0 2px 1px rgba(240,193,255,.7) inset,
-              0 -1px 0 rgba(240,193,255,.5) inset;
+  
+#main-window[privatebrowsingmode=temporary] #appmenu-button:hover:not(:active):not([open]) {
+  background-color: rgb(187,43,255);
 }
 
 #main-window[privatebrowsingmode=temporary] #appmenu-button:hover:active,
-#main-window[privatebrowsingmode=temporary] #appmenu-button[open],
-#main-window[privatebrowsingmode=temporary] #appmenu-toolbar-button:hover:active,
-#main-window[privatebrowsingmode=temporary] #appmenu-toolbar-button[open] {
-  background-image: url(appmenu-bg-pbpress.png);;
+#main-window[privatebrowsingmode=temporary] #appmenu-button[open] {
+  background-color: rgb(158,2,255);
 }
 
 #appmenu-button > .button-box {
