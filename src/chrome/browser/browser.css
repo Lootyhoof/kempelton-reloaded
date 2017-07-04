@@ -1546,8 +1546,11 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
 .tabbrowser-tabs {
   margin-bottom: -5px;
   padding-bottom: 4px;
-  -moz-margin-start: 3px;
   padding-top: 0;
+}
+
+#main-window:not([tabsintitlebar]) .tabbrowser-tabs {
+  -moz-margin-start: 3px;
 }
 
 .tabbrowser-tabs[tabsontop=true]:-moz-lwtheme {
