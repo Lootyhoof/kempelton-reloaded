@@ -1718,11 +1718,13 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
 
 .tabbrowser-tab:not([selected="true"]):hover {
   background-image: url("chrome://browser/skin/tabbrowser/tab-hover-bkgnd.apng");
+  background-repeat: repeat-x;
   padding-top: 2px;
 }
 
 .tabbrowser-tab[selected="true"] {
   background-image: url("chrome://browser/skin/tabbrowser/tab-active-bkgnd.png");
+  background-repeat: repeat-x;
   background-color: -moz-dialog;
   font-weight: bold;
   padding-top: 1px;
