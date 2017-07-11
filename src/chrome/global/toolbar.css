@@ -10,14 +10,6 @@
 
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
-/* ::::: toolbox ::::: */
-
-toolbox {
-  background-color: -moz-Dialog;
-  padding-top: 2px;
-  border-bottom: 1px solid ThreeDShadow;
-}
-
 /* ::::: toolbarpaletteitem ::::: */
 
 toolbarpaletteitem {
