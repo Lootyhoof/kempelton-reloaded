@@ -1,5 +1,18 @@
 # Changelog
 
+### 5.0.0
+- redesign appmenu on Windows and Linux
+- add HiDPI-capable toolbar images
+- add new hover/click/disabled states for all icons (including most extension icons)
+- make sure back/forward dropmarker shows as disabled when disabled
+- refactor tab styling
+- improve tabsintitlebar styling for tabs
+- improve platform stylings for Windows and Linux
+- add basic CSS variable support for increased customisation
+- fix navigation button padding in about:addons to match the places window
+- sync devtools styling with default
+- cleanup of redundant code
+
 ### 4.11.0
 - sync about:support styling with default
 - sync about:permissions styling with default
