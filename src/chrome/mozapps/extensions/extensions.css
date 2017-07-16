@@ -32,6 +32,7 @@
 #forward-btn,
 #back-btn:-moz-locale-dir(rtl) {
   margin-left: -3px;
+  -moz-padding-start: 0px;
   -moz-image-region: rect(0px, 48px, 24px, 24px);
 }
 #forward-btn:not([disabled="true"]):hover,
