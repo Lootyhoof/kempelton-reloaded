@@ -5,6 +5,25 @@
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 @namespace html url("http://www.w3.org/1999/xhtml");
 
+:root {
+  --appmenu-border-radius: 4px;
+  
+  --toolbar-custom-color: -moz-Dialog;
+  --toolbar-highlight-top: transparent;
+  --toolbar-highlight-bottom: transparent;
+  
+  --tab-background: url("chrome://browser/skin/tabbrowser/tab-bkgnd.png") repeat-x;
+  --tab-background-hover: url("chrome://browser/skin/tabbrowser/tab-hover-bkgnd.apng") repeat-x;
+  --tab-border-radius: 2px;
+  --tab-selected-background: -moz-dialog url("chrome://browser/skin/tabbrowser/tab-active-bkgnd.png") repeat-x;
+  
+  --window-text-color: currentColor;
+}
+
+:root:-moz-lwtheme {
+  --toolbar-highlight-top: rgba(255,255,255,.7);
+}
+
 #menubar-items {
   -moz-box-orient: vertical; /* for flex hack */
 }
@@ -25,7 +44,7 @@
 }
 
 #navigator-toolbox > toolbar:not(:-moz-lwtheme) {
-  background-color: -moz-Dialog;
+  background-color: var(--toolbar-custom-color);
 }
 
 @media not all and (-moz-windows-compositor) {
@@ -74,10 +93,10 @@
   counter-reset: largeicons;
 }
 
-#navigator-toolbox[tabsontop="true"] > #nav-bar:-moz-lwtheme,
-#navigator-toolbox[tabsontop="true"]:not([customizing]) > #nav-bar[collapsed="true"]:-moz-lwtheme + toolbar:-moz-lwtheme,
-#navigator-toolbox[tabsontop="true"]:not([customizing]) > #nav-bar[collapsed="true"]:-moz-lwtheme + #customToolbars:-moz-lwtheme + #PersonalToolbar:-moz-lwtheme {
-  background-image: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,0));
+#navigator-toolbox[tabsontop="true"] > #nav-bar,
+#navigator-toolbox[tabsontop="true"]:not([customizing]) > #nav-bar[collapsed="true"] + toolbar,
+#navigator-toolbox[tabsontop="true"]:not([customizing]) > #nav-bar[collapsed="true"] + #customToolbars + #PersonalToolbar {
+  background-image: linear-gradient(var(--toolbar-highlight-top), var(--toolbar-highlight-bottom));
 }
 
 #personal-bookmarks {
@@ -98,7 +117,7 @@
 #appmenu-button {
   -moz-appearance: none;
   background-clip: padding-box;
-  border-radius: 0 0 4px 4px;
+  border-radius: 0 0 var(--appmenu-border-radius) var(--appmenu-border-radius);
   border: 1px solid;
   border-top: none;
   color: white;
@@ -1724,7 +1743,7 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
 .tabs-newtab-button,
 #TabsToolbar .tabs-alltabs-button {
   -moz-appearance: none;
-  background: url("chrome://browser/skin/tabbrowser/tab-bkgnd.png") repeat-x;
+  background: var(--tab-background);
   margin: 3px 0px 4px;
   border: 2px solid;
   border-right-width: 1px;
@@ -1757,14 +1776,13 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
 }
 
 .tabbrowser-tab {
-  border-radius: 2px 2px 0 0;
+  border-radius: var(--tab-border-radius) var(--tab-border-radius) 0 0;
   -moz-border-right-colors: rgba(0,0,0,.1);
 }
 
 .tabbrowser-tab:hover,
 .tabbrowser-tab[selected="true"] {
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
+  --tab-border-radius: 4px;
   -moz-border-top-colors: ThreeDShadow transparent;
   -moz-border-right-colors: ThreeDShadow transparent;
   -moz-border-left-colors: ThreeDShadow transparent;
@@ -1776,15 +1794,12 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
 }
 
 .tabbrowser-tab:not([selected="true"]):hover {
-  background-image: url("chrome://browser/skin/tabbrowser/tab-hover-bkgnd.apng");
-  background-repeat: repeat-x;
+  background: var(--tab-background-hover);
   padding-top: 2px;
 }
 
 .tabbrowser-tab[selected="true"] {
-  background-image: url("chrome://browser/skin/tabbrowser/tab-active-bkgnd.png");
-  background-repeat: repeat-x;
-  background-color: -moz-dialog;
+  background: var(--tab-selected-background);
   font-weight: bold;
   padding-top: 1px;
   padding-left: 4px;
