@@ -1,6 +1,6 @@
 :root {
-  --shadow-color: #CCCCCC;
-  --shadow-light-color: #AAAAAA;
+  --shadow-color: #CCCCCC !important;
+  --shadow-light-color: #AAAAAA !important;
 }
 
 #titlebar {
@@ -34,11 +34,6 @@
   padding-bottom: 1px !important;
 }
 
-.tabbrowser-tab:not([selected="true"]) > * > * > .tab-close-button {
-  padding-top: 0;
-  margin-top: -1px;
-}
-
 #main-window[inFullscreen] .tabbrowser-tab:not([selected="true"]),
 #main-window[inFullscreen] .tabs-newtab-button,
 #main-window[inFullscreen] .tabs-alltabs-button {
@@ -48,6 +43,12 @@
 #main-window[inFullscreen] .tabbrowser-tab[selected="true"],
 #main-window[inFullscreen] .tabbrowser-tab:not([selected="true"]):hover {
   margin-top: 2px !important;
+}
+
+/* Searchbar fix */
+
+.searchbar-textbox:not(:-moz-lwtheme) {
+  border: 1px solid var(--shadow-color) !important;
 }
 
 /* ::::: bookmark buttons ::::: */
