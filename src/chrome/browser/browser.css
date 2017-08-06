@@ -3399,6 +3399,16 @@ html|*#gcli-output-frame {
   right: auto;
 }
 
+#main-window[privatebrowsingmode=temporary] #toolbar-menubar {
+  background-image: url("chrome://browser/skin/Privacy-16.png");
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+
+#main-window[privatebrowsingmode=temporary] #toolbar-menubar:-moz-locale-dir(rtl) {
+  background-position: top left;
+}
+
 /* ::::: fullscreen window controls ::::: */
 
 #window-controls {
