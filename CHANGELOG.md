@@ -1,5 +1,13 @@
 # Changelog
 
+### 5.1.0
+- improve downloads panel appearance
+- use new icon for "switch to tab" in address bar
+- add basic OS X styling
+- PM27.5: draw a background on Windows 10 for improved accent color detection
+- add private browsing indicator in menubar
+- fix caption button/appmenu margins for tabsintitlebar mode
+
 ### 5.0.0
 - redesign appmenu on Windows and Linux
 - add HiDPI-capable toolbar images
