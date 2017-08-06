@@ -283,11 +283,10 @@
 
 .titlebar-placeholder[type="appmenu-button"] {
   margin-left: 4px;
-  margin-right: 14px; /* Extra space for Aero Snap - some clear glass to be dragabble.  Also looks OK outside of Aero. */
 }
 
 .titlebar-placeholder[type="caption-buttons"] {
-  margin-left: 20px; /* Extra space for Aero Snap - some clear glass to be dragabble.  Also looks OK outside of Aero. */
+  margin-left: 22px; /* additional space for Aero Snap */
 }
 
 /* titlebar command buttons */
