@@ -3399,7 +3399,7 @@ html|*#gcli-output-frame {
 }
 
 #main-window[privatebrowsingmode=temporary] #toolbar-menubar {
-  background-image: url("chrome://browser/skin/Privacy-16.png");
+  background-image: url("chrome://browser/skin/Privacy-32.png");
   background-position: top right;
   background-repeat: no-repeat;
 }
