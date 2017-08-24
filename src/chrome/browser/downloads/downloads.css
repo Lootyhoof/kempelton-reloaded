@@ -374,8 +374,7 @@ toolbar[iconsize="large"] > #downloads-indicator[attention] > #downloads-indicat
 #downloads-indicator-counter {
   height: 9px;
   margin: -3px 0px 0px 0px;
-  color: hsl(0,0%,30%);
-  text-shadow: hsla(0,0%,100%,.5) 0 1px;
+  color: -moz-DialogText;
   font-size: 9px;
   line-height: 9px;
   text-align: center;
