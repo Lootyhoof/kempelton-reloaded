@@ -1,5 +1,11 @@
 # Changelog
 
+### 5.1.1
+- improve downloads indicator appearance
+- use larger private browsing indicator in menu bar
+- restore native toolbarbutton styling
+- Linux: add private browsing indicator to tab bar
+
 ### 5.1.0
 - improve downloads panel appearance
 - use new icon for "switch to tab" in address bar
