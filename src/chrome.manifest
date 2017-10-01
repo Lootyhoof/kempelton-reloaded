@@ -1,6 +1,4 @@
 skin	abouthome	kempelton-reloaded	chrome/abouthome/
-skin	appver		kempelton-reloaded	chrome/appver/274/	appversion<27.5.0a1
-skin	appver		kempelton-reloaded	chrome/appver/275/	appversion>=27.5.0a1
 skin	browser		kempelton-reloaded	chrome/browser/
 skin	communicator	kempelton-reloaded	chrome/communicator/
 skin	global		kempelton-reloaded	chrome/global/
