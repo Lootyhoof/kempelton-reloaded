@@ -1400,10 +1400,6 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
   margin-top: -2px;
 }
 
-#main-window[tabsintitlebar] #TabsToolbar:not(:-moz-lwtheme) {
-  background: transparent !important;
-}
-
 .tabbrowser-tabs {
   margin-bottom: -5px;
   padding-bottom: 4px;
