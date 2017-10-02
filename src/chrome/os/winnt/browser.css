@@ -75,9 +75,11 @@
   }
 }
 
-#appmenu-button:not(:hover):-moz-window-inactive {
-  background-image: none;
-  background-color: transparent;
+@media (-moz-windows-glass) {
+  #appmenu-button:not(:hover):-moz-window-inactive {
+    background-image: none;
+    background-color: transparent;
+  }
 }
 
 #appmenu-button:hover:not(:active):not([open]) {
@@ -198,17 +200,6 @@ toolbarbutton.bookmark-item[open="true"] {
   #restore-button:-moz-locale-dir(rtl),
   #close-button:-moz-locale-dir(rtl) {
     -moz-transform: scaleX(-1);
-  }
-}
-
-@media not all and (-moz-windows-glass) {
-  #appmenu-button:not(:hover):-moz-window-inactive {
-    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.3) inset, 
-                1px 1px 0 0px rgba(255, 255, 255, 0.3), 
-                -1px 1px 0 0px rgba(255, 255, 255, 0.3);
-    -moz-border-left-colors: rgba(0,0,0,.3);
-    -moz-border-bottom-colors: rgba(0,0,0,.3);
-    -moz-border-right-colors: rgba(0,0,0,.3);
   }
 }
 
