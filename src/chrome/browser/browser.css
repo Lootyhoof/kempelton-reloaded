@@ -734,13 +734,13 @@ toolbar[brighttext] #tabview-button {
 /* print button */
 
 #print-button {
-  -moz-image-region: rect(0 432px 48px 384px);
+  -moz-image-region: rect(0px 432px 48px 384px);
 }
 
 /* toolbar new tab button */
 
 #new-tab-button {
-  -moz-image-region: rect(0px 480px 24px 216px);
+  -moz-image-region: rect(0px 480px 48px 432px);
 }
 
 /* new window button */
