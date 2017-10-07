@@ -1417,7 +1417,7 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
 #main-window[tabsintitlebar] .tabbrowser-tab[selected=true]:not(:-moz-lwtheme),
 #main-window[tabsintitlebar] .tabbrowser-tab:hover:not(:-moz-lwtheme),
 #main-window[tabsintitlebar] .tabs-newtab-button:hover:not(:-moz-lwtheme) {
-  background-color: -moz-dialog;
+  background-color: var(--toolbar-custom-color);
 }
 
 #main-window[tabsintitlebar] .tabbrowser-tab:not(:hover):not([selected=true]):not(:-moz-lwtheme),
