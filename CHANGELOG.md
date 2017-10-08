@@ -1,5 +1,17 @@
 # Changelog
 
+### 5.1.2
+- set minimum supported version to Pale Moon 27.5.0
+- fix statusbar progressmeter custom colors
+- don't use filters on extension icons
+- re-implement back-forward dropmarker in icons+text and text modes
+- improve titlebar styling on non-compositor Windows when tabs are in titlebar
+- fix new tab icon mapping when not in tab bar
+- Windows: only apply inactive appmenu styling to Aero Glass
+- Win10: use white window backgrounds on active windows with no accent color applied
+- Linux: redesign appmenu button
+- minor cleanup
+
 ### 5.1.1
 - improve downloads indicator appearance
 - use larger private browsing indicator in menu bar
