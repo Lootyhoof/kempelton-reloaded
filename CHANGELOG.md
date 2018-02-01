@@ -1,5 +1,8 @@
 # Changelog
 
+### 5.1.3
+- style fullscreen warning message
+
 ### 5.1.2
 - set minimum supported version to Pale Moon 27.5.0
 - fix statusbar progressmeter custom colors
