@@ -53,6 +53,14 @@
   border-top: none;
 }
 
+#navigator-toolbox::after {
+  content: "";
+  display: -moz-box;
+  -moz-box-ordinal-group: 101; /* tabs toolbar is 100 */
+  height: 1px;
+  background-color: var(--shadow-color);
+}
+
 #navigator-toolbox > toolbar:not(:-moz-lwtheme) {
   background-color: var(--toolbar-custom-color);
 }
@@ -1374,17 +1382,10 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
 }
 
 #TabsToolbar[tabsontop=false]:not(:-moz-lwtheme) {
-  border-bottom: 4px solid;
+  border-bottom: 3px solid;
   border-top: 1px solid var(--shadow-color);
-  -moz-border-bottom-colors: var(--shadow-color) -moz-Dialog -moz-Dialog var(--shadow-color);
+  -moz-border-bottom-colors: -moz-Dialog -moz-Dialog var(--shadow-color);
   padding-bottom: 0px;
-}
-
-@media not all and (-moz-windows-default-theme) {
-  #TabsToolbar[tabsontop=false]:not(:-moz-lwtheme) {
-    border-bottom: 4px solid;
-	-moz-border-bottom-colors: var(--shadow-color) -moz-Dialog -moz-Dialog var(--shadow-color);
-  }
 }
 
 #TabsToolbar[tabsontop=true]:not(:-moz-lwtheme) {

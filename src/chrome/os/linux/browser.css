@@ -28,10 +28,6 @@
   padding-top: 1px !important;
 }
 
-#main-window:not([disablechrome]) #navigator-toolbox[tabsontop=true] {
-  border-bottom: 1px solid var(--shadow-color);
-}
-
 .toolbarbutton-1 > .toolbarbutton-menu-dropmarker,
 .toolbarbutton-1 > .toolbarbutton-menubutton-dropmarker {
   list-style-image: none !important;
