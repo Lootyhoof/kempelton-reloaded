@@ -1,5 +1,8 @@
 # Changelog
 
+### 5.1.4
+- show navigator-toolbox bottom border when tabs bar disabled
+
 ### 5.1.3
 - style fullscreen warning message
 
