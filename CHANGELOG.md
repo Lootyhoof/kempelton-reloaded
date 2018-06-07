@@ -1,5 +1,9 @@
 # Changelog
 
+### 5.2.0
+- add initial Pale Moon 28 support
+- don't use background image on standalone image viewer
+
 ### 5.1.4
 - show navigator-toolbox bottom border when tabs bar disabled
 

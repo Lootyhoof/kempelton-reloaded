@@ -9,7 +9,7 @@
 
   <Description about="urn:mozilla:install-manifest">
     <em:id>{03c2ba51-52c3-4cb1-9309-229eb4bc8948}</em:id>
-    <em:version>5.1.4</em:version>
+    <em:version>5.2.0</em:version>
     <em:name>Kempelton Reloaded</em:name>
     <em:description>Remake of the beautiful Kempelton theme by Arvid Axelsson for Pale Moon.</em:description>
     <em:creator>Lootyhoof</em:creator>
