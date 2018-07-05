@@ -469,6 +469,7 @@ toolbar[mode="icons"] #back-button {
   -moz-appearance: none;
   padding: 0;
   -moz-padding-start: 3px;
+  margin-right: 0px;
   border: none;
 }
 
@@ -508,6 +509,7 @@ toolbar[mode="icons"] #forward-button {
   -moz-appearance: none;
   padding: 0;
   -moz-padding-end: 4px;
+  margin-left: 0px;
   border: none;
 }
 
