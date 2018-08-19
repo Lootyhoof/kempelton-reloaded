@@ -20,12 +20,12 @@
   padding: 8px 0;
   width: 64px;
   background-image: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.6));
-  -moz-border-end: 1px solid rgba(0,0,0,.1);
+  border-inline-end: 1px solid rgba(0,0,0,.1);
 }
 
 .alertTextBox {
   padding: 8px;
-  -moz-padding-start: 16px;
+  padding-inline-start: 16px;
   width: 255px;
 }
 

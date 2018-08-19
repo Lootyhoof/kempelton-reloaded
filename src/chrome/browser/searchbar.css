@@ -20,21 +20,21 @@
   height: 16px;
   width: 16px;
   list-style-image: url("chrome://global/skin/icons/item.png");
-  -moz-margin-start: 3px;
+  margin-inline-start: 3px;
 }
 
 .searchbar-engine-button {
   -moz-appearance: none;
   min-width: 0;
   margin: 0;
-  -moz-margin-end: 3px;
+  margin-inline-end: 3px;
   padding: 0;
   height: 1.23em;
   min-height: 20px;
   box-align: center;
   background: -moz-dialog url(navbar-textbox-buttons.png) repeat-x;
   border: 0 solid;
-  -moz-border-end-width: 1px;
+  border-inline-end-width: 1px;
   -moz-border-right-colors: ThreeDShadow;
   -moz-border-left-colors: ThreeDShadow;
   -moz-border-right-colors: rgba(0,0,0,.05);
@@ -88,8 +88,8 @@
 }
 
 .search-go-button:-moz-system-metric(touch-enabled) {
-  -moz-padding-start: 5px;
-  -moz-padding-end: 3px;
+  padding-inline-start: 5px;
+  padding-inline-end: 3px;
 }
 
 .search-go-button:-moz-locale-dir(rtl) {

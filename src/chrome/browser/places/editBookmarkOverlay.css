@@ -19,7 +19,7 @@
 .expander-down {
   min-width: 0;
   margin: 0;
-  -moz-margin-end: 4px;
+  margin-inline-end: 4px;
 }
 
 .expander-up > .button-box,
@@ -59,7 +59,7 @@
   -moz-border-bottom-colors: ThreeDHighlight ThreeDLightShadow;
   -moz-border-left-colors: ThreeDShadow ThreeDDarkShadow;
   padding: 2px 2px 3px;
-  -moz-padding-start: 4px;
+  padding-inline-start: 4px;
   background-color: -moz-Field;
   color: -moz-FieldText;
 }

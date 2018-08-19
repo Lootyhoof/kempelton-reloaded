@@ -112,8 +112,8 @@
 /* ::::: app menu button ::::: */
 
 .splitmenu-menuitem {
-  -moz-margin-end: 1px;
-  -moz-padding-end: 0.5em;
+  margin-inline-end: 1px;
+  padding-inline-end: 0.5em;
 }
 
 .splitmenu-menu {
@@ -133,7 +133,7 @@
 }
 
 #appmenuPrimaryPane {
-  -moz-border-end: 1px solid var(--shadow-color);
+  border-inline-end: 1px solid var(--shadow-color);
 }
 
 #appmenu-popup {
@@ -144,13 +144,13 @@
 #appmenuPrimaryPane {
   background-color: rgba(255,255,255,0.5);
   padding: 2px;
-  -moz-border-end: none;
+  border-inline-end: none;
 }
 #appmenuSecondaryPane {
   background-color: #f1f5fb;
   box-shadow: 1px 0 2px rgb(204,214,234) inset;
-  -moz-padding-start: 3px;
-  -moz-padding-end: 2px;
+  padding-inline-start: 3px;
+  padding-inline-end: 2px;
   padding-top: 2px;
   padding-bottom: 2px;
   font-family: "Segoe UI Semibold", "Segoe UI", sans-serif;
@@ -170,7 +170,7 @@
   -moz-appearance: none;
   margin-top: 3px;
   margin-bottom: 3px;
-  -moz-margin-start: -moz-calc(1.45em + 4px);
+  margin-inline-start: -moz-calc(1.45em + 4px);
   padding: 0;
   border-top: 1px solid #d6e5f5;
   border-bottom: none;
@@ -323,7 +323,7 @@
 
 @media not all and (-moz-windows-classic) {
   #titlebar-min {
-    -moz-margin-end: 2px;
+    margin-inline-end: 2px;
   }
 }
 
@@ -353,7 +353,7 @@ menuitem.bookmark-item {
 }
 
 .bookmark-item > .menu-iconic-left > .menu-iconic-icon {
-  -moz-padding-start: 0px;
+  padding-inline-start: 0px;
 }
 
 /* ::::: bookmark items ::::: */
@@ -438,7 +438,7 @@ toolbar[mode=full] .toolbarbutton-1:not([type=menu-button]) {
 
 .toolbarbutton-1 > .toolbarbutton-menubutton-button > .toolbarbutton-icon,
 .toolbarbutton-1 > .toolbarbutton-icon {
-  -moz-margin-end: 0;
+  margin-inline-end: 0;
 }
 
 #tab-view-deck #unified-back-forward-button {
@@ -468,7 +468,7 @@ toolbar[iconsize="large"][mode="icons"] #back-forward-dropmarker {
 toolbar[mode="icons"] #back-button {
   -moz-appearance: none;
   padding: 0;
-  -moz-padding-start: 3px;
+  padding-inline-start: 3px;
   margin-right: 0px;
   border: none;
 }
@@ -508,7 +508,7 @@ toolbar[iconsize="large"][mode="icons"] #back-button:not([disabled="true"]):hove
 toolbar[mode="icons"] #forward-button {
   -moz-appearance: none;
   padding: 0;
-  -moz-padding-end: 4px;
+  padding-inline-end: 4px;
   margin-left: 0px;
   border: none;
 }
@@ -531,8 +531,8 @@ toolbar[iconsize="large"][mode="icons"] #forward-button:not([disabled="true"]):h
 toolbar[mode="icons"] #back-forward-dropmarker {
   -moz-appearance: none;
   padding: 0;
-  -moz-padding-end: 2px;
-  -moz-margin-start: -4px;
+  padding-inline-end: 2px;
+  margin-inline-start: -4px;
   border: none;
 }
  
@@ -794,13 +794,13 @@ toolbar[brighttext] #tabview-button {
 }
 
 #nav-bar #zoom-in-button {
-  -moz-margin-start: 0px;
-  -moz-padding-start: 2px;
+  margin-inline-start: 0px;
+  padding-inline-start: 2px;
 }
 
 #nav-bar #zoom-out-button {
-  -moz-margin-end: 0px;
-  -moz-padding-end: 2px;
+  margin-inline-end: 0px;
+  padding-inline-end: 2px;
 }
 
 /* feed button */
@@ -948,14 +948,14 @@ toolbar[iconsize="small"] #fullscreen-button {
 
 toolbar[iconsize="small"] #zoom-in-button {
   -moz-image-region: rect(0, 512px, 32px, 480px);
-  -moz-margin-start: 0px;
-  -moz-padding-start: 2px;
+  margin-inline-start: 0px;
+  padding-inline-start: 2px;
 }
 
 toolbar[iconsize="small"] #zoom-out-button {
   -moz-image-region: rect(0, 544px, 32px, 512px);
-  -moz-margin-end: 0px;
-  -moz-padding-end: 2px;
+  margin-inline-end: 0px;
+  padding-inline-end: 2px;
 }
 
 /* feed button */
@@ -1044,7 +1044,7 @@ toolbar[iconsize="small"] #sync-button[status="active"] {
 #urlbar-icons {
   height: 18px;
   -moz-box-align: center;
-  -moz-padding-end: 2px;
+  padding-inline-end: 2px;
 }
 
 .urlbar-icon {
@@ -1052,20 +1052,20 @@ toolbar[iconsize="small"] #sync-button[status="active"] {
 }
 
 .urlbar-icon:-moz-system-metric(touch-enabled) {
-  -moz-margin-end: 1px !important;
+  margin-inline-end: 1px !important;
   padding: 0 3px !important;
 }
 
 #urlbar-search-splitter {
   min-width: 8px;
-  -moz-margin-start: -4px;
+  margin-inline-start: -4px;
   border: none;
   background: transparent;
 }
 
 #urlbar-search-splitter + #urlbar-container > #urlbar ,
 #urlbar-search-splitter + #search-container > #searchbar > .searchbar-textbox {
-  -moz-margin-start: 0;
+  margin-inline-start: 0;
 }
 
 #wrapper-urlbar-container .urlbar-history-dropmarker {
@@ -1101,8 +1101,8 @@ toolbar[iconsize="small"] #sync-button[status="active"] {
   height: 16px;
   margin-top: 2px;
   margin-bottom: 2px;
-  -moz-margin-start: 3px;
-  -moz-margin-end: 2px;
+  margin-inline-start: 3px;
+  margin-inline-end: 2px;
 }
 
 #page-proxy-favicon:not([src]) {
@@ -1316,7 +1316,7 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
 
 .panel-promo-icon {
   list-style-image: url("chrome://browser/skin/sync-notification-24.png");
-  -moz-margin-end: 10px;
+  margin-inline-end: 10px;
   vertical-align: middle;
 }
 
@@ -1325,7 +1325,7 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
   list-style-image: url("chrome://global/skin/icons/close.png");
   -moz-image-region: rect(0, 16px, 16px, 0);
   border: none;
-  -moz-margin-end: -10px;
+  margin-inline-end: -10px;
   margin-top: -5px;
 }
 
@@ -1349,7 +1349,7 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
 }
 
 #sidebar-title {
-  -moz-padding-start: 0px;
+  padding-inline-start: 0px;
 }
 
 #status-bar {
@@ -1422,7 +1422,7 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
 }
 
 #main-window:not([tabsintitlebar]) .tabbrowser-tabs {
-  -moz-margin-start: 3px;
+  margin-inline-start: 3px;
 }
 
 .tabbrowser-tabs[tabsontop=true]:-moz-lwtheme {
@@ -1468,7 +1468,7 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
 }
 
 .tabs-container:not([overflow="true"]) {
-  -moz-padding-start: 3px;
+  padding-inline-start: 3px;
 }
 
 :-moz-any(#TabsToolbar, #addon-bar) .toolbarbutton-1,
@@ -1622,8 +1622,8 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
 
 .tab-throbber[pinned],
 .tab-icon-image[pinned] {
-  -moz-margin-start: 5px;
-  -moz-margin-end: 5px;
+  margin-inline-start: 5px;
+  margin-inline-end: 5px;
 }
 
 /* tabbrowser-tab focus ring */
@@ -1640,8 +1640,8 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
   height: 11px;
   margin-top: -11px;
   position: relative;
-  /* set -moz-margin-start to -1/2 indicator width: */
-  -moz-margin-start: -5px;
+  /* set margin-inline-start to -1/2 indicator width: */
+  margin-inline-start: -5px;
 }
 
 .tab-drop-indicator {
@@ -1676,7 +1676,7 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
 }
 
 .tabbrowser-tab:not([selected]) .tab-close-button {
-  -moz-margin-end: 1px;
+  margin-inline-end: 1px;
   padding-top: 1px;
 }
 
@@ -1875,9 +1875,9 @@ toolbar[brighttext] .tabs-closebutton {
 }
 
 .tabs-closebutton > .toolbarbutton-icon {
-  -moz-margin-end: 0px !important;
-  -moz-padding-end: 2px !important;
-  -moz-padding-start: 2px !important;
+  margin-inline-end: 0px !important;
+  padding-inline-end: 2px !important;
+  padding-inline-start: 2px !important;
 }
 
 .tabs-container > .tabs-closebutton {
@@ -1920,7 +1920,7 @@ toolbar[mode="text"] toolbarbutton.chevron > .toolbarbutton-icon {
 
 #sidebar-throbber[loading="true"] {
   list-style-image: url("chrome://global/skin/icons/loading_16.png");
-  -moz-margin-end: 4px;
+  margin-inline-end: 4px;
 }
 
 /* Location bar dropmarker */
@@ -1986,7 +1986,7 @@ toolbar[mode="text"] toolbarbutton.chevron > .toolbarbutton-icon {
 .menupopup-drop-indicator {
   list-style-image: none;
   height: 2px;
-  -moz-margin-end: -4em;
+  margin-inline-end: -4em;
   background-color: Highlight;
 }
 
@@ -2020,7 +2020,7 @@ toolbar[mode="text"] toolbarbutton.chevron > .toolbarbutton-icon {
 /* Location bar visuals*/
 
 #urlbar:-moz-locale-dir(ltr) {
-  -moz-margin-start: 6px;
+  margin-inline-start: 6px;
 }
 
 #urlbar > .autocomplete-textbox-container {
@@ -2031,19 +2031,19 @@ toolbar[mode="text"] toolbarbutton.chevron > .toolbarbutton-icon {
   background: -moz-dialog url(navbar-textbox-buttons.png) repeat-x;
   color: -moz-dialogText;
   border: 1px none var(--shadow-color);
-  -moz-border-end-style: solid;
+  border-inline-end-style: solid;
   box-shadow: 1px 1px 0 rgba(255,255,255,.3) inset,
                    0 -1px 0 rgba(255,255,255,.2) inset;
 }
 #identity-box:-moz-locale-dir(rtl) {
-  -moz-border-start-style: solid;
+  border-inline-start-style: solid;
 }
 #identity-box:-moz-locale-dir(ltr) {
   border-radius: 6px 0 2px 6px / 15px 0 2px 15px;
   margin: -1px 0;
   padding: 0px 4px 0px 6px;
   border-style: solid;
-  -moz-border-end-color: rgba(0,0,0,.05);
+  border-inline-end-color: rgba(0,0,0,.05);
 }
 
 #identity-box.verifiedDomain,
@@ -2115,7 +2115,7 @@ toolbar[mode="text"] toolbarbutton.chevron > .toolbarbutton-icon {
 }
 
 #notification-popup-box:not([hidden]) + #identity-box {
-  -moz-padding-start: 15px;
+  padding-inline-start: 15px;
   border-radius: 0;
 }
 
@@ -2168,13 +2168,13 @@ window:not([chromehidden~=toolbar]) #navigator-toolbox[iconsize=large][mode=icon
 /* Popup Body Text */
 .identity-popup-description {
   white-space: pre-wrap;
-  -moz-padding-start: 15px;
+  padding-inline-start: 15px;
   margin: 2px 0 4px;
 }
 
 .identity-popup-label {
   white-space: pre-wrap;
-  -moz-padding-start: 15px;
+  padding-inline-start: 15px;
   margin: 0;
 }
 
@@ -2208,7 +2208,7 @@ window:not([chromehidden~=toolbar]) #navigator-toolbox[iconsize=large][mode=icon
 #identity-popup-content-box.verifiedIdentity > #identity-popup-encryption ,
 #identity-popup-content-box.verifiedDomain > #identity-popup-encryption {
   margin-top: 10px;
-  -moz-margin-start: -24px;
+  margin-inline-start: -24px;
 }
 
 #identity-popup-content-box.verifiedIdentity > #identity-popup-encryption > vbox > #identity-popup-encryption-icon ,
@@ -2219,13 +2219,13 @@ window:not([chromehidden~=toolbar]) #navigator-toolbox[iconsize=large][mode=icon
 #identity-popup-more-info-button {
   margin-top: 6px;
   margin-bottom: 0;
-  -moz-margin-end: 0;
+  margin-inline-end: 0;
 }
 
 .popup-notification-icon {
   width: 64px;
   height: 64px;
-  -moz-margin-end: 10px;
+  margin-inline-end: 10px;
 }
 
 .popup-notification-icon[popupid="geolocation"] {
@@ -2269,8 +2269,8 @@ window:not([chromehidden~=toolbar]) #navigator-toolbox[iconsize=large][mode=icon
 
 .popup-progress-label,
 .popup-progress-meter {
-  -moz-margin-start: 0;
-  -moz-margin-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
 }
 
 .popup-progress-cancel {
@@ -2332,7 +2332,7 @@ window:not([chromehidden~=toolbar]) #navigator-toolbox[iconsize=large][mode=icon
   border-width: 0 8px 0 0;
   border-style: solid;
   border-image: url("chrome://browser/skin/urlbar-arrow.png") 0 8 0 0 fill;
-  -moz-margin-end: -8px;
+  margin-inline-end: -8px;
   padding: 1px 0 1px 0px;
   margin-left: 4px !important;
 }
@@ -2497,7 +2497,7 @@ toolbarbutton.bookmark-item[dragover="true"][open="true"] {
 #nav-bar[iconsize="large"][mode="icons"]:not([currentset]),
 #nav-bar[iconsize="large"][mode="icons"][currentset$=",urlbar-container"],
 #nav-bar[iconsize="large"][mode="icons"][currentset$=",search-container"] {
-  -moz-padding-end: 2px;
+  padding-inline-end: 2px;
 }
 
 /* Bookmarks roots menu-items */
@@ -2629,8 +2629,8 @@ toolbarbutton.bookmark-item[dragover="true"][open="true"] {
 }
 
 #allTabs-filter {
-  -moz-margin-start: 24px;
-  -moz-margin-end: 0;
+  margin-inline-start: 24px;
+  margin-inline-end: 0;
 }
 
 #allTabs-tab-close-button > .toolbarbutton-icon {
@@ -2669,11 +2669,11 @@ toolbarbutton.bookmark-item[dragover="true"][open="true"] {
 /* ::::: Identity Indicator Styling ::::: */
 
 #urlbar:-moz-locale-dir(ltr) {
-  -moz-margin-start: 9px;
+  margin-inline-start: 9px;
 }
 
 #identity-box:-moz-locale-dir(ltr) {
-  -moz-margin-start: -7px;
+  margin-inline-start: -7px;
 }
 
 #identity-box:-moz-locale-dir(ltr) {
@@ -2683,13 +2683,13 @@ toolbarbutton.bookmark-item[dragover="true"][open="true"] {
 
 #sidebar-splitter {
   border: 0;
-  -moz-border-end: 1px solid;
+  border-inline-end: 1px solid;
   -moz-border-right-colors: #A9B7C9;
   -moz-border-left-colors: #A9B7C9;
   min-width: 0;
   width: 3px;
   background-color: transparent;
-  -moz-margin-start: -3px;
+  margin-inline-start: -3px;
   position: relative;
   z-index: 10;
 }
@@ -2903,7 +2903,7 @@ toolbarbutton.bookmark-item[dragover="true"][open="true"] {
   -moz-appearance: none;
   color: inherit;
   border-width: 0;
-  -moz-border-end: 1px solid hsla(210,8%,5%,.45);
+  border-inline-end: 1px solid hsla(210,8%,5%,.45);
   box-shadow: -1px 0 0 hsla(210,16%,76%,.15) inset, 1px 0 0 hsla(210,16%,76%,.15);
 }
 
@@ -3350,7 +3350,7 @@ html|*#gcli-output-frame {
 }
 
 .center-item-label {
-  -moz-margin-start: 6px;
+  margin-inline-start: 6px;
   margin-bottom: 0;
   text-overflow: ellipsis;
 }
@@ -3360,7 +3360,7 @@ html|*#gcli-output-frame {
   background-repeat: no-repeat;
   width: 16px;
   height: 15px;
-  -moz-margin-start: 6px;
+  margin-inline-start: 6px;
 }
 
 .click-to-play-plugins-notification-button-container {
@@ -3394,7 +3394,7 @@ html|*#gcli-output-frame {
   text-shadow: none;
   background-image: linear-gradient(#B4211B, #8A1915);
   border-radius: 1px;
-  -moz-margin-end: 5px;
+  margin-inline-end: 5px;
 }
 
 /* Badge toolbar item */
@@ -3420,7 +3420,7 @@ html|*#gcli-output-frame {
 
 .toolbarbutton-badge-container > .toolbarbutton-icon[label]:not([label=""]),
 .toolbarbutton-badge-stack > .toolbarbutton-icon[label]:not([label=""]) {
-  -moz-margin-end: 0;
+  margin-inline-end: 0;
 }
 
 #navigator-toolbox[iconsize=large][mode=icons] > #nav-bar *|* > .toolbarbutton-badge[badge]:not([badge=""])::after {
