@@ -1,5 +1,13 @@
 # Changelog
 
+### 5.4.0
+- sync global stylings with Pale Moon 28
+- remove redundant devtools styling
+- mark as compatible with Pale Moon 28 only
+- use non-prefixed -inline syntax
+- update media controls
+- improve menubar appearance on Linux
+
 ### 5.3.0
 - add PM28 newtab styling
 - add tabbrowser findbar styling
