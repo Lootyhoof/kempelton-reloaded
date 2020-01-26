@@ -1,5 +1,5 @@
 # Kempelton Reloaded
-![Preview](http://i68.tinypic.com/ea189i.png)
+![Preview](https://i.imgur.com/Xz1zfXn.png)
 
 Remake of the Kempelton theme for Pale Moon and Ambassador by [Arvid Axelsson](http://arvidaxelsson.se/). 
 
