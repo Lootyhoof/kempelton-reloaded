@@ -4,8 +4,8 @@ skin	browser		kempelton-reloaded	chrome/browser/
 skin	communicator	kempelton-reloaded	chrome/communicator/
 skin	global		kempelton-reloaded	chrome/global/
 skin	mozapps		kempelton-reloaded	chrome/mozapps/
-skin	os			kempelton-reloaded	chrome/os/winnt/	os=WINNT	
-skin	os			kempelton-reloaded	chrome/os/linux/	os=Linux
+skin	os			kempelton-reloaded	chrome/os/linux/
+skin	os			kempelton-reloaded	chrome/os/winnt/	os=WINNT
 skin	os			kempelton-reloaded	chrome/os/darwin/	os=Darwin
 
 override chrome://browser/skin/autocomplete.css chrome://global/skin/autocomplete.css
