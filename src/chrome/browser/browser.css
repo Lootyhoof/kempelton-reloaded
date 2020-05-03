@@ -137,7 +137,7 @@
   border: 1px solid #b8d6fb;
   box-shadow: inset 0 0 1px white;
   background: linear-gradient(#fafbfd, #ebf3fd);
-  -moz-transition: .2s ease-in;
+  transition: .2s ease-in;
 }
 
 #appmenuSecondaryPane-spacer {
@@ -1467,7 +1467,7 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
                     linear-gradient(transparent, rgba(0,0,0,.25) 30%),
                     linear-gradient(transparent, rgba(0,0,0,.25) 30%);
   background-position: 1px -1px, 0 -1px, 100% -1px;
-  background-size: -moz-calc(100% - 2px) 100%, 1px 100%, 1px 100%;
+  background-size: calc(100% - 2px) 100%, 1px 100%, 1px 100%;
   background-repeat: no-repeat;
 }
 
@@ -1642,7 +1642,7 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
 }
 
 .tab-close-button:-moz-system-metric(touch-enabled) {
-  -moz-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .tab-close-button[selected="true"]:not(:hover) {
@@ -1983,7 +1983,7 @@ toolbarbutton.chevron {
 }
 
 toolbarbutton.chevron:-moz-locale-dir(rtl) > .toolbarbutton-icon {
-  -moz-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
 toolbarbutton.chevron > .toolbarbutton-text,
@@ -2728,7 +2728,7 @@ toolbarbutton.bookmark-item[dragover="true"][open="true"] {
 }
 
 .allTabs-preview-label {
-  -moz-transform: translate(0, 1px);
+  transform: translate(0, 1px);
 }
 
 /* ::::: Main Window Styling ::::: */

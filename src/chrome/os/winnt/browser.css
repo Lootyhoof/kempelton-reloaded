@@ -232,7 +232,7 @@ toolbarbutton.bookmark-item[open="true"] {
   #minimize-button:-moz-locale-dir(rtl),
   #restore-button:-moz-locale-dir(rtl),
   #close-button:-moz-locale-dir(rtl) {
-    -moz-transform: scaleX(-1);
+    transform: scaleX(-1);
   }
 }
 
