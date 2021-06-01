@@ -17,6 +17,10 @@
   border: none !important;
 }
 
+.alertCloseBox {
+  margin-inline-end: 2px;
+}
+
 #alertIcon {
   margin-top: 6px;
   margin-inline-start: 8px;
@@ -91,7 +95,7 @@
   border-radius: 20px;
   min-width: 0;
   list-style-image: url("chrome://mozapps/skin/extensions/utilities.png");
-  margin-inline-end: 0;
+  margin-inline-end: 5px;
   margin-bottom: 0;
 }
 
