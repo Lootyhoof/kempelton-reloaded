@@ -1,5 +1,11 @@
 # Changelog
 
+### 5.8.0
+- add mixed-mode SSL styling
+- improve findbar appearance
+- use OS-specific alert stylings
+- support Pale Moon 30
+
 ### 5.7.0
 - improve integration with macOS
 - support other GTK-based operating systems
