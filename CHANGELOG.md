@@ -1,5 +1,8 @@
 # Changelog
 
+### 5.9.2
+- support Pale Moon 33
+
 ### 5.9.1
 - support Pale Moon 32
 
